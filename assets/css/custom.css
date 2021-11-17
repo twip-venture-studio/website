@@ -1,0 +1,29 @@
+/* 
+/* 
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+/* TODO: Delete wenn Illustrationen ausgetauscht sind*/
+img[alt="Image"] {
+    filter: grayscale(1) brightness(1.9) contrast(1.5);
+    opacity: 0.15;
+}
+
+.text-darkblue {
+    color: #084B8E;
+}
+
+a.text-darkblue:hover, a.text-darkblue:hover:focus {
+    color: #074481;
+}
+
+::selection {
+    background: rgba(255, 218, 83, 0.5); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: rgba(255, 218, 83, 0.5); /* Gecko Browsers */
+  }
