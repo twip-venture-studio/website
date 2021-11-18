@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="275">
     <div class="loader">
       <div class="loading-animation"></div>
     </div>
@@ -36,160 +36,30 @@
     </div>
 </div> -->
     <div class="navbar-container">
-      <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top">
+      <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top" id="navbar">
         <div class="container">
           <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="index.html">
             <img alt="Jumpstart" data-inject-svg src="assets/img/logos/jumpstart.svg">
           </a>
           <div class="d-flex align-items-center order-lg-3">
-            <a href="#" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Buy Jumpstart</a>
             <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" type="button">
               <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-menu.svg">
               <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-x.svg">
             </button>
           </div>
-          <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
+          <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-center" id="navigation-menu">
             <ul class="navbar-nav my-3 my-lg-0">
               <li class="nav-item">
-                <div class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Demos</a>
-                  <div class="row dropdown-menu">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="dropdown-grid-menu"><a href="index.html" class="dropdown-item fade-page">Overview</a><a href="landing-1.html" class="dropdown-item fade-page">Landing 1</a><a href="landing-2.html" class="dropdown-item fade-page">Landing 2</a><a href="landing-3.html"
-                        class="dropdown-item fade-page">Landing 3</a><a href="landing-4.html" class="dropdown-item fade-page">Landing 4</a><a href="landing-5.html" class="dropdown-item fade-page">Landing 5</a><a href="landing-6.html" class="dropdown-item fade-page">Landing 6</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <a class="nav-link" href="#theboost">The Boost</a>
               </li>
               <li class="nav-item">
-                <div class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Pages</a>
-                  <div class="row dropdown-menu">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="dropdown-grid-menu">
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Company</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="company-about-1.html" class="dropdown-item fade-page">About 1</a><a href="company-about-2.html" class="dropdown-item fade-page">About 2</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Blog</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="blog-listing-1.html" class="dropdown-item fade-page">Blog Listing 1</a><a href="blog-listing-2.html" class="dropdown-item fade-page">Blog Listing 2</a><a href="blog-listing-3.html" class="dropdown-item fade-page">Blog Listing 3</a>
-                                <a
-                                href="blog-article.html" class="dropdown-item fade-page">Blog Article</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Help Center</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="help-center-home.html" class="dropdown-item fade-page">Help Center Home</a><a href="help-center-category.html" class="dropdown-item fade-page">Help Center Category</a><a href="help-center-article.html" class="dropdown-item fade-page">Help Center Article</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Careers</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="careers-1.html" class="dropdown-item fade-page">Careers 1</a><a href="careers-2.html" class="dropdown-item fade-page">Careers 2</a><a href="career-single.html" class="dropdown-item fade-page">Career Single</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Case Studies</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="case-studies.html" class="dropdown-item fade-page">Case Studies</a><a href="case-study-single.html" class="dropdown-item fade-page">Case Study Single</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Pricing</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="pricing-plans.html" class="dropdown-item fade-page">Pricing Plans</a><a href="pricing-table.html" class="dropdown-item fade-page">Pricing Table</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Contact</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="contact.html" class="dropdown-item fade-page">Contact</a><a href="contact-map.html" class="dropdown-item fade-page">Contact Map</a><a href="contact-planner.html" class="dropdown-item fade-page">Contact Planner</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Account</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="account-settings.html" class="dropdown-item fade-page">Account Settings</a><a href="account-invoice.html" class="dropdown-item fade-page">Invoice</a><a href="account-sign-up-cover.html" class="dropdown-item fade-page">Sign Up - Cover</a>
-                                <a
-                                href="account-sign-in-cover.html" class="dropdown-item fade-page">Sign In - Cover</a><a href="account-sign-up-simple.html" class="dropdown-item fade-page">Sign Up - Simple</a><a href="account-sign-in-simple.html" class="dropdown-item fade-page">Sign In - Simple</a><a href="account-forgot-password.html"
-                                  class="dropdown-item fade-page">Forgot Password</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <a aria-expanded="false" aria-haspopup="true" class="dropdown-item" data-toggle="dropdown-grid" href="#" role="button">Utility</a>
-                          <div class="row dropdown-menu">
-                            <div class="col-auto" data-dropdown-content>
-                              <div class="dropdown-grid-menu"><a href="utility-coming-soon-subscribe.html" class="dropdown-item fade-page">Coming Soon Subscribe</a><a href="utility-coming-soon-countdown.html" class="dropdown-item fade-page">Coming Soon Countdown</a><a href="utility-coming-soon-social.html"
-                                class="dropdown-item fade-page">Coming Soon Social</a><a href="utility-legal-terms.html" class="dropdown-item fade-page">Legal Terms</a><a href="404.html" class="dropdown-item fade-page">404</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <a class="nav-link" href="#thepower">The Power</a>
               </li>
               <li class="nav-item">
-                <div class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Features</a>
-                  <div class="row dropdown-menu">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="dropdown-grid-menu"><a href="style-guide.html" class="dropdown-item fade-page">Style Guide</a><a href="plugins.html" class="dropdown-item fade-page">Plugins</a><a href="navigation-bars.html" class="dropdown-item fade-page">Navigation Bars</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <a class="nav-link" href="#theteam">The Team</a>
               </li>
               <li class="nav-item">
-                <div class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Support</a>
-                  <div class="row dropdown-menu">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="dropdown-grid-menu"><a href="documentation/index.html" class="dropdown-item" target="_blank">Documentation</a><a href="documentation/changelog.html" class="dropdown-item" target="_blank">Changelog</a><a href="https://mediumrare.ticksy.com/" class="dropdown-item"
-                        target="_blank">Get Help</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <a class="nav-link" href="#thenextstep">The Next Step</a>
               </li>
             </ul>
           </div>
@@ -203,10 +73,10 @@
           <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0">
             <div data-aos="fade-in" data-aos-delay="250">
               <h1 class="display-3">We <mark data-aos="highlight-text" data-aos-delay="500">Boost</mark> Digital <mark data-aos="highlight-text" data-aos-delay="750">Ideas.</mark></h1>
-              <p class="lead">With the power of hundreds of digital experts together we take your digital business idea to the next level.
+              <p class="lead">With the power of our product teams, experience in workculture and network we take your digital business idea to the next level.
               </p>
               <div class="mt-4 mt-md-5">
-                <button class="btn btn-primary flex-shrink-0">Let's have a virtual coffee!</button>
+                <a href="#theboost" class="btn btn-primary flex-shrink-0">Find out more</a>
               </div>
             </div>
           </div>
@@ -216,14 +86,14 @@
         </div>
       </div>
     </section>
-    <section class="pb-0 pt-5">
+    <section id="theboost" class="pb-0 pt-5">
       <div class="divider divider-bottom bg-primary-3 mt-5"></div>
     </section>
     <section class="bg-primary-3 text-black">
       <div class="container">
         <div class="row section-title justify-content-center text-center">
           <div class="col-md-9 col-lg-8 col-xl-7">
-            <h3 class="display-4">Together we get you on the next level</h3>
+            <h3 class="display-4">Together We Create the Perfect Setup to Grow</h3>
             <div class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</div>
           </div>
         </div>
@@ -231,8 +101,8 @@
           <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
             <div>
               <h6>AS A STARTUP</h6>
-              <h3 class="h1">Product Boost</h3>
-              <p class="lead">Accelerate your product development to convince investors or enterprise customers. Accelerate your product development to convince investors or.</p>
+              <h3 class="h1">You're in an early stage facing a lack in your tech and product setup?</h3>
+              <p class="lead">While growing your startup its not always easy to setup the product as its needed to convince first customers and investors. Your time to market is essential as well as your speed in gaining feedback to validate the idea. Twip supports you in setting up the right product team and creating your first MVP as soon as possible. Always with the aim of no longer being needed as quickly as possible.</p>
               <a href="#" class="lead text-darkblue">Explore More</a>
             </div>
           </div>
@@ -244,8 +114,8 @@
           <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
             <div>
               <h6>AS A CORPORATE</h6>
-              <h2 class="h1">Collaborative Founding</h2>
-              <p class="lead">Lets build up together your business idea with all skills needed to be successful. Lets build up together your business idea with all skills needed to be successful.</p>
+              <h2 class="h1">You're trying to transform your business, but feel a lack of speed and skills?</h2>
+              <p class="lead">Good ideas need the right team, timing and setup to be successful. With hundreds of available digital experts in strategy, design and development  we are your partner to accelerate your digital venture building. With a startup as a service approach we  support your industry experts hand-in-hand in crafting your digital business idea, the perfect team and cultural framework.</p>
               <a href="#" class="lead text-darkblue">Explore More</a>
             </div>
           </div>
@@ -260,7 +130,7 @@
       <div class="container">
         <div class="row section-title justify-content-center text-center">
           <div class="col-md-9 col-lg-8 col-xl-7">
-            <h3 class="display-4">Less work, more flow.</h3>
+            <h3 class="display-4">Kick Start with all Assets Needed</h3>
             <div class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</div>
           </div>
         </div>
@@ -268,61 +138,34 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="100">
             <div class="mx-xl-4">
               <img src="assets/img/logos/product/kyan.svg" alt="Kyan logo" class="mb-4">
-              <h5>Kyan Boards</h5>
+              <h5>Product & Tech</h5>
               <p>
-                Volantis vitae unuch sed velit sodales. Sandor imperdiet proin fermentum leo vel Hodor.
+                We provide fully functional teams out of a pool of over 800 digital experts or tech lead candidates to complete your founders team temporarily. We are experienced in creating scalable-by-design software from the beginning and focused on validating and implementing the most promising features.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="200">
             <div class="mx-xl-4">
               <img src="assets/img/logos/product/atica.svg" alt="Atica logo" class="mb-4">
-              <h5>Atica</h5>
+              <h5>Team & Culture</h5>
               <p>
-                Vel fringilla est ullamcorper eget. Eunuch pulvinar sapien et Loras ullamcorper Melisandre.
+                We are experienced in shaping employee culture for companies with digital DNA. Our parent companies have been awarded by Great-Place-To-Work for over 10 years and bring in two very strong hiring streams to support you in addressing and finding the right talents for your team. You profit from an know-how build on hundreds of agile projects as well as self-developed learning and training portfolio.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="300">
             <div class="mx-xl-4">
               <img src="assets/img/logos/product/treva.svg" alt="Treva logo" class="mb-4">
-              <h5>Treva</h5>
+              <h5>Network</h5>
               <p>
                 Consectetur libero imp faucibus nisl tincidunt. Sansa tellus mauris a diam maecenas sed.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="400">
-            <div class="mx-xl-4">
-              <img src="assets/img/logos/product/kanba.svg" alt="Kanba logo" class="mb-4">
-              <h5>Kanba</h5>
-              <p>
-                Sed arcu Jon odio Oberyn lacinia at quis. Brienne fermentum vel porta Jon pulvinar neque.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="500">
-            <div class="mx-xl-4">
-              <img src="assets/img/logos/product/tvit.svg" alt="Tvit logo" class="mb-4">
-              <h5>Tvit Forms</h5>
-              <p>
-                Podrick in massa tempor nec feugiat nisl pretium. Consectetur imp faucibus nisl tincidunt.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="600">
-            <div class="mx-xl-4">
-              <img src="assets/img/logos/product/aven.svg" alt="Aven logo" class="mb-4">
-              <h5>Aven</h5>
-              <p>
-                Braavos pellentesque nec nam aliquami sem et. In Olenna siglitis fermentum et sollicitudin ac.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-primary-3 pt-0 text-black">
+    <section id="thepower" class="bg-primary-3 pt-0 text-black">
       <div class="divider divider-top transform-flip-x bg-white"></div>
       <div class="container">
         <div class="row section-title justify-content-center text-center">
@@ -355,39 +198,39 @@
             </div>
           </div>
         </div>
+        <div class="row justify-content-center p-3">
+          <div class="col-sm-4 countingNumber">
+            <div class="h-100 p-3 text-center">
+              <div class="p-3 p-md-5">
+                <div class="display-4 text-dark mb-3" data-countup data-start="100" data-end="800" data-duration="" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="+" data-easing="">
+                </div>
+                <div class="lead">Digital Experts</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 countingNumber">
+            <div class="h-100 p-3 text-center">
+              <div class="p-3 p-md-5">
+                <div class="display-4 text-dark mb-3" data-countup data-start="10" data-end="100" data-duration="1" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="+" data-easing="false">
+                </div>
+                <div class="lead">Onboardings per Year</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 countingNumber">
+            <div class="h-100 p-3 text-center">
+              <div class="p-3 p-md-5">
+                <div class="display-4 text-dark mb-3" data-countup data-start="100" data-end="999" data-duration="" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="+" data-easing="">
+                </div>
+                <div class="lead">Educational Programs</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="bg-light p-0 row no-gutters">
-      <div class="col-sm-4">
-        <div class="h-100 border-top border-left border-thick border-white p-3 p-xl-4">
-          <div class="p-3 p-md-5">
-            <div class="display-4 text-dark mb-3" data-countup data-start="" data-end="97" data-duration="" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="%" data-easing="">
-            </div>
-            <div>Average satisfaction rating received in the past year</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="h-100 border-top border-left border-thick border-white p-3 p-xl-4">
-          <div class="p-3 p-md-5">
-            <div class="display-4 text-dark mb-3" data-countup data-start="20" data-end="24" data-duration="1" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="/7" data-easing="false">
-            </div>
-            <div>Our support experts are ready to assist anytime</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="h-100 border-top border-left border-thick border-white p-3 p-xl-4">
-          <div class="p-3 p-md-5">
-            <div class="display-4 text-dark mb-3" data-countup data-start="" data-end="142" data-duration="" data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="k+" data-easing="">
-            </div>
-            <div>App installs from the two major mobile app stores</div>
-          </div>
-        </div>
-      </div>
 
-    </section>
-    <section>
+    <section id="theteam" >
       <div class="container">
         <div class="row section-title justify-content-center text-center">
           <div class="col-md-9 col-lg-8 col-xl-7">
@@ -549,7 +392,7 @@
     </section>
 
 
-    <section>
+    <section id="thenextstep" >
       <div class="container">
         <div class="row section-title justify-content-center text-center">
           <div class="col-md-9 col-lg-8 col-xl-7">
@@ -565,119 +408,6 @@
     </section>
     <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-auto mr-xl-5 col-md-3 mb-4 mb-md-0">
-            <h5>Demos</h5>
-            <ul class="nav flex-row flex-md-column">
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="landing-1.html" class="nav-link fade-page px-0 py-2">Landing 1</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="landing-2.html" class="nav-link fade-page px-0 py-2">Landing 2</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="landing-3.html" class="nav-link fade-page px-0 py-2">Landing 3</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="landing-4.html" class="nav-link fade-page px-0 py-2">Landing 4</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="landing-5.html" class="nav-link fade-page px-0 py-2">Landing 5</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="landing-6.html" class="nav-link fade-page px-0 py-2">Landing 6</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-auto mr-xl-5 col-md-3">
-            <h5>Pages</h5>
-            <ul class="nav flex-row flex-md-column">
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="company-about-1.html" class="nav-link fade-page px-0 py-2">Company</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="blog-listing-1.html" class="nav-link fade-page px-0 py-2">Blog</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="help-center-home.html" class="nav-link fade-page px-0 py-2">Help Center</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="careers-1.html" class="nav-link fade-page px-0 py-2">Careers</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="case-studies.html" class="nav-link fade-page px-0 py-2">Case Studies</a>
-              </li>
-              <li class="nav-item mr-3 mr-md-0">
-                <a href="pricing-plans.html" class="nav-link fade-page px-0 py-2">Pricing</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col mt-4 mt-md-0 mt-lg-5 mt-xl-0 order-lg-4 order-xl-3">
-            <h5>Articles</h5>
-            <ul class="list-unstyled d-flex flex-wrap">
-              <li class="col-12 col-lg-6 col-xl-12 px-0">
-                <div class="row my-2 my-md-3">
-                  <a class="col-5" href="#">
-                    <img class="rounded img-fluid hover-fade-out" src="assets/img/blog/thumb-2.jpg" alt="blog.1.image">
-                  </a>
-                  <div class="col">
-                    <a class="h6" href="#">Unveiling our new vision for Jumpstart</a>
-                    <div class="text-small text-muted mt-2">October 10th</div>
-                  </div>
-                </div>
-              </li>
-              <li class="col-12 col-lg-6 col-xl-12 px-0">
-                <div class="row my-2 my-md-3">
-                  <a class="col-5" href="#">
-                    <img class="rounded img-fluid hover-fade-out" src="assets/img/blog/thumb-1.jpg" alt="blog.2.image">
-                  </a>
-                  <div class="col">
-                    <a class="h6" href="#">Making the most of team-building sessions</a>
-                    <div class="text-small text-muted mt-2">October 2nd</div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg mt-2 mt-md-5 mt-lg-0 order-lg-3 order-xl-4">
-            <h5>Newsletter</h5>
-            <div class="card card-body bg-white">
-              <p>Get a bi-weekly digest of great articles</p>
-              <form data-form-email novalidate action="/forms/mailchimp.php">
-                <div class="d-flex flex-column flex-sm-row form-group">
-                  <input class="form-control mr-sm-2 mb-2 mb-sm-0 w-auto flex-grow-1" name="email" placeholder="Email Address" type="email" required>
-                  <button type="submit" class="btn btn-primary btn-loading" data-loading-text="Sending">
-                    <!-- Icon for loading animation -->
-                    <svg class="icon bg-white" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <title>Icon For Loading</title>
-                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g>
-                          <polygon points="0 0 24 0 24 24 0 24" opacity="0"></polygon>
-                        </g>
-                        <path d="M12,4 L12,6 C8.6862915,6 6,8.6862915 6,12 C6,15.3137085 8.6862915,18 12,18 C15.3137085,18 18,15.3137085 18,12 C18,10.9603196 17.7360885,9.96126435 17.2402578,9.07513926 L18.9856052,8.09853149 C19.6473536,9.28117708 20,10.6161442 20,12 C20,16.418278 16.418278,20 12,20 C7.581722,20 4,16.418278 4,12 C4,7.581722 7.581722,4 12,4 Z"
-                        fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) "></path>
-                      </g>
-                    </svg>
-                    <span>Go</span>
-                  </button>
-                </div>
-                <div data-recaptcha data-sitekey="INSERT_YOUR_RECAPTCHA_V2_SITEKEY_HERE" data-size="invisible" data-badge="bottomleft"></div>
-                <div class="d-none alert alert-success w-100" role="alert" data-success-message>
-                  Thanks, a member of our team will be in touch shortly.
-                </div>
-                <div class="d-none alert alert-danger w-100" role="alert" data-error-message>
-                  Please fill all fields correctly.
-                </div>
-                <div class="text-small text-muted">We'll never share your email address</div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <hr>
-          </div>
-        </div>
         <div class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
           <div class="col-auto">
             <div class="d-flex flex-column flex-sm-row align-items-center text-small">
@@ -717,8 +447,11 @@
         </div>
       </div>
     </footer>
-    <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
-      <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-white" data-inject-svg>
+    <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up" data-aos-offset="750" data-aos-mirror="true" data-aos-once="false">
+      <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-black" data-inject-svg>
+    </a>
+    <a href="mailto:ventures@twip.de?subject=Let&#39;s get connected!&body=Hey&nbsp;Twipees,%0D%0A%0D%0Awir&nbsp;sollten&nbsp;uns&nbsp;unbedingt&nbsp;kennenlernen!%0D%0AIch&nbsp;freue&nbsp;mich&nbsp;auf&nbsp;Lorem&nbsp;Ipsum..." class="btn btn-primary rounded-circle btn-back-to-top contactSticky" data-aos-delay="50" data-smooth-scroll data-aos="fade-up" data-aos-offset="750" data-aos-mirror="true" data-aos-once="false">
+      <img src="assets/img/icons/interface/icon-mail.svg" alt="Icon" class="icon bg-black" data-inject-svg>
     </a>
     <!-- Required vendor scripts (Do not remove) -->
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>

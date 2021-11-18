@@ -7,10 +7,30 @@
 /*
 */
 
-/* TODO: Delete wenn Illustrationen ausgetauscht sind*/
+/* TODO: Delete wenn Illustrationen ausgetauscht sind */
 img[alt="Image"] {
     filter: grayscale(1) brightness(1.9) contrast(1.5);
     opacity: 0.15;
+}
+
+/*
+img[alt="Image"] {
+    filter: hue-rotate(237deg) brightness(2);
+}*/
+
+
+.countingNumber > div > div {
+    background: rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+.countingNumber > div {
+    transform: scale(0.85);
+}
+.countingNumber:first-child {
+    transform: rotate(-4deg) translateY(12px);
+}
+.countingNumber:last-child {
+    transform: rotate(4deg) translateY(12px);
 }
 
 .text-darkblue {
@@ -21,9 +41,38 @@ a.text-darkblue:hover, a.text-darkblue:hover:focus {
     color: #074481;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link.active {
+    position: relative;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+}
+.nav-link.active::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 12px;
+    width: 85%;
+    height: 10px;
+    background-color: rgba(255, 193, 7, 0.4);
+    z-index: -1;
+}
+.contactSticky {
+    right: 5.75rem;
+    /* bottom: 5.75rem; */
+}
+
+/* Bei hellblauem Hintergrund die Color leicht abdunkeln */
+.bg-primary-3 {
+    color: rgba(0,0,0,0.8);
+}
+
 ::selection {
     background: rgba(255, 218, 83, 0.5); /* WebKit/Blink Browsers */
   }
-  ::-moz-selection {
-    background: rgba(255, 218, 83, 0.5); /* Gecko Browsers */
-  }
+::-moz-selection {
+background: rgba(255, 218, 83, 0.5); /* Gecko Browsers */
+}
