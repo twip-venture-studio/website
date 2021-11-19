@@ -34,12 +34,6 @@ img[alt="Image"] {
 .countingNumber > div {
     transform: scale(0.85);
 }
-.countingNumber:first-child {
-    transform: rotate(-4deg) translateY(12px);
-}
-.countingNumber:last-child {
-    transform: rotate(4deg) translateY(12px);
-}
 
 .text-darkblue {
     color: #084B8E;
