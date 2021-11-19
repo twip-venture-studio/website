@@ -19,6 +19,14 @@ img[alt="Image"] {
 }*/
 
 
+/* Navbar Item Abstand erhöhen */
+@media (min-width: 1200px) {
+    .navbar-nav > .nav-item {
+        padding: 0 15px;
+    }
+}
+
+
 .countingNumber > div > div {
     background: rgba(0,0,0,0.05);
     border-radius: 10px;
