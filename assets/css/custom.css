@@ -26,6 +26,11 @@ img[alt="Image"] {
     }
 }
 
+@media (min-width: 992px) {
+    .section-title {
+      margin-bottom: 6rem; 
+    }
+}
 
 .countingNumber > div > div {
     background: rgba(0,0,0,0.05);
