@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Twip! Venture Studio">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <!--Todo-->
     <link rel="alternate" href="https://twip.de/en" hreflang="en"/>
 
@@ -20,6 +20,7 @@
     <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/cookieInfo/default.css">
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="275">
@@ -92,8 +93,8 @@
           <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
             <div>
               <h6>> AS A STARTUP</h6>
-              <h3 class="h1">You're in an early stage facing a lack in your tech and product setup?</h3>
-              <p class="lead">While growing your startup its not always easy to setup the product as its needed to convince first customers and investors. Your time to market is essential as well as your speed in gaining feedback to validate the idea. Twip supports you in setting up the right product team and creating your first MVP as soon as possible.</p>
+              <h3 class="h1">You feel a lack in your tech and product setup?</h3>
+              <p class="lead">In early stages your pace in gaining feedback to validate your idea is essential. Twip supports you in setting up the right product team and creating your first MVP at maximum speed. So that you have a solid base for convincing first customers and investors.</p>
               <a href="#" class="lead text-darkblue">Explore More</a>
             </div>
           </div>
@@ -105,8 +106,8 @@
           <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
             <div>
               <h6>> AS A CORPORATE</h6>
-              <h2 class="h1">You're trying to transform your business, but feel a lack of speed and skills?</h2>
-              <p class="lead">Good ideas need the right team, timing and setup to be successful. With hundreds of available digital experts in strategy, design and development  we are your partner to accelerate your digital venture building. With a startup as a service approach we  support your industry experts hand-in-hand in crafting your digital business idea, the perfect team and cultural framework.</p>
+              <h2 class="h1">You feel a lack of speed and skills in transforming your Business?</h2>
+              <p class="lead">Good ideas need the right team, timing and setup to be successful. With hundreds of available digital experts in strategy, design and development  we are your partner to accelerate your digital venture building, with a startup as a service approach hand-in-hand with your idea owners.</p>
               <a href="#" class="lead text-darkblue">Explore More</a>
             </div>
           </div>
@@ -433,7 +434,7 @@
 
     <script type="text/javascript">
       var userLang = navigator.language || navigator.userLanguage;
-      if (userLang.toLowerCase().contains("de")) {
+      if (!userLang.toLowerCase().includes("de")) {
         //TODO
         //window.location.href = "/en";
         console.log("Redirect to Engl Site");
@@ -488,6 +489,20 @@
     <!-- Removes page load animation when window is finished loading -->
     <script type="text/javascript">
       window.addEventListener("load",function(){document.querySelector('body').classList.add('loaded');});
+    </script>
+
+    <!-- Cookie Banner -->
+    <script type="text/javascript" src="assets/cookieInfo/CookieInfo.min.js"></script>
+    <script>
+      jQuery().cookieInfo({
+        defaultText:  "Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern. Wenn Sie auf dieser Website surfen, stimmen Sie der Nutzung von Cookies zu.",
+        okButton:     "Ok",         // Accept button text
+        displayMore:  true,         // display more information?
+        moreButton:   "Mehr Informationen",  // More button text
+        moreInfo:     "Cookies sind kleine Textdateien, die auf Ihrem Computer gespeichert werden. Einige Cookies sind erforderlich, um sicherzustellen, dass die Website ordnungsgemäß funktioniert. Aus diesem Grund haben wir möglicherweise bereits einige Cookies gesetzt. Sie ermöglichen es uns auch, Ihnen das bestmögliche Surferlebnis zu bieten und helfen uns zu verstehen, wie Sie unsere Website nutzen.",
+        location:     "bottom",     // top or bottom?
+        cookieName:   "CookieInfo", // cookie's name to detect if user has accepted
+      });
     </script>
 
   </body>

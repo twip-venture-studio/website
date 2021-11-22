@@ -67,6 +67,9 @@ html {
     background-color: rgba(255, 193, 7, 0.4);
     z-index: -1;
 }
+.btn-back-to-top {
+    bottom: 2.75rem !important;
+}
 .contactSticky {
     right: 5.75rem;
     /* bottom: 5.75rem; */
