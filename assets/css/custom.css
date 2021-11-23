@@ -93,6 +93,10 @@ html {
     height: 10vw;
 }
 
+.twipee .icon {
+    transform: scale(0.8);
+}
+
 .nav-link.active {
     position: relative;
     text-decoration: none;
