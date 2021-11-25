@@ -203,19 +203,16 @@ a:hover {
     transform-origin: 50% 50% 0;
 }
 
-#twipLogoContainer #whiteBG {
-    filter: drop-shadow(0 0 50px rgba(0,0,0,0.1));
-}
-
 #twipLogoContainer #yellowBg {
-    filter: drop-shadow(3px 0 5px rgba(0,0,0,0.1));
+    filter: drop-shadow(0 4px 2px rgba(0,0,0,0.3)) drop-shadow(0 0 45px rgba(0,0,0,0.1));
 }
 
 #twipLogoContainer #outline {
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
 }
 
 #twipLogoContainer #font {
-    filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.2));
 }
 
 
