@@ -179,6 +179,11 @@ a:hover {
     background-color: #ffda53;
     z-index: -10;
 }
+
+.btn-twip-alt::before {
+    transform: translate(-8px,-12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg);
+}
+
 .btn-twip:hover::before {
     background-color: #ffd22d;
 }
@@ -187,7 +192,7 @@ a:hover {
 }
 
 #claim {
-    transform: perspective(300px) rotate3d(0, 1, 0.4, 355deg) skewX(339deg) skewY(1deg) rotate(356deg) translateY(-20px);
+    transform: perspective(328px) rotate3d(0, 1, 0.4, 353deg) skewX(348deg) skewY(1deg) rotate(358deg) translateY(-23px) translateX(-20px);
 }
 
 #twipMainLogo {
