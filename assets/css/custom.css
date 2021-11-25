@@ -200,6 +200,9 @@ a:hover {
     transform: scale(1.3);
 }
 
+#twipMainLogo g, #twipMainLogo path {
+    transform-origin: 50% 50% 0;
+}
 
 #twipMainLogo #whiteBG {
 }
@@ -211,4 +214,16 @@ a:hover {
 }
 
 #twipMainLogo #font {
+}
+
+
+#twipLogoContainer {
+    top: -175px;
+    width: 100%;
+    position: relative;
+}
+#twipLogoContainer > img {
+    position:absolute;
+    top:0;
+    left:0;
 }
