@@ -118,7 +118,7 @@
           </div>
         </div>
         <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="assets/img/illustrations/illustration-2.svg" alt="Image" class="img-fluid">
+          <img src="assets/img/illustration_startup.png" alt="Startup Illustration" class="img-fluid">
         </div>
       </div>
       <div class="row align-items-center justify-content-around text-center text-lg-left pt-5">
@@ -135,7 +135,7 @@
           </div>
         </div>
         <div class="col-md-9 col-lg-6 col-xl-5 order-lg-1">
-          <img src="assets/img/illustrations/illustration-3.svg" alt="Image" class="img-fluid">
+          <img src="assets/img/illustration_corporate.png" alt="Illustration Corporate" class="img-fluid">
         </div>
       </div>
     </div>
@@ -514,8 +514,8 @@
       let conf = {
         rotateX: 5,
         rotateY: 7,
-        translateX: 3,
-        translateY: 5
+        translateX: 8,
+        translateY: 10
       }
 
       let transformElements = [
@@ -527,10 +527,10 @@
           perspective: 2500
         }, {
           id: "outline",
-          perspective: 500
+          perspective: 450
         }, {
           id: "font",
-          perspective: 275
+          perspective: 325
         }
       ];
 
@@ -540,8 +540,8 @@
       transformElements.forEach( el => {
         let transformProp = `perspective(${el.perspective}px)`;
 
-        transformProp += ` rotateX(${ ( ( ( y * conf.rotateX*2 ) - conf.rotateX ) * 1 ) }deg)`;
-        transformProp += ` rotateY(${ ( ( ( x * conf.rotateY*2 ) - conf.rotateY ) * -1 ) }deg)`;
+        transformProp += ` rotateX(${ ( ( ( y * conf.rotateX*2 ) - conf.rotateX ) * -1 ) }deg)`;
+        transformProp += ` rotateY(${ ( ( ( x * conf.rotateY*2 ) - conf.rotateY ) * 1 ) }deg)`;
         
         transformProp += ` translateX(${ ( ( x * conf.translateX*2 ) - conf.translateX ) }px)`;
         transformProp += ` translateY(${ ( ( y * conf.translateY*2 ) - conf.translateY ) }px)`;

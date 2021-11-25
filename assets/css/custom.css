@@ -7,12 +7,6 @@
 /*
 */
 
-/* TODO: Delete wenn Illustrationen ausgetauscht sind */
-img[alt="Image"] {
-    filter: grayscale(1) brightness(1.9) contrast(1.5);
-    opacity: 0.15;
-}
-
 /*
 img[alt="Image"] {
     filter: hue-rotate(237deg) brightness(2);
