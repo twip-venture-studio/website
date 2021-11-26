@@ -150,6 +150,13 @@ a:hover {
     color: #001932;
 }
 
+.techPillBox > .badge {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.5rem;
+    margin: 4px 4px;
+    background-color: rgba(0,0,0,0.1);
+}
+
 .btn-twip {
     background-color: unset;
     border:unset;

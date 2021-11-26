@@ -31,7 +31,8 @@
   <div class="navbar-container">
     <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top" id="navbar">
       <div class="container">
-        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/" style="height: 45px; transform: scale(1.4) translateX(15px);">
+        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/"
+          style="height: 45px; transform: scale(1.4) translateX(15px);">
           <img alt="Twip" data-inject-svg src="assets/img/twipLogoFont.svg">
         </a>
         <div class="d-flex align-items-center order-lg-3">
@@ -49,10 +50,13 @@
               <a class="nav-link" href="#boost">Boost</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#background">Background</a>
+              <a class="nav-link" href="#impact">Impact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -63,13 +67,14 @@
     </nav>
   </div>
 
-  <section class="pb-0 o-hidden">
+  <section class="o-hidden">
     <div class="container">
       <div
         class="pb-5 row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left flex-lg-row-reverse">
         <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0">
           <div data-aos="fade-in" data-aos-delay="250">
-            <h1 id="claim" class="display-3">We <mark data-aos="highlight-text" data-aos-delay="500">Boost</mark><br />Digital
+            <h1 id="claim" class="display-3">We <mark data-aos="highlight-text"
+                data-aos-delay="500">Boost</mark><br />Digital
               <mark data-aos="highlight-text" data-aos-delay="750">Ideas.</mark></h1>
             <p class="lead">With the power of our product teams, workplace culture and network we take your digital
               business idea to the next level.
@@ -83,19 +88,19 @@
         </div>
         <div class="col-md-9 col-lg-6" data-aos="fade-left">
           <div id="twipLogoContainer" class="d-none d-lg-block">
-            <!--<img id="whiteBg" width="100%" src="assets/img/twipLogo_whiteBg.png" alt="whiteBg"/>-->
-            <img id="yellowBg" width="100%" src="assets/img/twipLogo_yellowBg.png" alt="yellowBg"/>
-            <img id="outline" width="100%" src="assets/img/twipLogo_outline.png" alt="outline"/>
-            <img id="font" width="100%" src="assets/img/twipLogo_font.png" alt="font"/>
+            <!-- <img id="whiteBg" width="100%" src="assets/img/twipLogo_whiteBg.png" alt="whiteBg"/> -->
+            <img id="yellowBg" width="100%" src="assets/img/twipLogo_yellowBg.png" alt="yellowBg" />
+            <img id="outline" width="100%" src="assets/img/twipLogo_outline.png" alt="outline" />
+            <img id="font" width="100%" src="assets/img/twipLogo_font.png" alt="font" />
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="pb-0 pt-0">
+  <section id="boost" class="pb-0 pt-0">
     <div class="divider divider-bottom bg-primary-3 mt-5"></div>
   </section>
-  <section id="boost" class="bg-primary-3 text-black pt-3">
+  <section class="pt-5 bg-primary-3 text-black">
     <div class="container">
       <div class="row section-title justify-content-center text-center">
         <div class="col-md-10 col-lg-9 col-xl-8">
@@ -104,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="row align-items-center justify-content-around text-center text-lg-left pt-5">
+      <div class="row align-items-center justify-content-around text-center text-lg-left pt-0">
         <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
           <div>
             <h6>> AS A STARTUP</h6>
@@ -112,8 +117,8 @@
             <p class="lead">It's not easy to realize your plan on a solid foundation or to take the right decisions for
               scaling. Twip supports you in setting up the right product team and co-creating your software at maximum
               speed. With our assistance you convince customers and investors.</p>
-            <a href="#" class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
-              <span>Explore more</span>
+            <a href="mailto:venture@twip.de" class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
+              <span>Let's have a coffee</span>
             </a>
           </div>
         </div>
@@ -129,8 +134,8 @@
             <p class="lead">With hundreds of available digital experts in strategy, design and development we are your
               partner to accelerate your digital venture building. Our venture-as-a-service approach ensures working
               hand-in-hand with your idea owners on a shared vision.</p>
-            <a href="#" class="btn-twip btn btn-primary flex-shrink-0">
-              <span>Explore more</span>
+            <a href="mailto:info@twip.de" class="btn-twip btn btn-primary flex-shrink-0">
+              <span>Get to know us</span>
             </a>
           </div>
         </div>
@@ -178,77 +183,110 @@
       </div>
     </div>
   </section>
-  <section id="background" class="bg-primary-3 pt-0 text-black">
-    <div class="divider divider-top transform-flip-x bg-white"></div>
+
+  <section id="impact" class="bg-primary-3 text-black">
     <div class="container">
-      <div class="row section-title justify-content-center text-center">
+      <div class="row section-title justify-content-center text-center mb-0">
         <div class="col-md-10 col-lg-9 col-xl-8">
-          <h3 class="display-4">Powered By Experience</h3>
-          <div class="lead">Twip Venture Studio is a joint effort of QA|ware and MaibornWolff to create the number one
-            engine for crafting innovative digital products.</div>
+          <h3 class="display-4">Tech for Positive Impact</h3>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-9 col-lg-10">
-          <div class="row justify-content-center">
-            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="10">
-              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
-                <div class="flex-fill">
-                  <div class="mx-auto companyLogo">
-                    <img src="assets/img/qaware_logo.png" alt="Logo QA|ware" />
-                  </div>
-                  <p class="lead">Volantis vitae unuch sed velit sodales. Sandor imperdiet proin fermentum leo vel
-                    Hodor.</p>
-                </div>
-                <a href="https://www.qaware.de/unternehmen/" target="_blank" class="stretched-link text-darkblue">Learn
-                  More</a>
-              </div>
-            </div>
-            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="20">
-              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
-                <div class="flex-fill">
-                  <div class="mx-auto companyLogo">
-                    <img src="assets/img/maibornwolff_logo.png" alt="Logo MaibornWolff" />
-                  </div>
-                  <p class="lead">Samwell nisl purus in mollis. Varys eget velit aliquet sagittis consectetur purus ut.
-                  </p>
-                </div>
-                <a href="https://www.maibornwolff.de/unternehmen" target="_blank"
-                  class="stretched-link text-darkblue">Learn More</a>
-              </div>
-            </div>
+      <div class="row align-items-center justify-content-around text-center text-lg-left">
+        <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
+          <div>
+            <p class="lead">Positive Impact - what a strong term. Its not that easy for us to find a perfect and common
+              definition, but we are all convinced that our investments of passion, know-how and money should be used
+              with care. Our engagement should influence society and environment in a way that we keep an intact
+              ecological, social and economic structure. If you are an entrepreneur who shares this vision, become a
+              part on our journey!</p>
           </div>
+        </div>
+        <div class="col-md-9 col-lg-6 col-xl-5 p-4">
+          <img src="assets/img/illustration_impact.png" alt="Impact Illustration" class="img-fluid">
         </div>
       </div>
-      <div class="row justify-content-center p-3">
-        <div class="col-sm-4 countingNumber">
-          <div class="h-100 p-3 text-center">
-            <div class="p-3 p-md-5">
-              <div class="display-4 mb-3" data-countup data-start="100" data-end="800" data-duration=""
-                data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="+" data-easing="">
-              </div>
-              <div class="lead">Digital<br />Experts</div>
+      <div class="row justify-content-center mt-2">
+        <div class="col d-flex flex-wrap justify-content-center" style="margin: 0 110px;">
+          <h3 class="p-2 text-dark col-md-12 text-center" style="font-weight: 600;">We focus on these areas in our work</h3>
+          <div class="p-2 text-dark col-md-6">
+            <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                height="24px" viewBox="0 0 24 24" version="1.1" class="injected-svg icon mr-3 bg-primary"
+                data-src="assets/img/icons/theme/navigation/route.svg">
+                <title>Icon For Route</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <polygon points="0 0 24 0 24 24 0 24" opacity="0"></polygon>
+                  <path
+                    d="M8,7 C7.44771525,7 7,6.55228475 7,6 C7,5.44771525 7.44771525,5 8,5 L16,5 C18.209139,5 20,6.790861 20,9 C20,11.209139 18.209139,13 16,13 L8,13 C6.8954305,13 6,13.8954305 6,15 C6,16.1045695 6.8954305,17 8,17 L17,17 C17.5522847,17 18,17.4477153 18,18 C18,18.5522847 17.5522847,19 17,19 L8,19 C5.790861,19 4,17.209139 4,15 C4,12.790861 5.790861,11 8,11 L16,11 C17.1045695,11 18,10.1045695 18,9 C18,7.8954305 17.1045695,7 16,7 L8,7 Z"
+                    fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+                  <path
+                    d="M9.79289322,3.79289322 C10.1834175,3.40236893 10.8165825,3.40236893 11.2071068,3.79289322 C11.5976311,4.18341751 11.5976311,4.81658249 11.2071068,5.20710678 L8.20710678,8.20710678 C7.81658249,8.59763107 7.18341751,8.59763107 6.79289322,8.20710678 L3.79289322,5.20710678 C3.40236893,4.81658249 3.40236893,4.18341751 3.79289322,3.79289322 C4.18341751,3.40236893 4.81658249,3.40236893 5.20710678,3.79289322 L7.5,6.08578644 L9.79289322,3.79289322 Z"
+                    fill="#000000" fill-rule="nonzero"
+                    transform="translate(7.500000, 6.000000) rotate(-270.000000) translate(-7.500000, -6.000000) ">
+                  </path>
+                  <path
+                    d="M18.7928932,15.7928932 C19.1834175,15.4023689 19.8165825,15.4023689 20.2071068,15.7928932 C20.5976311,16.1834175 20.5976311,16.8165825 20.2071068,17.2071068 L17.2071068,20.2071068 C16.8165825,20.5976311 16.1834175,20.5976311 15.7928932,20.2071068 L12.7928932,17.2071068 C12.4023689,16.8165825 12.4023689,16.1834175 12.7928932,15.7928932 C13.1834175,15.4023689 13.8165825,15.4023689 14.2071068,15.7928932 L16.5,18.0857864 L18.7928932,15.7928932 Z"
+                    fill="#000000" fill-rule="nonzero"
+                    transform="translate(16.500000, 18.000000) scale(1, -1) rotate(270.000000) translate(-16.500000, -18.000000) ">
+                  </path>
+                </g>
+              </svg>
+              <h5 class="mb-0">Health Improving</h5>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 countingNumber">
-          <div class="h-100 p-3 text-center">
-            <div class="p-3 p-md-5">
-              <div class="display-4 mb-3" data-countup data-start="10" data-end="100" data-duration="1"
-                data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="+"
-                data-easing="false">
-              </div>
-              <div class="lead">Onboardings<br />per Year</div>
+          <div class="p-2 text-dark col-md-6">
+            <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                height="24px" viewBox="0 0 24 24" version="1.1" class="injected-svg icon mr-3 bg-primary"
+                data-src="assets/img/icons/theme/layout/layout-left-panel-2.svg">
+                <title>Icon For Layout-left-panel-2</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <rect opacity="0" x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M10,4 L21,4 C21.5522847,4 22,4.44771525 22,5 L22,7 C22,7.55228475 21.5522847,8 21,8 L10,8 C9.44771525,8 9,7.55228475 9,7 L9,5 C9,4.44771525 9.44771525,4 10,4 Z M10,10 L21,10 C21.5522847,10 22,10.4477153 22,11 L22,13 C22,13.5522847 21.5522847,14 21,14 L10,14 C9.44771525,14 9,13.5522847 9,13 L9,11 C9,10.4477153 9.44771525,10 10,10 Z M10,16 L21,16 C21.5522847,16 22,16.4477153 22,17 L22,19 C22,19.5522847 21.5522847,20 21,20 L10,20 C9.44771525,20 9,19.5522847 9,19 L9,17 C9,16.4477153 9.44771525,16 10,16 Z"
+                    fill="#000000"></path>
+                  <rect fill="#000000" opacity="0.3" x="2" y="4" width="5" height="16" rx="1"></rect>
+                </g>
+              </svg>
+              <h5 class="mb-0">Climate Protection</h5>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 countingNumber">
-          <div class="h-100 p-3 text-center">
-            <div class="p-3 p-md-5">
-              <div class="display-4 mb-3" data-countup data-start="100" data-end="999" data-duration=""
-                data-decimal-places="" data-prefix="" data-separator="" data-grouping="" data-suffix="+" data-easing="">
-              </div>
-              <div class="lead">Educational<br />Programs</div>
+          <div class="p-2 text-dark col-md-6">
+            <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                height="24px" viewBox="0 0 24 24" version="1.1" class="injected-svg icon mr-3 bg-primary"
+                data-src="assets/img/icons/theme/shopping/box-2.svg">
+                <title>Icon For Box#2</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <rect opacity="0" x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M4,9.67471899 L10.880262,13.6470401 C10.9543486,13.689814 11.0320333,13.7207107 11.1111111,13.740321 L11.1111111,21.4444444 L4.49070127,17.526473 C4.18655139,17.3464765 4,17.0193034 4,16.6658832 L4,9.67471899 Z M20,9.56911707 L20,16.6658832 C20,17.0193034 19.8134486,17.3464765 19.5092987,17.526473 L12.8888889,21.4444444 L12.8888889,13.6728275 C12.9050191,13.6647696 12.9210067,13.6561758 12.9368301,13.6470401 L20,9.56911707 Z"
+                    fill="#000000"></path>
+                  <path
+                    d="M4.21611835,7.74669402 C4.30015839,7.64056877 4.40623188,7.55087574 4.5299008,7.48500698 L11.5299008,3.75665466 C11.8237589,3.60013944 12.1762411,3.60013944 12.4700992,3.75665466 L19.4700992,7.48500698 C19.5654307,7.53578262 19.6503066,7.60071528 19.7226939,7.67641889 L12.0479413,12.1074394 C11.9974761,12.1365754 11.9509488,12.1699127 11.9085461,12.2067543 C11.8661433,12.1699127 11.819616,12.1365754 11.7691509,12.1074394 L4.21611835,7.74669402 Z"
+                    fill="#000000" opacity="0.3"></path>
+                </g>
+              </svg>
+              <h5 class="mb-0">Ressource Saving</h5>
+            </div>
+          </div>
+          <div class="p-2 text-dark col-md-6">
+            <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                height="24px" viewBox="0 0 24 24" version="1.1" class="injected-svg icon mr-3 bg-primary"
+                data-src="assets/img/icons/theme/general/thunder-move.svg">
+                <title>Icon For Thunder-move</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <rect opacity="0" x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M16.3740377,19.9389434 L22.2226499,11.1660251 C22.4524142,10.8213786 22.3592838,10.3557266 22.0146373,10.1259623 C21.8914367,10.0438285 21.7466809,10 21.5986122,10 L17,10 L17,4.47708173 C17,4.06286817 16.6642136,3.72708173 16.25,3.72708173 C15.9992351,3.72708173 15.7650616,3.85240758 15.6259623,4.06105658 L9.7773501,12.8339749 C9.54758575,13.1786214 9.64071616,13.6442734 9.98536267,13.8740377 C10.1085633,13.9561715 10.2533191,14 10.4013878,14 L15,14 L15,19.5229183 C15,19.9371318 15.3357864,20.2729183 15.75,20.2729183 C16.0007649,20.2729183 16.2349384,20.1475924 16.3740377,19.9389434 Z"
+                    fill="#000000"></path>
+                  <path
+                    d="M4.5,5 L9.5,5 C10.3284271,5 11,5.67157288 11,6.5 C11,7.32842712 10.3284271,8 9.5,8 L4.5,8 C3.67157288,8 3,7.32842712 3,6.5 C3,5.67157288 3.67157288,5 4.5,5 Z M4.5,17 L9.5,17 C10.3284271,17 11,17.6715729 11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L4.5,20 C3.67157288,20 3,19.3284271 3,18.5 C3,17.6715729 3.67157288,17 4.5,17 Z M2.5,11 L6.5,11 C7.32842712,11 8,11.6715729 8,12.5 C8,13.3284271 7.32842712,14 6.5,14 L2.5,14 C1.67157288,14 1,13.3284271 1,12.5 C1,11.6715729 1.67157288,11 2.5,11 Z"
+                    fill="#000000" opacity="0.3"></path>
+                </g>
+              </svg>
+              <h5 class="mb-0">Society Empowering</h5>
             </div>
           </div>
         </div>
@@ -256,7 +294,7 @@
     </div>
   </section>
 
-  <section id="team">
+  <section id="team" class="pb-3">
     <div class="container">
       <div class="row section-title justify-content-center text-center">
         <div class="col-md-10 col-lg-9 col-xl-8">
@@ -272,13 +310,13 @@
             <h5 class="mb-2">Nicolas Olberg</h5>
             <ul class="list-unstyled d-flex mb-0">
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
+                <a href="https://www.linkedin.com/in/nicolas-olberg-15259387/" target="_blank" class="hover-fade-out">
                   <img src="assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm" data-inject-svg>
                 </a>
               </li>
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
-                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Linkedin" class="icon icon-sm"
+                <a href="mailto:nic@twip.de" class="hover-fade-out">
+                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                     data-inject-svg>
                 </a>
               </li>
@@ -291,13 +329,13 @@
             <h5 class="mb-2">Katrin Kallweit</h5>
             <ul class="list-unstyled d-flex mb-0">
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
+                <a href="https://www.linkedin.com/in/dr-katrin-kallweit-97742611/" target="_blank" class="hover-fade-out">
                   <img src="assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm" data-inject-svg>
                 </a>
               </li>
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
-                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Linkedin" class="icon icon-sm"
+                <a href="mailto:katrin@twip.de" class="hover-fade-out">
+                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                     data-inject-svg>
                 </a>
               </li>
@@ -310,13 +348,13 @@
             <h5 class="mb-2">Bernd Schlüter</h5>
             <ul class="list-unstyled d-flex mb-0">
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
+                <a href="https://www.linkedin.com/in/bernd-schl%C3%BCter-10554668/" target="_blank" class="hover-fade-out">
                   <img src="assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm" data-inject-svg>
                 </a>
               </li>
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
-                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Linkedin" class="icon icon-sm"
+                <a href="mailto:bernd@twip.de" class="hover-fade-out">
+                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                     data-inject-svg>
                 </a>
               </li>
@@ -329,13 +367,13 @@
             <h5 class="mb-2">Heiko Deppler</h5>
             <ul class="list-unstyled d-flex mb-0">
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
+                <a href="https://www.linkedin.com/in/heiko-deppler-b9033b102/" target="_blank" class="hover-fade-out">
                   <img src="assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm" data-inject-svg>
                 </a>
               </li>
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
-                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Linkedin" class="icon icon-sm"
+                <a href="mailto:heiko@twip.de" class="hover-fade-out">
+                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                     data-inject-svg>
                 </a>
               </li>
@@ -344,18 +382,17 @@
         </div>
         <div class="col-sm-6 col-md-4 text-center mb-5">
           <div class="d-flex flex-column align-items-center twipee">
-            <img src="assets/img/michi.jpg" alt="Mirembe Nkrumah profile image"
-              class="avatar avatar-xl mb-3">
+            <img src="assets/img/michi.jpg" alt="Mirembe Nkrumah profile image" class="avatar avatar-xl mb-3">
             <h5 class="mb-2">Michael Adersberger</h5>
             <ul class="list-unstyled d-flex mb-0">
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
+                <a href="https://www.linkedin.com/in/michael-adersberger-899b33180/" target="_blank" class="hover-fade-out">
                   <img src="assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm" data-inject-svg>
                 </a>
               </li>
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
-                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Linkedin" class="icon icon-sm"
+                <a href="mailto:michi@twip.de" class="hover-fade-out">
+                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                     data-inject-svg>
                 </a>
               </li>
@@ -364,18 +401,17 @@
         </div>
         <div class="col-sm-6 col-md-4 text-center mb-5">
           <div class="d-flex flex-column align-items-center twipee">
-            <img src="assets/img/volker.jpg" alt="Volker Maiborn profile image"
-              class="avatar avatar-xl mb-3">
+            <img src="assets/img/volker.jpg" alt="Volker Maiborn profile image" class="avatar avatar-xl mb-3">
             <h5 class="mb-2">Volker Maiborn</h5>
             <ul class="list-unstyled d-flex mb-0">
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
+                <a href="https://www.linkedin.com/in/volker-maiborn-918192192/" target="_blank" class="hover-fade-out">
                   <img src="assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm" data-inject-svg>
                 </a>
               </li>
               <li class="mx-2">
-                <a href="#" class="hover-fade-out">
-                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Linkedin" class="icon icon-sm"
+                <a href="mailto:volker@twip.de" class="hover-fade-out">
+                  <img src="assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                     data-inject-svg>
                 </a>
               </li>
@@ -386,13 +422,73 @@
     </div>
   </section>
 
+  <section id="experience" class="bg-primary-3 pt-0 text-black">
+    <div class="divider divider-top transform-flip-x bg-white"></div>
+    <div class="container">
+      <div class="row section-title justify-content-center text-center">
+        <div class="col-md-10 col-lg-9 col-xl-8">
+          <h3 class="display-4">Powered by more than 800 Digital Experts</h3>
+          <div class="lead">The Twip Venture Studio is a joint effort of QA|ware and MaibornWolff.<br>We rely on an extensive software engineering knowledge based on hundreds of projects with corporate and startup customers.</div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row justify-content-center">
+            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
+                <div class="flex-fill">
+                  <div class="mx-auto companyLogo">
+                    <img src="assets/img/qaware_logo.png" alt="Logo QA|ware" />
+                  </div>
+                  <p class="lead text-center">Shaping the digital future with high quality software engineering</p>
+                </div>
+                <a href="https://www.qaware.de/unternehmen/" target="_blank" class="stretched-link text-darkblue text-center">Learn
+                  More</a>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="20">
+              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
+                <div class="flex-fill">
+                  <div class="mx-auto companyLogo">
+                    <img src="assets/img/maibornwolff_logo.png" alt="Logo MaibornWolff" />
+                  </div>
+                  <p class="lead text-center">Consulting, Coding and Testing in critical digitalisation projects.
+                  </p>
+                </div>
+                <a href="https://www.maibornwolff.de/unternehmen" target="_blank"
+                  class="stretched-link text-darkblue text-center">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center techPillBox mt-3">
+            <span class="badge badge-pill">Cloud Native</span>
+            <span class="badge badge-pill">AI</span>
+            <span class="badge badge-pill">Cybersecurity</span>
+            <span class="badge badge-pill">Machine Learning</span>
+            <span class="badge badge-pill">IoT</span>
+            <span class="badge badge-pill">Microservices</span>
+            <span class="badge badge-pill">Mobile Apps</span>
+            <span class="badge badge-pill">Testing</span>
+            <span class="badge badge-pill">Web Applications</span>
+            <span class="badge badge-pill">AR / VR</span>
+            <span class="badge badge-pill">Digital Design</span>
+            <span class="badge badge-pill">DevOps</span>
+            <span class="badge badge-pill">Usability Engineering</span>
+            <span class="badge badge-pill">Enterprise Architecture</span>
+            <span class="badge badge-pill">Blockchain</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section id="contact">
     <div class="container">
       <div class="row section-title justify-content-center text-center">
         <div class="col-md-10 col-lg-9 col-xl-8">
           <h3 class="display-4">Get in touch</h3>
-          <div class="lead">Send us an <a href="#">Email</a> or connect on <a href="#">LinkedIn</a>.<br>We're happy to get to know you!</div>
+          <div class="lead">Send us an <a href="mailto:info@twip.de">Email</a> or connect on <a href="https://www.linkedin.com/company/twip-venture-studio/" target="_blank">LinkedIn</a>.<br>We're happy to
+            get to know you!</div>
         </div>
       </div>
     </div>
@@ -414,19 +510,7 @@
         <div class="col-auto mt-3 mt-lg-0">
           <ul class="list-unstyled d-flex mb-0">
             <li class="mx-3">
-              <a href="#" class="hover-fade-out">
-                <img src="assets/img/icons/social/twitter.svg" alt="Twitter" class="icon icon-xs bg-white"
-                  data-inject-svg>
-              </a>
-            </li>
-            <li class="mx-3">
-              <a href="#" class="hover-fade-out">
-                <img src="assets/img/icons/social/github.svg" alt="Github" class="icon icon-xs bg-white"
-                  data-inject-svg>
-              </a>
-            </li>
-            <li class="mx-3">
-              <a href="#" class="hover-fade-out">
+              <a href="https://www.linkedin.com/company/twip-venture-studio/" target="_blank" class="hover-fade-out">
                 <img src="assets/img/icons/social/linkedin.svg" alt="LinkedIn" class="icon icon-xs bg-white"
                   data-inject-svg>
               </a>
@@ -440,7 +524,7 @@
     data-aos-offset="750" data-aos-mirror="true" data-aos-once="false">
     <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-black" data-inject-svg>
   </a>
-  <a href="mailto:ventures@twip.de?subject=Let&#39;s get connected!&body=Hey&nbsp;Twipees,%0D%0A%0D%0Awir&nbsp;sollten&nbsp;uns&nbsp;unbedingt&nbsp;kennenlernen!%0D%0AIch&nbsp;freue&nbsp;mich&nbsp;auf&nbsp;Lorem&nbsp;Ipsum..."
+  <a href="mailto:venture@twip.de?subject=Let&#39;s get connected!&body=Hey&nbsp;Twipees,%0D%0A%0D%0Awir&nbsp;sollten&nbsp;uns&nbsp;unbedingt&nbsp;kennenlernen!%0D%0AIch&nbsp;freue&nbsp;mich&nbsp;auf&nbsp;Lorem&nbsp;Ipsum..."
     class="btn btn-primary rounded-circle btn-back-to-top contactSticky" data-aos-delay="50" data-smooth-scroll
     data-aos="fade-up" data-aos-offset="750" data-aos-mirror="true" data-aos-once="false">
     <img src="assets/img/icons/interface/icon-mail.svg" alt="Icon" class="icon bg-black" data-inject-svg>
@@ -508,7 +592,6 @@
   </script>
 
   <script>
-
     window.addEventListener("mousemove", (e) => {
 
       let conf = {
@@ -518,28 +601,27 @@
         translateY: 10
       }
 
-      let transformElements = [
-        {
-          id: "yellowBg",
-          perspective: 7500
-        }, {
-          id: "outline",
-          perspective: 500
-        }, {
-          id: "font",
-          perspective: 325
-        }
-      ];
+      let transformElements = [{
+        id: "yellowBg",
+        perspective: 1000
+      }, {
+        id: "outline",
+        perspective: 500
+      }, {
+        id: "font",
+        perspective: 325
+      }];
 
-      let x = e.clientX/window.innerWidth;
-      let y = e.clientY/window.innerHeight;
+      let x = e.clientX / window.innerWidth;
+      let y = e.clientY / window.innerHeight;
 
-      transformElements.forEach( el => {
+      transformElements.forEach((el, index) => {
         let transformProp = `perspective(${el.perspective}px)`;
+        transformProp += ` translate3d(0,0,${ index }px)`;
 
         transformProp += ` rotateX(${ ( ( ( y * conf.rotateX*2 ) - conf.rotateX ) * -1 ) }deg)`;
         transformProp += ` rotateY(${ ( ( ( x * conf.rotateY*2 ) - conf.rotateY ) * 1 ) }deg)`;
-        
+
         transformProp += ` translateX(${ ( ( x * conf.translateX*2 ) - conf.translateX ) }px)`;
         transformProp += ` translateY(${ ( ( y * conf.translateY*2 ) - conf.translateY ) }px)`;
         document.getElementById(el.id).style.transform = transformProp;
