@@ -125,6 +125,12 @@ body,html {
         z-index: -1;
     }
 }
+@media (max-width: 992px) {
+    #claim {
+        transform: perspective(328px) rotate3d(0, 1, 0.4, 353deg) skewX(348deg) skewY(1deg) rotate(358deg) translateY(-23px) translateX(-20px);
+    }
+}
+
 
 .contactSticky {
     right: 5.75rem;
@@ -196,10 +202,6 @@ a:hover {
 }
 .btn-twip:active::before {
     background-color: #ffcf20;
-}
-
-#claim {
-    transform: perspective(328px) rotate3d(0, 1, 0.4, 353deg) skewX(348deg) skewY(1deg) rotate(358deg) translateY(-23px) translateX(-20px);
 }
 
 #twipMainLogo {
