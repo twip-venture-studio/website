@@ -17,33 +17,33 @@
       },
       "boost": {
          "offering": {
-            "title": "Get The Twip! Boost",
+            "title": "Dein Twip! Boost",
             "subtitle": "Gemeinsam schaffen wir das perfekte Setup für das Wachstum deiner Idee und bringen die Produktentwicklung in Gang.",
             "startup": {
                "as": "ALS STARTUP",
-               "title": "Great Idea, but a Lack of Tech Experience?",
+               "title": "Große Idee, doch keine technische Erfahrung?",
                "text": "In der Anfangsphase helfen dir erste Arbeitsergebnisse dabei, Deine Idee  zu validieren und die richtigen Entscheidungen zu treffen. Twip unterstützt dich dabei, das richtige Produktteam zusammenzustellen und dein erstes MVP mit maximaler Geschwindigkeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen.",
                "cta": "Let's have a coffee",
                "mailTemplate": "mailto:venture@twip.de"
             },
             "corporate": {
                "as": "ALS UNTERNEHMEN",
-               "title": "Want to speed up your Digital Innovation?",
+               "title": "Wünscht du dir mehr Speed in deiner digitalen Innovation?",
                "text": "Mit Hunderten von verfügbaren digitalen Experten für Strategie, Design und Entwicklung sind wir dein Partner, um den Aufbau deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
                "cta": "Get to know us",
                "mailTemplate": "mailto:info@twip.de"
             }
          },
          "valueProp": {
-            "title": "Kick Start Your Venture!",
-            "subtitle": "There are two things we are very good at: Building software and creating workplaces people enjoy working at – We love to share that!",
+            "title": "Kick Start für Dein Venture!",
+            "subtitle": "Es gibt zwei Dinge, in denen wir sehr gut sind: Software entwickeln und ein Umfeld schaffen, in dem Menschen gerne arbeiten - das teilen wir gerne!",
             "product": {
-               "title": "Product & Tech",
-               "text": "We provide fully functional teams out of a pool of over 800 digital experts and tech lead candidates to complete your founders team temporarily. We are experienced in creating business critical and scalable-by-design software. Identifying, validating and implementing the most promising features for your customers is our passion - Always with the aim of no longer being needed as quickly as possible."
+               "title": "Produkt & Tech",
+               "text": "Wir stellen voll funktionsfähige Teams aus einem Pool von über 800 digitalen Experten zur Verfügung sowie Tech-Lead-Kandidaten, die dein Gründerteams vorübergehend ergänzen können. Wir sind erfahren in der Entwicklung geschäftskritischer und skalierbarer Software. Es ist unsere Leidenschaft, die vielversprechendsten Features für deine Kunden zu identifizieren, validieren und zu implementieren - immer mit dem Ziel, so schnell wie möglich nicht mehr gebraucht zu werden."
             },
             "team": {
-               "title": "Team & Culture",
-               "text": "Continuously shaping the workplace culture is a key ingredient for finding promising talents with digital DNA. Our parent companies know how to build a Great-Place-To-Work and bring in two very strong hiring streams to support you. You profit from know-how that's built on hundreds of agile projects as well as a self-developed learning and training approach - realized by people who apply what they teach."
+               "title": "Team & Kultur",
+               "text": "Die stetige Weiterentwicklung der Arbeitsplatzkultur ist eine wichtige Komponente, um vielversprechende Talente mit digitaler DNA anzusprechen. Unsere Stammunternehmen wissen, wie man einen Great-Place-To-Work aufbaut und bringen zwei sehr starke Recruiting-Streams ein, um Dich zu unterstützen. Du profitierst von Know-how aus hunderten agilen Projekten sowie einem selbst entwickelten Lern- und Trainingsansatz - umgesetzt von Menschen, die ihre Inhalte täglich anwenden"
             }
          }
       },
@@ -52,10 +52,10 @@
          "text": "Es ist nicht so einfach für uns, eine perfekte Definition von \"Positive Impact\" für uns zu finden. Doch eins steht außer Frage: Wir sind alle davon überzeugt, dass unser Investment von Zeit, Leidenschaft, Know-how und Geld sinnvoll genutzt werden soll. Unser Engagement sollte die Gesellschaft und die Umwelt so beeinflussen, eine intakte ökologische, soziale und wirtschaftliche Struktur zu erhalten. Wenn Du als Unternehmer*in diese Vision teilt, begleite uns auf unserem Weg!",
          "focusText": "Wir fokussieren unserer Arbeit auf diese Bereiche",
          "focus": {
-            "health": "Health Improving",
-            "climate": "Climate Protection",
-            "ressource": "Ressource Saving",
-            "society": "Society Empowering"
+            "health": "Verbessern der Gesundheitsversorgung",
+            "climate": "Schützen unseres Klimas",
+            "ressource": "Schonen von Ressourcen",
+            "society": "Stärken einer gerechten Gesellschaft"
          }
       },
       "team": {
