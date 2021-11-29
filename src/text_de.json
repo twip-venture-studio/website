@@ -1,0 +1,91 @@
+{
+   "general": {
+      "showNavItems": true
+   },
+   "sec": {
+      "nav": {
+         "boost": "Boost",
+         "impact": "Impact",
+         "team": "Team",
+         "experience": "Experience",
+         "contact": "Kontakt"
+      },
+      "top": {
+         "title": ["We", "Boost", "Digital", "Ideas"],
+         "subtitle": "Mit der Power unserer Produktteams, unserer Erfahrung in Kulturgestaltung und unseres Netzwerks bringen wir deine digitale Geschäftsidee auf das nächste Level.",
+         "cta": "Find heraus wie..."
+      },
+      "boost": {
+         "offering": {
+            "title": "Get The Twip! Boost",
+            "subtitle": "Gemeinsam schaffen wir das perfekte Setup für das Wachstum deiner Idee und bringen die Produktentwicklung in Gang.",
+            "startup": {
+               "as": "ALS STARTUP",
+               "title": "Great Idea, but a Lack of Tech Experience?",
+               "text": "In der Anfangsphase helfen dir erste Arbeitsergebnisse dabei, Deine Idee  zu validieren und die richtigen Entscheidungen zu treffen. Twip unterstützt dich dabei, das richtige Produktteam zusammenzustellen und dein erstes MVP mit maximaler Geschwindigkeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen.",
+               "cta": "Let's have a coffee",
+               "mailTemplate": "mailto:venture@twip.de"
+            },
+            "corporate": {
+               "as": "ALS UNTERNEHMEN",
+               "title": "Want to speed up your Digital Innovation?",
+               "text": "Mit Hunderten von verfügbaren digitalen Experten für Strategie, Design und Entwicklung sind wir dein Partner, um den Aufbau deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
+               "cta": "Get to know us",
+               "mailTemplate": "mailto:info@twip.de"
+            }
+         },
+         "valueProp": {
+            "title": "Kick Start Your Venture!",
+            "subtitle": "There are two things we are very good at: Building software and creating workplaces people enjoy working at – We love to share that!",
+            "product": {
+               "title": "Product & Tech",
+               "text": "We provide fully functional teams out of a pool of over 800 digital experts and tech lead candidates to complete your founders team temporarily. We are experienced in creating business critical and scalable-by-design software. Identifying, validating and implementing the most promising features for your customers is our passion - Always with the aim of no longer being needed as quickly as possible."
+            },
+            "team": {
+               "title": "Team & Culture",
+               "text": "Continuously shaping the workplace culture is a key ingredient for finding promising talents with digital DNA. Our parent companies know how to build a Great-Place-To-Work and bring in two very strong hiring streams to support you. You profit from know-how that's built on hundreds of agile projects as well as a self-developed learning and training approach - realized by people who apply what they teach."
+            }
+         }
+      },
+      "impact": {
+         "title": "Tech mit Positive Impact",
+         "text": "Es ist nicht so einfach für uns, eine perfekte Definition von \"Positive Impact\" für uns zu finden. Doch eins steht außer Frage: Wir sind alle davon überzeugt, dass unser Investment von Zeit, Leidenschaft, Know-how und Geld sinnvoll genutzt werden soll. Unser Engagement sollte die Gesellschaft und die Umwelt so beeinflussen, eine intakte ökologische, soziale und wirtschaftliche Struktur zu erhalten. Wenn Du als Unternehmer*in diese Vision teilt, begleite uns auf unserem Weg!",
+         "focusText": "Wir fokussieren unserer Arbeit auf diese Bereiche",
+         "focus": {
+            "health": "Health Improving",
+            "climate": "Climate Protection",
+            "ressource": "Ressource Saving",
+            "society": "Society Empowering"
+         }
+      },
+      "team": {
+         "title": "Das Team hinter Twip!",
+         "subtitle": "Zu unserem Kernteam gehören Experten aus den Bereichen Entrepreneurship, Softwareentwicklung und Digital Design. Wir freuen uns von dir zu hören!"
+      },
+      "experience": {
+         "title": "Unterstützt von mehr als 800 Digitalexperten",
+         "subtitle": "Das Twip Venture Studio ist ein Gemeinschaftsprojekt von QA|ware und MaibornWolff. Wir greifen auf ein umfangreiches Software-Engineering-Wissen zurück, das auf Hunderten von Projekten mit Firmen- und Startup-Kunden basiert.",
+         "qaware": {
+            "text": "Mit hochwertigem Software-Engineering die Zukunft gestalten.",
+            "cta": "Learn More"
+         },
+         "maibornwolff": {
+            "text": "Consulting, Coding und Testing in erfolgskritischen Kundenprojekten.",
+            "cta": "Learn More"
+         },
+         "technologies": ["Cloud Native", "AI", "Cybersecurity", "Machine Learning", "IoT", "Microservices", "Mobile Apps", "Testing", "Web Applications", "AR / VR", "Digital Design", "DevOps", "Usability Engineering", "Enterprise Architecture", "Blockchain"]
+      },
+      "contact": {
+         "title": "Get in touch",
+         "text": ["Send us an","Email","or connect on","LinkedIn.","We're happy to get to know you!"],
+         "mailTemplate": "mailto:info@twip.de"
+      },
+      "footer": {
+         "imprint": "Impressum",
+         "dataprivacy": "Datenschutzerklärung"
+      },
+      "stickyMail": {
+         "mailTemplate": "mailto:venture@twip.de?subject=Let&#39;s get connected!&body=Hey&nbsp;Twipees,%0D%0A%0D%0Awir&nbsp;sollten&nbsp;uns&nbsp;unbedingt&nbsp;kennenlernen!%0D%0AIch&nbsp;freue&nbsp;mich&nbsp;auf&nbsp;Lorem&nbsp;Ipsum..."
+      }
+   }
+}

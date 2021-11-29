@@ -1,0 +1,40 @@
+  <div class="navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/"
+          style="height: 45px; transform: scale(1.4) translateX(15px);">
+          <img alt="Twip" data-inject-svg src="/assets/img/twipLogoFont.svg">
+        </a>
+        <div class="d-flex align-items-center order-lg-3">
+          <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg
+              src="/assets/img/icons/interface/icon-menu.svg">
+            <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg
+              src="/assets/img/icons/interface/icon-x.svg">
+          </button>
+        </div>
+        {{#if general.showNavItems}}
+          <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-center" id="navigation-menu">
+            <ul class="navbar-nav my-3 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#boost">{{sec.nav.boost}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#impact">{{sec.nav.impact}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">{{sec.nav.team}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">{{sec.nav.experience}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">{{sec.nav.contact}}</a>
+              </li>
+            </ul>
+          </div>
+        {{/if}}
+      </div>
+    </nav>
+  </div>

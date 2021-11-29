@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-mustache": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "merge-stream": "^2.0.0"
+  }
+}

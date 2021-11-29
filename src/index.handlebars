@@ -29,57 +29,21 @@
         <div class="loading-animation"></div>
     </div>
 
-      <div class="navbar-container">
-        <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top" id="navbar">
-          <div class="container">
-            <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/"
-              style="height: 45px; transform: scale(1.4) translateX(15px);">
-              <img alt="Twip" data-inject-svg src="/assets/img/twipLogoFont.svg">
-            </a>
-            <div class="d-flex align-items-center order-lg-3">
-              <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg
-                  src="/assets/img/icons/interface/icon-menu.svg">
-                <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg
-                  src="/assets/img/icons/interface/icon-x.svg">
-              </button>
-            </div>
-              <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-center" id="navigation-menu">
-                <ul class="navbar-nav my-3 my-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#boost">Boost</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#impact">Impact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Kontakt</a>
-                  </li>
-                </ul>
-              </div>
-          </div>
-        </nav>
-      </div>
+    {{> sec_nav}}
+
     <section class="o-hidden">
         <div class="container">
             <div
                 class="pb-5 row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left flex-lg-row-reverse">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0">
                     <div data-aos="fade-in" data-aos-delay="250">
-                        <h1 id="claim" class="display-3">We <mark data-aos="highlight-text"
-                                data-aos-delay="500">Boost</mark><br />Digital
-                            <mark data-aos="highlight-text" data-aos-delay="750">Ideas.</mark></h1>
-                        <p class="lead">Mit der Power unserer Produktteams, unserer Erfahrung in Kulturgestaltung und unseres Netzwerks bringen wir deine digitale Geschäftsidee auf das nächste Level.</p>
+                        <h1 id="claim" class="display-3">{{sec.top.title.[0]}} <mark data-aos="highlight-text"
+                                data-aos-delay="500">{{sec.top.title.[1]}}</mark><br />{{sec.top.title.[2]}}
+                            <mark data-aos="highlight-text" data-aos-delay="750">{{sec.top.title.[3]}}.</mark></h1>
+                        <p class="lead">{{sec.top.subtitle}}</p>
                         <div class="mt-4 mt-md-5">
                             <a href="#boost" class="btn-twip btn btn-primary flex-shrink-0">
-                                <span>Find heraus wie...</span>
+                                <span>{{sec.top.cta}}</span>
                             </a>
                         </div>
                     </div>
@@ -102,18 +66,18 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Get The Twip! Boost</h3>
-                    <div class="lead">Gemeinsam schaffen wir das perfekte Setup für das Wachstum deiner Idee und bringen die Produktentwicklung in Gang.</div>
+                    <h3 class="display-4">{{sec.boost.offering.title}}</h3>
+                    <div class="lead">{{sec.boost.offering.subtitle}}</div>
                 </div>
             </div>
             <div class="row align-items-center justify-content-around text-center text-lg-left pt-0">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
                     <div>
-                        <h6>> ALS STARTUP</h6>
-                        <h3 class="h1">Great Idea, but a Lack of Tech Experience?</h3>
-                        <p class="lead">In der Anfangsphase helfen dir erste Arbeitsergebnisse dabei, Deine Idee  zu validieren und die richtigen Entscheidungen zu treffen. Twip unterstützt dich dabei, das richtige Produktteam zusammenzustellen und dein erstes MVP mit maximaler Geschwindigkeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen.</p>
-                        <a href=mailto:venture@twip.de class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
-                            <span>Let&#x27;s have a coffee</span>
+                        <h6>> {{sec.boost.offering.startup.as}}</h6>
+                        <h3 class="h1">{{sec.boost.offering.startup.title}}</h3>
+                        <p class="lead">{{sec.boost.offering.startup.text}}</p>
+                        <a href={{sec.boost.offering.startup.mailTemplate}} class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
+                            <span>{{sec.boost.offering.startup.cta}}</span>
                         </a>
                     </div>
                 </div>
@@ -124,11 +88,11 @@
             <div class="row align-items-center justify-content-around text-center text-lg-left pt-5">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
                     <div>
-                        <h6>> ALS UNTERNEHMEN</h6>
-                        <h2 class="h1">Want to speed up your Digital Innovation?</h2>
-                        <p class="lead">Mit Hunderten von verfügbaren digitalen Experten für Strategie, Design und Entwicklung sind wir dein Partner, um den Aufbau deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.</p>
-                        <a href=mailto:info@twip.de class="btn-twip btn btn-primary flex-shrink-0">
-                            <span>Get to know us</span>
+                        <h6>> {{sec.boost.offering.corporate.as}}</h6>
+                        <h2 class="h1">{{sec.boost.offering.corporate.title}}</h2>
+                        <p class="lead">{{sec.boost.offering.corporate.text}}</p>
+                        <a href={{sec.boost.offering.corporate.mailTemplate}} class="btn-twip btn btn-primary flex-shrink-0">
+                            <span>{{sec.boost.offering.corporate.cta}}</span>
                         </a>
                     </div>
                 </div>
@@ -143,23 +107,23 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Kick Start Your Venture!</h3>
-                    <div class="lead">There are two things we are very good at: Building software and creating workplaces people enjoy working at – We love to share that!</div>
+                    <h3 class="display-4">{{sec.boost.valueProp.title}}</h3>
+                    <div class="lead">{{sec.boost.valueProp.subtitle}}</div>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-6 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="100">
                     <div class="mx-xl-4 assetDetails">
                         <img src="/assets/img/logos/product/kyan.svg" alt="Kyan logo" class="mb-4" width="75px">
-                        <h5>Product &amp; Tech</h5>
-                        <p class="lead">We provide fully functional teams out of a pool of over 800 digital experts and tech lead candidates to complete your founders team temporarily. We are experienced in creating business critical and scalable-by-design software. Identifying, validating and implementing the most promising features for your customers is our passion - Always with the aim of no longer being needed as quickly as possible.</p>
+                        <h5>{{sec.boost.valueProp.product.title}}</h5>
+                        <p class="lead">{{sec.boost.valueProp.product.text}}</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="200">
                     <div class="mx-xl-4 assetDetails">
                         <img src="/assets/img/logos/product/atica.svg" alt="Atica logo" class="mb-4" width="75px">
-                        <h5>Team &amp; Culture</h5>
-                        <p class="lead">Continuously shaping the workplace culture is a key ingredient for finding promising talents with digital DNA. Our parent companies know how to build a Great-Place-To-Work and bring in two very strong hiring streams to support you. You profit from know-how that&#x27;s built on hundreds of agile projects as well as a self-developed learning and training approach - realized by people who apply what they teach.</p>
+                        <h5>{{sec.boost.valueProp.team.title}}</h5>
+                        <p class="lead">{{sec.boost.valueProp.team.text}}</p>
                     </div>
                 </div>
             </div>
@@ -170,13 +134,13 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center mb-0">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Tech mit Positive Impact</h3>
+                    <h3 class="display-4">{{sec.impact.title}}</h3>
                 </div>
             </div>
             <div class="row align-items-center justify-content-around text-center text-lg-left">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
                     <div>
-                        <p class="lead">Es ist nicht so einfach für uns, eine perfekte Definition von &quot;Positive Impact&quot; für uns zu finden. Doch eins steht außer Frage: Wir sind alle davon überzeugt, dass unser Investment von Zeit, Leidenschaft, Know-how und Geld sinnvoll genutzt werden soll. Unser Engagement sollte die Gesellschaft und die Umwelt so beeinflussen, eine intakte ökologische, soziale und wirtschaftliche Struktur zu erhalten. Wenn Du als Unternehmer*in diese Vision teilt, begleite uns auf unserem Weg!</p>
+                        <p class="lead">{{sec.impact.text}}</p>
                     </div>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-5 p-4">
@@ -185,7 +149,7 @@
             </div>
             <div class="row justify-content-center mt-2">
                 <div class="col d-flex flex-wrap justify-content-center" style="margin: 0 110px;">
-                    <h3 class="p-2 text-dark col-md-12 text-center" style="font-weight: 600;">Wir fokussieren unserer Arbeit auf diese Bereiche</h3>
+                    <h3 class="p-2 text-dark col-md-12 text-center" style="font-weight: 600;">{{sec.impact.focusText}}</h3>
                     <div class="p-2 text-dark col-md-6">
                         <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -210,7 +174,7 @@
                                     </path>
                                 </g>
                             </svg>
-                            <h5 class="mb-0">Health Improving</h5>
+                            <h5 class="mb-0">{{sec.impact.focus.health}}</h5>
                         </div>
                     </div>
                     <div class="p-2 text-dark col-md-6">
@@ -228,7 +192,7 @@
                                     <rect fill="#000000" opacity="0.3" x="2" y="4" width="5" height="16" rx="1"></rect>
                                 </g>
                             </svg>
-                            <h5 class="mb-0">Climate Protection</h5>
+                            <h5 class="mb-0">{{sec.impact.focus.climate}}</h5>
                         </div>
                     </div>
                     <div class="p-2 text-dark col-md-6">
@@ -248,7 +212,7 @@
                                         fill="#000000" opacity="0.3"></path>
                                 </g>
                             </svg>
-                            <h5 class="mb-0">Ressource Saving</h5>
+                            <h5 class="mb-0">{{sec.impact.focus.ressource}}</h5>
                         </div>
                     </div>
                     <div class="p-2 text-dark col-md-6">
@@ -268,7 +232,7 @@
                                         fill="#000000" opacity="0.3"></path>
                                 </g>
                             </svg>
-                            <h5 class="mb-0">Society Empowering</h5>
+                            <h5 class="mb-0">{{sec.impact.focus.society}}</h5>
                         </div>
                     </div>
                 </div>
@@ -280,8 +244,8 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Das Team hinter Twip!</h3>
-                    <div class="lead">Zu unserem Kernteam gehören Experten aus den Bereichen Entrepreneurship, Softwareentwicklung und Digital Design. Wir freuen uns von dir zu hören!</div>
+                    <h3 class="display-4">{{sec.team.title}}</h3>
+                    <div class="lead">{{sec.team.subtitle}}</div>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -424,8 +388,8 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Unterstützt von mehr als 800 Digitalexperten</h3>
-                    <div class="lead">Das Twip Venture Studio ist ein Gemeinschaftsprojekt von QA|ware und MaibornWolff. Wir greifen auf ein umfangreiches Software-Engineering-Wissen zurück, das auf Hunderten von Projekten mit Firmen- und Startup-Kunden basiert.</div>
+                    <h3 class="display-4">{{sec.experience.title}}</h3>
+                    <div class="lead">{{{sec.experience.subtitle}}}</div>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -437,10 +401,10 @@
                                     <div class="mx-auto companyLogo">
                                         <img src="/assets/img/qaware_logo.png" alt="Logo QA|ware" />
                                     </div>
-                                    <p class="lead text-center">Mit hochwertigem Software-Engineering die Zukunft gestalten.</p>
+                                    <p class="lead text-center">{{sec.experience.qaware.text}}</p>
                                 </div>
                                 <a href="https://www.qaware.de/unternehmen/" target="_blank"
-                                    class="stretched-link text-darkblue text-center">Learn More</a>
+                                    class="stretched-link text-darkblue text-center">{{sec.experience.qaware.cta}}</a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="20">
@@ -449,29 +413,17 @@
                                     <div class="mx-auto companyLogo">
                                         <img src="/assets/img/maibornwolff_logo.png" alt="Logo MaibornWolff" />
                                     </div>
-                                    <p class="lead text-center">Consulting, Coding und Testing in erfolgskritischen Kundenprojekten.</p>
+                                    <p class="lead text-center">{{sec.experience.maibornwolff.text}}</p>
                                 </div>
                                 <a href="https://www.maibornwolff.de/unternehmen" target="_blank"
-                                    class="stretched-link text-darkblue text-center">Learn More</a>
+                                    class="stretched-link text-darkblue text-center">{{sec.experience.maibornwolff.cta}}</a>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center techPillBox mt-3">
-                        <span class="badge badge-pill">Cloud Native</span>
-                        <span class="badge badge-pill">AI</span>
-                        <span class="badge badge-pill">Cybersecurity</span>
-                        <span class="badge badge-pill">Machine Learning</span>
-                        <span class="badge badge-pill">IoT</span>
-                        <span class="badge badge-pill">Microservices</span>
-                        <span class="badge badge-pill">Mobile Apps</span>
-                        <span class="badge badge-pill">Testing</span>
-                        <span class="badge badge-pill">Web Applications</span>
-                        <span class="badge badge-pill">AR / VR</span>
-                        <span class="badge badge-pill">Digital Design</span>
-                        <span class="badge badge-pill">DevOps</span>
-                        <span class="badge badge-pill">Usability Engineering</span>
-                        <span class="badge badge-pill">Enterprise Architecture</span>
-                        <span class="badge badge-pill">Blockchain</span>
+                        {{#each sec.experience.technologies}}
+                        <span class="badge badge-pill">{{this}}</span>
+                        {{/each}}
                     </div>
                 </div>
             </div>
@@ -482,183 +434,28 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Get in touch</h3>
-                    <div class="lead">Send us an <a href=mailto:info@twip.de>Email</a> or connect on <a
+                    <h3 class="display-4">{{sec.contact.title}}</h3>
+                    <div class="lead">{{sec.contact.text.[0]}} <a href={{sec.contact.mailTemplate}}>{{sec.contact.text.[1]}}</a> {{sec.contact.text.[2]}} <a
                             href="https://www.linkedin.com/company/twip-venture-studio/"
-                            target="_blank">LinkedIn.</a>.<br>We&#x27;re happy to get to know you!</div>
+                            target="_blank">{{sec.contact.text.[3]}}</a>.<br>{{sec.contact.text.[4]}}</div>
                 </div>
             </div>
         </div>
     </section>
 
-      <footer class="bg-primary-3 text-white links-white pb-4 footer-1" style="background: #04294e !important;">
-        <div class="container">
-          <div
-            class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
-            <div class="col-auto">
-              <div class="d-flex flex-column flex-sm-row align-items-center text-small">
-                <div class="text-muted">&copy; 2021 TWIP Venture Studio GmbH & Co. KG&emsp;|&emsp;<a href="/imprint.html"
-                    target="_blank">Impressum</a>&emsp;|&emsp;<a href="/dataprivacy.html"
-                    target="_blank">Datenschutzerklärung</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-auto mt-3 mt-lg-0">
-              <ul class="list-unstyled d-flex mb-0">
-                <li class="mx-3">
-                  <a href="https://www.linkedin.com/company/twip-venture-studio/" target="_blank" class="hover-fade-out">
-                    <img src="/assets/img/icons/social/linkedin.svg" alt="LinkedIn" class="icon icon-xs bg-white"
-                      data-inject-svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-        <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up"
-            data-aos-offset="750" data-aos-mirror="true" data-aos-once="false">
-            <img src="/assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-black" data-inject-svg>
-        </a>        <a href=mailto:venture@twip.de?subject&#x3D;Let&amp;#39;s get connected!&amp;body&#x3D;Hey&amp;nbsp;Twipees,%0D%0A%0D%0Awir&amp;nbsp;sollten&amp;nbsp;uns&amp;nbsp;unbedingt&amp;nbsp;kennenlernen!%0D%0AIch&amp;nbsp;freue&amp;nbsp;mich&amp;nbsp;auf&amp;nbsp;Lorem&amp;nbsp;Ipsum...
-            class="btn btn-primary rounded-circle btn-back-to-top contactSticky" data-aos-delay="50" data-smooth-scroll
-            data-aos="fade-up" data-aos-offset="750" data-aos-mirror="true" data-aos-once="false">
-            <img src="/assets/img/icons/interface/icon-mail.svg" alt="Icon" class="icon bg-black" data-inject-svg>
-        </a>
-      <script type="text/javascript">
-        var userLang = navigator.language || navigator.userLanguage;
-        if (!userLang.toLowerCase().includes("de")) {
-          //TODO
-          //window.location.href = "/en";
-          console.log("Redirect to Engl Site");
-        }
-      </script>
-      <!-- Required vendor scripts (Do not remove) -->
-      <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-      <script type="text/javascript" src="/assets/js/popper.min.js"></script>
-      <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
-    
-      <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
-    
-      <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-      <script type="text/javascript" src="/assets/js/aos.js"></script>
-      <!-- Clipboard (copies content from browser into OS clipboard) -->
-      <script type="text/javascript" src="/assets/js/clipboard.min.js"></script>
-      <!-- Fancybox (handles image and video lightbox and galleries) -->
-      <script type="text/javascript" src="/assets/js/jquery.fancybox.min.js"></script>
-      <!-- Flatpickr (calendar/date/time picker UI) -->
-      <script type="text/javascript" src="/assets/js/flatpickr.min.js"></script>
-      <!-- Flickity (handles touch enabled carousels and sliders) -->
-      <script type="text/javascript" src="/assets/js/flickity.pkgd.min.js"></script>
-      <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-      <script type="text/javascript" src="/assets/js/ion.rangeSlider.min.js"></script>
-      <!-- Isotope (masonry layouts and filtering) -->
-      <script type="text/javascript" src="/assets/js/isotope.pkgd.min.js"></script>
-      <!-- jarallax (parallax effect and video backgrounds) -->
-      <script type="text/javascript" src="/assets/js/jarallax.min.js"></script>
-      <script type="text/javascript" src="/assets/js/jarallax-video.min.js"></script>
-      <script type="text/javascript" src="/assets/js/jarallax-element.min.js"></script>
-      <!-- jQuery Countdown (displays countdown text to a specified date) -->
-      <script type="text/javascript" src="/assets/js/jquery.countdown.min.js"></script>
-      <!-- jQuery smartWizard facilitates steppable wizard content -->
-      <script type="text/javascript" src="/assets/js/jquery.smartWizard.min.js"></script>
-      <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-      <script type="text/javascript" src="/assets/js/plyr.polyfilled.min.js"></script>
-      <!-- Prism (displays formatted code boxes) -->
-      <script type="text/javascript" src="/assets/js/prism.js"></script>
-      <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-      <script type="text/javascript" src="/assets/js/scrollMonitor.js"></script>
-      <!-- Smooth scroll (animation to links in-page)-->
-      <script type="text/javascript" src="/assets/js/smooth-scroll.polyfills.min.js"></script>
-      <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
-      <script type="text/javascript" src="/assets/js/svg-injector.umd.production.js"></script>
-      <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-      <script type="text/javascript" src="/assets/js/twitterFetcher_min.js"></script>
-      <!-- Typed text (animated typing effect)-->
-      <script type="text/javascript" src="/assets/js/typed.min.js"></script>
-      <!-- Required theme scripts (Do not remove) -->
-      <script type="text/javascript" src="/assets/js/theme.js"></script>
-      <!-- Removes page load animation when window is finished loading -->
-      <script type="text/javascript">
-        window.addEventListener("load", function () {
-          document.querySelector('body').classList.add('loaded');
-        });
-      </script>
-      <script>
-        window.addEventListener("mousemove", (e) => {
-    
-          let conf = {
-            rotateX: 5,
-            rotateY: 7,
-            translateX: 8,
-            translateY: 10
-          }
-    
-          let transformElements = [{
-            id: "yellowBg",
-            perspective: 1000
-          }, {
-            id: "outline",
-            perspective: 500
-          }, {
-            id: "font",
-            perspective: 325
-          }];
-    
-          let x = e.clientX / window.innerWidth;
-          let y = e.clientY / window.innerHeight;
-    
-          transformElements.forEach((el, index) => {
-            let transformProp = `perspective(${el.perspective}px)`;
-            transformProp += ` translate3d(0,0,${ index }px)`;
-    
-            transformProp += ` rotateX(${ ( ( ( y * conf.rotateX*2 ) - conf.rotateX ) * -1 ) }deg)`;
-            transformProp += ` rotateY(${ ( ( ( x * conf.rotateY*2 ) - conf.rotateY ) * 1 ) }deg)`;
-    
-            transformProp += ` translateX(${ ( ( x * conf.translateX*2 ) - conf.translateX ) }px)`;
-            transformProp += ` translateY(${ ( ( y * conf.translateY*2 ) - conf.translateY ) }px)`;
-            document.getElementById(el.id).style.transform = transformProp;
-          });
-    
-        });
-      </script>
-      <script>
-        function getNewSession() {
-          function getUuid() {
-            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-              var r = Math.random() * 16 | 0,
-                v = c == 'x' ? r : (r & 0x3 | 0x8);
-              return v.toString(16);
-            });
-          }
-          var id = getUuid();
-          if (window.sessionStorage) sessionStorage.setItem('SESSID', id);
-          return id;
-        }
-    
-        //Als Id generiert und speichert dieses  Beispiel eine UUID, es geht aber natürlich auch jedes 
-        //andere Verfahren zur Erstellung einer ausreichend eindeutigen Kennung.
-        window._clientId = (window.sessionStorage && sessionStorage.getItem('SESSID')) || getNewSession();
-    
-        //Hier folgt der angepasste GA-Trackingcode, der die generierte ClientId verwendet und Cookies deaktiviert
-        (function (i, s, o, g, r, a, m) {
-          i['GoogleAnalyticsObject'] = r;
-          i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-          }, i[r].l = 1 * new Date();
-          a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-          a.async = 1;
-          a.src = g;
-          m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-213201695-2', 'auto', {
-          'storage': 'none',
-          'storeGac': false,
-          'clientId': window._clientId
-        });
-        ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
-      </script>
+    {{> sec_footer}}
+
+    {{> sec_stickyScrollTop}}
+    {{> sec_stickyMail}}
+
+    {{> script_redirectToEn}}
+
+    {{> script_externalLibs}}
+
+    {{> script_parallaxLogo}}
+
+    {{> script_analytics}}
+
 </body>
 
 </html>
