@@ -77,7 +77,7 @@ a.text-darkblue:hover, a.text-darkblue:hover:focus {
     color: #074481;
 }
 
-html {
+body,html {
     scroll-behavior: smooth;
 }
 

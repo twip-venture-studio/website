@@ -78,7 +78,7 @@
                             <mark data-aos="highlight-text" data-aos-delay="750">Ideas.</mark></h1>
                         <p class="lead">Mit der Power unserer Produktteams, unserer Erfahrung in Kulturgestaltung und unseres Netzwerks bringen wir deine digitale Geschäftsidee auf das nächste Level.</p>
                         <div class="mt-4 mt-md-5">
-                            <a href="#boost" class="btn-twip btn btn-primary flex-shrink-0">
+                            <a href="#boost" class="scroll btn-twip btn btn-primary flex-shrink-0">
                                 <span>Find heraus wie...</span>
                             </a>
                         </div>
@@ -575,6 +575,15 @@
       <script type="text/javascript" src="/assets/js/twitterFetcher_min.js"></script>
       <!-- Typed text (animated typing effect)-->
       <script type="text/javascript" src="/assets/js/typed.min.js"></script>
+    
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+      <script>
+          //enable scroll polyfill if it isn't supported
+         if(getComputedStyle(document.body).scrollBehavior !== 'smooth'){
+          var scroll = new SmoothScroll('a[href*="#"]');
+        }
+      </script>
+    
       <!-- Required theme scripts (Do not remove) -->
       <script type="text/javascript" src="/assets/js/theme.js"></script>
       <!-- Removes page load animation when window is finished loading -->

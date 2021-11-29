@@ -158,6 +158,15 @@
       <script type="text/javascript" src="/assets/js/twitterFetcher_min.js"></script>
       <!-- Typed text (animated typing effect)-->
       <script type="text/javascript" src="/assets/js/typed.min.js"></script>
+    
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+      <script>
+          //enable scroll polyfill if it isn't supported
+         if(getComputedStyle(document.body).scrollBehavior !== 'smooth'){
+          var scroll = new SmoothScroll('a[href*="#"]');
+        }
+      </script>
+    
       <!-- Required theme scripts (Do not remove) -->
       <script type="text/javascript" src="/assets/js/theme.js"></script>
       <!-- Removes page load animation when window is finished loading -->
