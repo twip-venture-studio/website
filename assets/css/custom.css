@@ -188,7 +188,7 @@ a:hover {
 }
 
 .btn-twip-alt::before {
-    transform: translate(-8px,-12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg);
+    transform: translate(-8px,-12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg) translate3d(0,0,-5px);
 }
 
 .btn-twip:hover::before {
