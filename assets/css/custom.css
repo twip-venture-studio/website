@@ -176,7 +176,7 @@ a:hover {
 }
 
 .btn-twip::before {
-    transform: translate(-30px,-12px) skewX(8deg) skewY(-5deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, 353deg);
+    transform: translate(-30px,-12px) skewX(8deg) skewY(-5deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, 353deg) scale(1.15) translate3d(0,0,-10px);
     content: "";
     position: absolute;
     left:24px;
@@ -188,7 +188,7 @@ a:hover {
 }
 
 .btn-twip-alt::before {
-    transform: translate(-8px,-12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg) translate3d(0,0,-5px);
+    transform: translate(-8px,-12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg) scale(1.15) translate3d(0,0,-10px);
 }
 
 .btn-twip:hover::before {

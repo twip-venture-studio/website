@@ -13,23 +13,23 @@
       "top": {
          "title": ["We", "Boost", "Digital", "Ideas"],
          "subtitle": "Mit der Power unserer Produktteams, unserer Erfahrung in Kulturgestaltung und unseres Netzwerks bringen wir deine digitale Geschäftsidee auf das nächste Level.",
-         "cta": "Find heraus wie..."
+         "cta": "Find heraus wie"
       },
       "boost": {
          "offering": {
-            "title": "Dein Twip! Boost",
-            "subtitle": "Gemeinsam schaffen wir das perfekte Setup für das Wachstum deiner Idee und bringen die Produktentwicklung in Gang.",
+            "title": "Der Twip! Boost",
+            "subtitle": "Gemeinsam schaffen wir das perfekte Setup für Deine Idee und bringen die Produktentwicklung in Gang.",
             "startup": {
                "as": "ALS STARTUP",
-               "title": "Große Idee, doch keine technische Erfahrung?",
-               "text": "In der Anfangsphase helfen dir erste Arbeitsergebnisse dabei, Deine Idee  zu validieren und die richtigen Entscheidungen zu treffen. Twip unterstützt dich dabei, das richtige Produktteam zusammenzustellen und dein erstes MVP mit maximaler Geschwindigkeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen.",
+               "title": "Große Idee, doch kein Tech-Knowhow?",
+               "text": "Twip unterstützt dich dabei, das richtige Produktteam zusammenzustellen und dein erstes MVP in kürzester Zeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen. Wir bieten dir außerdem die Möglichkeit, das Risiko zu teilen, indem wir in Dich und Dein Produkt co-investieren.",
                "cta": "Let's have a coffee",
                "mailTemplate": "mailto:venture@twip.de"
             },
             "corporate": {
                "as": "ALS UNTERNEHMEN",
-               "title": "Wünscht du dir mehr Speed in deiner digitalen Innovation?",
-               "text": "Mit Hunderten von verfügbaren digitalen Experten für Strategie, Design und Entwicklung sind wir dein Partner, um den Aufbau deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
+               "title": "Dir geht Deine digitale Transformation nicht schnell genug?",
+               "text": "Mit Hunderten von verfügbaren Experten für Strategie, Design und Entwicklung sind wir Dein Partner, um den Aufbau Deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
                "cta": "Get to know us",
                "mailTemplate": "mailto:info@twip.de"
             }
