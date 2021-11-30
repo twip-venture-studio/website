@@ -12,34 +12,34 @@
       },
       "top": {
          "title": ["We", "Boost", "Digital", "Ideas"],
-         "subtitle": "Mit der Power unserer Produktteams, unserer Erfahrung in Kulturgestaltung und unseres Netzwerks bringen wir deine digitale Geschäftsidee auf das nächste Level.",
+         "subtitle": "Mit der Power unserer Produktteams, unserer Erfahrung im Gestalten digitaler Arbeitswelten und unseres Netzwerks heben wir deine digitale Geschäftsidee auf das nächste Level.",
          "cta": "Find heraus wie"
       },
       "boost": {
          "offering": {
             "title": "Der Twip! Boost",
-            "subtitle": "Gemeinsam schaffen wir das perfekte Setup für Deine Idee und bringen die Produktentwicklung in Gang.",
+            "subtitle": "Gemeinsam schaffen wir das perfekte Setup für Deine Idee und TBD entwickeln deine Idee schnell zu einem Produkt.",
             "startup": {
                "as": "ALS STARTUP",
-               "title": "Große Idee, doch kein Tech-Knowhow?",
-               "text": "Twip unterstützt dich dabei, das richtige Produktteam zusammenzustellen und dein erstes MVP in kürzester Zeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen. Wir bieten dir außerdem die Möglichkeit, das Risiko zu teilen, indem wir in Dich und Dein Produkt co-investieren.",
+               "title": "Große Idee, aber kein Tech-Knowhow?",
+               "text": "Twip unterstützt dich, das richtige Produktteam zusammenzustellen und dein erstes MVP in kürzester Zeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen. Wir bieten dir die Möglichkeit, das Risiko zu teilen, indem auch wir in dich und dein Produkt investieren.",
                "cta": "Melde dich bei uns",
                "mailTemplate": "mailto:venture@twip.de"
             },
             "corporate": {
                "as": "ALS UNTERNEHMEN",
-               "title": "Dir geht Deine digitale Transformation nicht schnell genug?",
-               "text": "Mit Hunderten von verfügbaren Experten für Strategie, Design und Entwicklung sind wir Dein Partner, um den Aufbau Deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
+               "title": "Dir geht deine digitale Transformation nicht schnell genug?",
+               "text": "Mit Hunderten von verfügbaren Experten für Strategie, Design und Entwicklung sind wir dein Partner, um den Aufbau deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
                "cta": "Lerne uns kennen",
                "mailTemplate": "mailto:info@twip.de"
             }
          },
          "valueProp": {
             "title": "Kickstart für Dein Venture!",
-            "subtitle": "Es gibt zwei Dinge, die wir besonders gut können: Software entwickeln und ein Umfeld schaffen, in dem Menschen gerne arbeiten.<br>Das teilen wir gerne!",
+            "subtitle": "Zwei Dinge beherrschen wir besonders gut: Software entwickeln und ein Umfeld schaffen, in dem Menschen gern arbeiten. Das teilen wir mit dir!",
             "product": {
                "title": "Produkt & Technologie",
-               "text": "Wir stellen voll funktionsfähige Teams aus einem Pool von über 800 Experten sowie Tech-Lead-Kandidaten zur Verfügung, die dein Gründerteam vorübergehend ergänzen. Wir sind erfahren in der Entwicklung geschäftskritischer und skalierbarer Software. Es ist unsere Leidenschaft, die vielversprechendsten Features für deine Kunden zu identifizieren, zu validieren und zu implementieren - immer mit dem Ziel, so schnell wie möglich nicht mehr gebraucht zu werden."
+               "text": "Wir ergänzen dein Gründerteam vorübergehend mit voll funktionsfähigen Teams. Unsere über 800 Expertinnen und Experten sowie Tech-Leads entwickeln und gestalten geschäftskritische und skalierbare Software. Unsere Leidenschaft: die vielversprechendsten Features für deine Kunden identifizieren, validieren und implementieren. Unser Ziel: Du sollst  Wir befähigen dich, um selbst  Alle relevanten Skills und Kompetenzen Wir befähigen dich."
             },
             "team": {
                "title": "Team & Kultur",
