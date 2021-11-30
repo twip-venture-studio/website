@@ -49,6 +49,9 @@
         position: absolute;
         right: 0;
     }
+    .langSwitcher .dropdown-menu {
+        left: -100px;
+    }
 }
 
 
