@@ -7,7 +7,7 @@
          "boost": "Boost",
          "impact": "Impact",
          "team": "Team",
-         "experience": "Experience",
+         "experience": "Know-how",
          "contact": "Contact"
       },
       "top": {
@@ -17,12 +17,12 @@
       },
       "boost": {
          "offering": {
-            "title": "Get The Twip! Boost",
-            "subtitle": "Together we create the perfect setup for your growth and kick start the product development.",
+            "title": "Get the Twip! Boost",
+            "subtitle": "Move faster from idea to product.<br>Together we create the perfect setup for your growth.",
             "startup": {
                "as": "AS A STARTUP",
                "title": "Great Idea, but a Lack of Tech Experience?",
-               "text": "It's not easy to create a solid software foundation or to take the right decisions for scaling. Twip supports you in setting up the right product team and co-creating your software at maximum speed. We also offer you the option to share your risk by co-investing in your product.",
+               "text": "Twip assists you in forming the right product team and developing your first MVP in the shortest possible time - a solid basis to convince first customers and investors. We offer you the opportunity to share the risk by co-investing in you and your product.",
                "cta": "Let's have a coffee",
                "mailTemplate": "mailto:venture@twip.de?subject=Let's%20have%20a%20coffee&body=Hello%20Twip,%0D%0A%0D%0AI%20would%20like%20to%20get%20to%20know%20you%20better%20over%20a%2030%20minute%20(remote)%20coffee.%0D%0A%0D%0AMy%20name:%0D%0ATime%20preference:"
             },
@@ -39,18 +39,18 @@
             "subtitle": "There are two things we are very good at: Building software and creating workplaces people enjoy working at - We love to share that!",
             "product": {
                "title": "Product & Tech",
-               "text": "We provide fully functional teams out of a pool of over 800 digital experts and tech lead candidates to complete your founders team temporarily. We are experienced in creating business critical and scalable-by-design software. Identifying, validating and implementing the most promising features for your customers is our passion - Always with the aim of no longer being needed as quickly as possible."
+               "text": "We provide fully functional teams out of a pool of over 800 digital experts and tech lead candidates to complete your founders team temporarily. We are experienced in developing and designing business critical and scalable software. Our passion: identify, validate and implement the most promising features for your customers. Our goal: to make you and your venture self-sufficient and independent from Twip."
             },
             "team": {
                "title": "Team & Culture",
-               "text": "Continuously shaping the workplace culture is a key ingredient for finding promising talents with digital DNA. Our parent companies know how to build a Great-Place-To-Work and bring in two very strong hiring streams to support you. You profit from know-how that's built on hundreds of agile projects as well as a self-developed learning and training approach - realized by people who apply what they teach."
+               "text": "Talents with digital DNA appreciate freedom and trust. The basis for this is a workplace culture that we are building together with you in the spirit of a Great Place to Work. Our strong recruiting teams support you in attracting new talent. You benefit from know-how from hundreds of agile projects as well as a self-developed learning and training approach - implemented by people who apply what they teach every day."
             }
          }
       },
       "impact": {
          "title": "Tech for Positive Impact",
-         "text": "Positive Impact - what a strong term. Its not that easy to find a perfect definition for us, but we are all convinced that our investments of passion, know-how and money should be used with care. Our engagement should influence society and environment in a way that we keep an intact ecological, social and economic structure. If you are an entrepreneur who shares this vision, become a part on our journey!",
-         "focusText": "We focus on these areas in our work",
+         "text": "With our engagement, we want to influence society and the environment in a positiv and purposeful way: An intact ecological, social and economic structure should be preserved. If you share this vision as a founder, join us on our journey!",
+         "focusText": "Our Focus Areas",
          "focus": {
             "health": "Health Improving",
             "climate": "Climate Protection",
@@ -60,11 +60,11 @@
       },
       "team": {
          "title": "The Faces behind Twip!",
-         "subtitle": "Our lovely core team includes experienced people in the areas of entrepreneurship, software development and user experience design. Feel free connecting to us!"
+         "subtitle": "Our core team has experience in the areas of entrepreneurship, software development and digital design. Feel free connecting to us!"
       },
       "experience": {
          "title": "Powered by more than 800 Digital Experts",
-         "subtitle": "The Twip Venture Studio is a joint effort of QA|ware and MaibornWolff. We rely on an extensive software engineering knowledge based on hundreds of projects with corporate and startup customers.",
+         "subtitle": "Twip Venture Studio is a joint effort of MaibornWolff and QAware. You benefit from their project experience with numerous corporate and startup customers.",
          "qaware": {
             "text": "Shaping the digital future with high quality software engineering",
             "cta": "Learn More"

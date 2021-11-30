@@ -7,7 +7,7 @@ var browserSync = require('browser-sync').create();
 var text_en = require("./src/text_en.json");
 var text_de = require("./src/text_de.json");
 
-function scripts() {
+function build() {
     var options = {
         batch : ['./src/partials'],
         helpers : {
@@ -62,11 +62,9 @@ function serve(done) {
     done();
 }
 
-const watch = () => gulp.watch(["src/*", "assets/*"], gulp.series(scripts, reload));
+const watch = () => {
+    gulp.watch(["src/**", "assets/**"], gulp.series(build, reload));
+}
 
-const dev = gulp.series(scripts, serve, watch);
-
-
-gulp.task('dev', )
-
-gulp.task('default', ['dev']);
+gulp.task('default', gulp.series(build, serve, watch));
+gulp.task('build', build);
