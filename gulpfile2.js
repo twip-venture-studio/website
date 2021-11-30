@@ -51,8 +51,8 @@ function scripts() {
 function reload(done) {
     browserSync.reload();
     done();
-  }
-  
+}
+
 function serve(done) {
     browserSync.init({
         server: {
@@ -67,5 +67,6 @@ const watch = () => gulp.watch(["src/*", "assets/*"], gulp.series(scripts, reloa
 const dev = gulp.series(scripts, serve, watch);
 
 
+gulp.task('dev', )
 
 gulp.task('default', ['dev']);
