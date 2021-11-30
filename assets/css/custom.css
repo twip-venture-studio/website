@@ -30,6 +30,10 @@ img[alt="Image"] {
     .section-title {
         margin-bottom: 6rem;
     }
+    .topSection {
+        padding-top: 170px;
+        padding-bottom: 80px;
+    }
 
     .impactFocus {
         margin: 0 110px;
