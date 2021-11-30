@@ -5,23 +5,23 @@
    "sec": {
       "nav": {
          "boost": "Boost",
-         "impact": "Impact",
+         "impact": "Vision",
          "team": "Team",
-         "experience": "Experience",
+         "experience": "Know-how",
          "contact": "Kontakt"
       },
       "top": {
          "title": ["We", "Boost", "Digital", "Ideas"],
          "subtitle": "Mit der Power unserer Produktteams, unserer Erfahrung im Gestalten digitaler Arbeitswelten und unseres Netzwerks heben wir deine digitale Geschäftsidee auf das nächste Level.",
-         "cta": "Find heraus wie"
+         "cta": "Entdecke mehr"
       },
       "boost": {
          "offering": {
             "title": "Der Twip! Boost",
-            "subtitle": "Gemeinsam schaffen wir das perfekte Setup für Deine Idee und TBD entwickeln deine Idee schnell zu einem Produkt.",
+            "subtitle": "Schneller von der Idee zum Produkt.<br>Gemeinsam schaffen wir das perfekte Setup für dein Wachstum.",
             "startup": {
                "as": "ALS STARTUP",
-               "title": "Große Idee, aber kein Tech-Knowhow?",
+               "title": "Große Idee, aber kein Tech Know-how?",
                "text": "Twip unterstützt dich, das richtige Produktteam zusammenzustellen und dein erstes MVP in kürzester Zeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen. Wir bieten dir die Möglichkeit, das Risiko zu teilen, indem auch wir in dich und dein Produkt investieren.",
                "cta": "Let's have a coffee",
                "mailTemplate": "mailto:venture@twip.de?subject=Let's%20have%20a%20coffee&body=Hallo%20Twip,%0D%0A%0D%0Aich%20möchte%20euch%20gerne%20bei%20einem%2030%20Minuten%20(Remote-)Kaffee%20näher%20kennenlernen.%0D%0A%0D%0AMein%20Name:%0D%0APräferierte%20Zeiten:"
@@ -31,7 +31,7 @@
                "title": "Dir geht deine digitale Transformation nicht schnell genug?",
                "text": "Mit Hunderten von verfügbaren Experten für Strategie, Design und Entwicklung sind wir dein Partner, um den Aufbau deines digitalen Ventures zu beschleunigen. Unser Venture-as-a-Service-Ansatz gewährleistet, dass wir Hand in Hand mit den Ideengebern an einer gemeinsamen Vision arbeiten.",
                "cta": "Lerne uns kennen",
-               "mailTemplate": "mailto:info@twip.de"
+               "mailTemplate": "mailto:info@twip.de?subject=Kennenlernen%20Twip&body=Hallo%20Twip,%0D%0A%0D%0Aich%20würde%20mich%20freuen,%20euch%20näher%20kennenzulernen.%0D%0A%0D%0AMein%20Name:%0D%0APräferierte%20Zeiten:"
             }
          },
          "valueProp": {
@@ -39,45 +39,45 @@
             "subtitle": "Zwei Dinge beherrschen wir besonders gut: Software entwickeln und ein Umfeld schaffen, in dem Menschen gern arbeiten. Das teilen wir mit dir!",
             "product": {
                "title": "Produkt & Technologie",
-               "text": "Wir ergänzen dein Gründerteam vorübergehend mit voll funktionsfähigen Teams. Unsere über 800 Expertinnen und Experten sowie Tech-Leads entwickeln und gestalten geschäftskritische und skalierbare Software. Unsere Leidenschaft: die vielversprechendsten Features für deine Kunden identifizieren, validieren und implementieren. Unser Ziel: Du sollst  Wir befähigen dich, um selbst  Alle relevanten Skills und Kompetenzen Wir befähigen dich."
+               "text": "Wir ergänzen dein Gründerteam vorübergehend mit voll funktionsfähigen Teams. Unsere über 800 Expertinnen und Experten sowie Tech-Leads entwickeln und gestalten geschäftskritische und skalierbare Software. Unsere Leidenschaft: die vielversprechendsten Features für deine Kunden identifizieren, validieren und implementieren. Unser Ziel: Dich und dein Venture auf eigene Beine zu stellen und dich damit unabhängig von Twip zu machen."
             },
             "team": {
                "title": "Team & Kultur",
-               "text": "Die stetige Weiterentwicklung der Arbeitsplatz-Kultur ist eine wichtige Komponente, um vielversprechende Talente mit digitaler DNA anzusprechen. Unsere Stammunternehmen wissen, wie man einen Great-Place-To-Work aufbaut und bringen zwei sehr starke Recruiting-Streams ein, um Dich zu unterstützen. Du profitierst von Know-how aus hunderten agilen Projekten sowie einem selbst entwickelten Lern- und Trainingsansatz - umgesetzt von Menschen, die ihre Inhalte täglich anwenden."
+               "text": "Talente mit digitaler DNA schätzen Freiraum und Vertrauen. Die Grundlage hierfür ist eine Arbeitsplatz-Kultur, die wir mit dir zusammen im Sinne eines Great Place to Work aufbauen. Unsere starken Recruiting-Teams unterstützen dich, neue Talente zu gewinnen. Du profitierst von Know-how aus hunderten agilen Projekten sowie einem selbst entwickelten Lern- und Trainingsansatz - umgesetzt von Menschen, die ihre Inhalte täglich anwenden."
             }
          }
       },
       "impact": {
-         "title": "Tech mit Positive Impact",
-         "text": "Es fällt nicht leicht, eine für uns perfekte Definition von \"Positive Impact\" zu finden. Doch eins steht außer Frage: Wir sind alle davon überzeugt, dass unser Investment von Leidenschaft, Know-how und Geld sinnvoll genutzt werden soll. Wir wollen mit unserem Engagement die Gesellschaft und die Umwelt so beeinflussen, dass eine intakte ökologische, soziale und wirtschaftliche Struktur erhalten bleibt. Wenn Du als Gründerin oder Gründer diese Vision teilst, begleite uns auf diesem Weg!",
-         "focusText": "Wir fokussieren uns dabei auf diese Bereiche",
+         "title": "Tech für eine<br/>lebenswerte Zukunft",
+         "text": "Mit leidenschaftlichem Engagement, Tech Know-how und Finanz-Investments wollen wir Gesellschaft und Umwelt sinnvoll positiv beeinflussen: Eine intakte ökologische, soziale und wirtschaftliche Struktur soll erhalten bleiben. Teilst du als Gründerin oder Gründer diese Vision, begleite uns auf diesem Weg!",
+         "focusText": "Unsere Schwerpunkte",
          "focus": {
             "health": "Verbessern der Gesundheitsversorgung",
             "climate": "Schützen unseres Klimas",
-            "ressource": "Schonen von Ressourcen",
+            "ressource": "Schonen der Ressourcen",
             "society": "Stärken einer gerechten Gesellschaft"
          }
       },
       "team": {
          "title": "Das Team hinter Twip!",
-         "subtitle": "Zu unserem Kernteam gehören Experten aus den Bereichen Entrepreneurship, Softwareentwicklung und Digital Design. Wir freuen uns, von dir zu hören!"
+         "subtitle": "Wir sind in Softwareentwicklung, Entrepreneurship und Digital Design zu Hause. Wir freuen uns, von dir zu hören!"
       },
       "experience": {
-         "title": "Unterstützt von mehr als 800 Digitalexperten",
-         "subtitle": "Das Twip Venture Studio ist ein Gemeinschaftsprojekt von QA|ware und MaibornWolff. Wir greifen auf ein umfangreiches Software-Engineering-Wissen zurück, das auf Hunderten von Projekten mit Firmen- und Startup-Kunden basiert.",
+         "title": "Digitale Power × 800",
+         "subtitle": "Hinter Twip Venture Studio stehen MaibornWolff und QAware -<br>mit 800 Digitalexpertinnen und -experten. Sie schöpfen aus ihrer Projekterfahrung mit zahlreichen Unternehmen und Startups.",
          "qaware": {
             "text": "Mit hochwertigem Software-Engineering die Zukunft gestalten.",
-            "cta": "Learn More"
+            "cta": "Erfahre mehr"
          },
          "maibornwolff": {
             "text": "Consulting, Coding und Testing in erfolgskritischen Kundenprojekten.",
-            "cta": "Learn More"
+            "cta": "Erfahre mehr"
          },
          "technologies": ["Cloud Native", "AI", "Cybersecurity", "Machine Learning", "IoT", "Microservices", "Mobile Apps", "Testing", "Web Applications", "AR / VR", "Digital Design", "DevOps", "Usability Engineering", "Enterprise Architecture", "Blockchain"]
       },
       "contact": {
          "title": "Du hast noch Fragen?",
-         "text": ["Schicke uns eine","Email","und folge uns auf","LinkedIn.","Wir freuen uns, dich kennenzulernen!"],
+         "text": ["Schicke uns eine","Email","und folge uns auf","LinkedIn","Wir freuen uns, dich kennenzulernen!"],
          "mailTemplate": "mailto:info@twip.de?subject=Hallo%20Twip"
       },
       "footer": {
