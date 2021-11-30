@@ -15,14 +15,24 @@ img[alt="Image"] {
 
 /* Navbar Item Abstand erhöhen */
 @media (min-width: 1200px) {
-    .navbar-nav > .nav-item {
+    .navbar-nav>.nav-item {
         padding: 0 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .impactFocus {
+        padding: 0;
     }
 }
 
 @media (min-width: 992px) {
     .section-title {
-      margin-bottom: 6rem; 
+        margin-bottom: 6rem;
+    }
+
+    .impactFocus {
+        margin: 0 110px;
     }
 }
 
@@ -34,12 +44,13 @@ img[alt="Image"] {
     box-shadow: rgb(0 0 0 / 15%) 0px 0px 250px;
 }
 
-.countingNumber > div > div {
-    background: rgba(255,255,255,0.15);
+.countingNumber>div>div {
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 5px;
-    color: rgba(0,0,0,0.8) !important;
+    color: rgba(0, 0, 0, 0.8) !important;
 }
-.countingNumber > div {
+
+.countingNumber>div {
     transform: scale(0.85);
 }
 
@@ -52,7 +63,8 @@ img[alt="Image"] {
     align-items: center;
     justify-content: center;
 }
-.companyLogo > img {
+
+.companyLogo>img {
     max-height: 100%;
     max-width: 95%;
 }
@@ -65,19 +77,28 @@ img[alt="Image"] {
 .assetDetails {
     text-align: center;
 }
-.assetDetails > p {
-    text-align: justify;
+
+.assetDetails>p {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .assetDetails>p {
+        text-align: left;
+    }
 }
 
 .text-darkblue {
     color: #084B8E;
 }
 
-a.text-darkblue:hover, a.text-darkblue:hover:focus {
+a.text-darkblue:hover,
+a.text-darkblue:hover:focus {
     color: #074481;
 }
 
-body,html {
+body,
+html {
     scroll-behavior: smooth;
 }
 
@@ -96,6 +117,7 @@ body,html {
 .twipee .icon {
     transform: scale(0.8);
 }
+
 .twipee img {
     box-shadow: 0 0 50px rgb(0 0 0 / 7%), 0 2px 5px rgb(0 0 0 / 25%);
     transform: translateY(0) scale(1);
@@ -125,6 +147,7 @@ body,html {
         z-index: -1;
     }
 }
+
 @media (max-width: 992px) {
     #claim {
         transform: perspective(328px) rotate3d(0, 1, 0.4, 353deg) skewX(348deg) skewY(1deg) rotate(358deg) translateY(-23px) translateX(-20px);
@@ -139,53 +162,59 @@ body,html {
 
 /* Bei hellblauem Hintergrund die Color leicht abdunkeln */
 .bg-primary-3 {
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 ::selection {
-    background: rgba(255, 218, 83, 0.5); /* WebKit/Blink Browsers */
-  }
+    background: rgba(255, 218, 83, 0.5);
+    /* WebKit/Blink Browsers */
+}
+
 ::-moz-selection {
-background: rgba(255, 218, 83, 0.5); /* Gecko Browsers */
+    background: rgba(255, 218, 83, 0.5);
+    /* Gecko Browsers */
 }
 
 a {
     color: #04294e;
 }
+
 a:hover {
     color: #001932;
 }
 
-.techPillBox > .badge {
+.techPillBox>.badge {
     font-size: 0.7rem;
     padding: 0.4rem 0.5rem;
     margin: 4px 4px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .btn-twip {
     background-color: unset;
-    border:unset;
+    border: unset;
     border-radius: 0;
     position: relative;
 }
 
-.btn-twip:hover, .btn-twip:active, .btn-twip:focus {
+.btn-twip:hover,
+.btn-twip:active,
+.btn-twip:focus {
     background-color: unset !important;
     border-color: unset !important;
     box-shadow: none !important;
 }
 
 
-.btn-twip > span {
-    transform: translate3d(0,0,10px);
+.btn-twip>span {
+    transform: translate3d(0, 0, 10px);
 }
 
 .btn-twip::before {
-    transform: translate(-30px,-12px) skewX(8deg) skewY(-5deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, 353deg) scale(1.15) translate3d(0,0,-10px);
+    transform: translate(-30px, -12px) skewX(8deg) skewY(-5deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, 353deg) scale(1.15) translate3d(0, 0, -10px);
     content: "";
     position: absolute;
-    left:24px;
+    left: 24px;
     top: 10px;
     width: 100%;
     height: 100%;
@@ -194,12 +223,13 @@ a:hover {
 }
 
 .btn-twip-alt::before {
-    transform: translate(-8px,-12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg) scale(1.15) translate3d(0,0,-10px);
+    transform: translate(-8px, -12px) skewX(0deg) skewY(358deg) rotate(3deg) perspective(100px) rotate3d(0.6, 1, 0, -351deg) scale(1.15) translate3d(0, 0, -10px);
 }
 
 .btn-twip:hover::before {
     background-color: #ffd22d;
 }
+
 .btn-twip:active::before {
     background-color: #ffcf20;
 }
@@ -208,20 +238,21 @@ a:hover {
     transform: scale(1.3);
 }
 
-#twipMainLogo g, #twipMainLogo path {
+#twipMainLogo g,
+#twipMainLogo path {
     transform-origin: 50% 50% 0;
 }
 
 #twipLogoContainer #yellowBg {
-    filter: drop-shadow(0 4px 2px rgba(0,0,0,0.3)) drop-shadow(0 0 45px rgba(0,0,0,0.1));
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.3)) drop-shadow(0 0 45px rgba(0, 0, 0, 0.1));
 }
 
 #twipLogoContainer #outline {
-    filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
 }
 
 #twipLogoContainer #font {
-    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -230,8 +261,9 @@ a:hover {
     width: 100%;
     position: relative;
 }
-#twipLogoContainer > img {
-    position:absolute;
-    top:0;
-    left:0;
+
+#twipLogoContainer>img {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

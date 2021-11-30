@@ -21,9 +21,9 @@
             "subtitle": "Schneller von der Idee zum Produkt.<br>Gemeinsam schaffen wir das perfekte Setup für dein Wachstum.",
             "startup": {
                "as": "ALS STARTUP",
-               "title": "Große Idee, aber kein Tech Know-how?",
+               "title": "Große Idee, zu wenig Tech Know-how?",
                "text": "Twip unterstützt dich, das richtige Produktteam zusammenzustellen und dein erstes MVP in kürzester Zeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen. Wir bieten dir die Möglichkeit, das Risiko zu teilen, indem auch wir in dich und dein Produkt investieren.",
-               "cta": "Let's have a coffee",
+               "cta": "Auf einen Kaffee?",
                "mailTemplate": "mailto:venture@twip.de?subject=Let's%20have%20a%20coffee&body=Hallo%20Twip,%0D%0A%0D%0Aich%20möchte%20euch%20gerne%20bei%20einem%2030%20Minuten%20(Remote-)Kaffee%20näher%20kennenlernen.%0D%0A%0D%0AMein%20Name:%0D%0APräferierte%20Zeiten:"
             },
             "corporate": {
@@ -49,13 +49,13 @@
       },
       "impact": {
          "title": "Tech für eine<br/>lebenswerte Zukunft",
-         "text": "Mit leidenschaftlichem Engagement, Tech Know-how und Finanz-Investments wollen wir Gesellschaft und Umwelt sinnvoll positiv beeinflussen: Eine intakte ökologische, soziale und wirtschaftliche Struktur soll erhalten bleiben. Teilst du als Gründerin oder Gründer diese Vision, begleite uns auf diesem Weg!",
+         "text": "Mit unserem Engagement wollen wir Gesellschaft und Umwelt sinnvoll positiv beeinflussen: Eine intakte ökologische, soziale und wirtschaftliche Struktur soll erhalten bleiben. Teilst du als Gründerin oder Gründer diese Vision, begleite uns auf diesem Weg!",
          "focusText": "Unsere Schwerpunkte",
          "focus": {
-            "health": "Verbessern der Gesundheitsversorgung",
-            "climate": "Schützen unseres Klimas",
-            "ressource": "Schonen der Ressourcen",
-            "society": "Stärken einer gerechten Gesellschaft"
+            "health": "Gesundheitsversorgung verbessern",
+            "climate": "Klima schützen",
+            "ressource": "Ressourcen schonen",
+            "society": "Gerechte Gesellschaft stärken"
          }
       },
       "team": {
