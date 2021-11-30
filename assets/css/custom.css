@@ -1,17 +1,3 @@
-/* 
-/* 
-/*  custom.css
-/*
-/*  If not using Gulp and Sass, add your custom CSS below then include it
-/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
-/*
-*/
-
-/*
-img[alt="Image"] {
-    filter: hue-rotate(237deg) brightness(2);
-}*/
-
 
 /* Navbar Item Abstand erhöhen */
 @media (min-width: 1200px) {
@@ -39,6 +25,32 @@ img[alt="Image"] {
         margin: 0 110px;
     }
 }
+
+.langSwitcher a:after {
+    width: 0;
+}
+.langSwitcher .icon {
+    height: 32px;
+    filter: grayscale(0.7);
+    transition: all 0.2s ease-in-out;
+}
+.langSwitcher:hover .icon {
+    filter: grayscale(0);
+}
+.langSwitcher .dropdown-item:hover {
+    color:rgba(0, 0, 0, 0.7);
+}
+.langSwitcher .dropdown-item.usedLang {
+    color: rgba(0,0,0,0.9);
+    background-color: rgba(255, 218, 83, 0.4);
+}
+@media (min-width: 992px) {
+    .langSwitcher {
+        position: absolute;
+        right: 0;
+    }
+}
+
 
 .navbar[data-sticky="top"] {
     transition: all 0.5s ease-in-out, box-shadow 2.5s ease-in-out;

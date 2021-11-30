@@ -1,6 +1,9 @@
 {
    "general": {
-      "showNavItems": true
+      "showNavItems": true,
+      "lang": {
+         "de": true
+      }
    },
    "sec": {
       "nav": {

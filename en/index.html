@@ -63,6 +63,18 @@
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
+                <ul class="navbar-nav langSwitcher">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                      <span class="d-lg-none pr-2">Language</span>
+                      <img class="icon mr-3" alt="Language Switcher Icon" src="/assets/img/icon_language.svg"/>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item usedLang" href="#">English</a>
+                        <a class="dropdown-item" href="javascript:sessionStorage.setItem('forceLang','de'); window.location = '/';">German</a>
+                    </div>
+                  </li>
+                </ul>
               </div>
           </div>
         </nav>
@@ -431,6 +443,9 @@
         </div>
     </section>
 
+
+
+
       <footer class="bg-primary-3 text-white links-white pb-4 footer-1" style="background: #04294e !important;">
         <div class="container">
           <div
@@ -466,11 +481,14 @@
         </a>
       <script type="text/javascript">
         var userLang = navigator.language || navigator.userLanguage;
-        if (userLang.toLowerCase().includes("de")) {
-          //window.location.href = "/en";
-          console.log("Redirect to Engl Site");
+        if (sessionStorage.getItem('forceLang') == "de") {
+          window.location.href = "/";
+        } else if (userLang.toLowerCase().includes("de") && sessionStorage.getItem('forceLang') != "en") {
+          window.location.href = "/";
         }
       </script>
+    
+
       <!-- Required vendor scripts (Do not remove) -->
       <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
       <script type="text/javascript" src="/assets/js/popper.min.js"></script>

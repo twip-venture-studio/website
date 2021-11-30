@@ -33,6 +33,24 @@
                 <a class="nav-link" href="#contact">{{sec.nav.contact}}</a>
               </li>
             </ul>
+            <ul class="navbar-nav langSwitcher">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                  <span class="d-lg-none pr-2">Language</span>
+                  <img class="icon mr-3" alt="Language Switcher Icon" src="/assets/img/icon_language.svg"/>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  {{#if general.lang.en}}
+                    <a class="dropdown-item usedLang" href="#">English</a>
+                    <a class="dropdown-item" href="javascript:sessionStorage.setItem('forceLang','de'); window.location = '/';">German</a>
+                  {{/if}}
+                  {{#if general.lang.de}}
+                    <a class="dropdown-item" href="javascript:sessionStorage.setItem('forceLang','en'); window.location = '/en';">English</a>
+                    <a class="dropdown-item usedLang" href="#">German</a>
+                  {{/if}}
+                </div>
+              </li>
+            </ul>
           </div>
         {{/if}}
       </div>

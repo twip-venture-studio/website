@@ -25,7 +25,7 @@ function build() {
 
     var website_de = gulp.src('./src/index.handlebars')
         .pipe(handlebars(text_de, options))
-        .pipe(rename('website.html'))
+        .pipe(rename('index.html'))
         .pipe(gulp.dest('./'));
 
     var legalPayload = {
@@ -58,7 +58,8 @@ function serve(done) {
     browserSync.init({
         server: {
             baseDir: './'
-        }
+        },
+        open: false
     });
     done();
 }

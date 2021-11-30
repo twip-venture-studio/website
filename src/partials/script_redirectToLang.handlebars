@@ -1,0 +1,21 @@
+{{#if general.lang.en}}
+  <script type="text/javascript">
+    var userLang = navigator.language || navigator.userLanguage;
+    if (sessionStorage.getItem('forceLang') == "de") {
+      window.location.href = "/";
+    } else if (userLang.toLowerCase().includes("de") && sessionStorage.getItem('forceLang') != "en") {
+      window.location.href = "/";
+    }
+  </script>
+{{/if}}
+
+{{#if general.lang.de}}
+  <script type="text/javascript">
+    var userLang = navigator.language || navigator.userLanguage;
+    if (sessionStorage.getItem('forceLang') == "en") {
+      window.location.href = "/en";
+    } else if (!userLang.toLowerCase().includes("de") && sessionStorage.getItem('forceLang') != "de") {
+      window.location.href = "/en";
+    }
+  </script>
+{{/if}}
