@@ -77,7 +77,7 @@
       },
       "contact": {
          "title": "Get in touch",
-         "text": ["Send us an","Email","or connect on","LinkedIn.","We're happy to get to know you!"],
+         "text": ["Send us an","Email","or connect on","LinkedIn","We're happy to get to know you!"],
          "mailTemplate": "mailto:info@twip.de?subject=Hello%20Twip"
       },
       "footer": {

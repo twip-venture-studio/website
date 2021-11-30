@@ -2,13 +2,13 @@ var gulp = require('gulp');
 var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
 var merge = require('merge-stream');
+var fs = require('fs');
 var browserSync = require('browser-sync').create();
 
-var text_en = require("./src/text_en.json");
-var text_de = require("./src/text_de.json");
- 
-gulp.task('default', () => {
-    
+function build() {
+    var text_en = JSON.parse(fs.readFileSync("./src/text_en.json"));
+    var text_de = JSON.parse(fs.readFileSync("./src/text_de.json"));
+
     var options = {
         batch : ['./src/partials'],
         helpers : {
@@ -47,4 +47,25 @@ gulp.task('default', () => {
         .pipe(gulp.dest('./'));
 
     return merge(website_en, website_de, imprint, dataprivacy);
-});
+};
+
+function reload(done) {
+    browserSync.reload();
+    done();
+}
+
+function serve(done) {
+    browserSync.init({
+        server: {
+            baseDir: './'
+        }
+    });
+    done();
+}
+
+const watch = () => {
+    gulp.watch(["./src/*", "./assets/*"], gulp.series(build, reload));
+}
+
+gulp.task('default', gulp.series(build, serve, watch));
+gulp.task('build', build);
