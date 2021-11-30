@@ -78,14 +78,14 @@
       "contact": {
          "title": "Du hast noch Fragen?",
          "text": ["Schicke uns eine","Email","und folge uns auf","LinkedIn.","Wir freuen uns, dich kennenzulernen!"],
-         "mailTemplate": "mailto:info@twip.de?subject=Kontaktanfrage Twip"
+         "mailTemplate": "mailto:info@twip.de?subject=Hallo%20Twip"
       },
       "footer": {
          "imprint": "Impressum",
          "dataprivacy": "Datenschutzerklärung"
       },
       "stickyMail": {
-         "mailTemplate": "mailto:info@twip.de?subject=Kontaktanfrage Twip"
+         "mailTemplate": "mailto:info@twip.de?subject=Hallo%20Twip"
       }
    }
 }
