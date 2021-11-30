@@ -466,8 +466,7 @@
         </a>
       <script type="text/javascript">
         var userLang = navigator.language || navigator.userLanguage;
-        if (!userLang.toLowerCase().includes("de")) {
-          //TODO
+        if (userLang.toLowerCase().includes("de")) {
           //window.location.href = "/en";
           console.log("Redirect to Engl Site");
         }

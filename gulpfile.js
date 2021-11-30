@@ -64,7 +64,7 @@ function serve(done) {
 }
 
 const watch = () => {
-    gulp.watch(["./src/*", "./assets/*"], gulp.series(build, reload));
+    gulp.watch(["./src/**", "./assets/**"], gulp.series(build, reload));
 }
 
 gulp.task('default', gulp.series(build, serve, watch));
