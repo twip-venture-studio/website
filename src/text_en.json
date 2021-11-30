@@ -24,7 +24,7 @@
                "title": "Great Idea, but a Lack of Tech Experience?",
                "text": "It's not easy to create a solid software foundation or to take the right decisions for scaling. Twip supports you in setting up the right product team and co-creating your software at maximum speed. We also offer you the option to share your risk by co-investing in your product.",
                "cta": "Let's have a coffee",
-               "mailTemplate": "mailto:venture@twip.de"
+               "mailTemplate": "mailto:venture@twip.de?subject=Let's%20have%20a%20coffee&body=Hello%20Twip,%0D%0A%0D%0AI%20would%20like%20to%20get%20to%20know%20you%20better%20over%20a%2030%20minute%20(remote)%20coffee.%0D%0A%0D%0AMy%20name:%0D%0ATime%20preference:"
             },
             "corporate": {
                "as": "AS A CORPORATE",

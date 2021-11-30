@@ -6,9 +6,8 @@ var browserSync = require('browser-sync').create();
 
 var text_en = require("./src/text_en.json");
 var text_de = require("./src/text_de.json");
- 
-gulp.task('default', () => {
-    
+
+function scripts() {
     var options = {
         batch : ['./src/partials'],
         helpers : {
@@ -47,4 +46,23 @@ gulp.task('default', () => {
         .pipe(gulp.dest('./'));
 
     return merge(website_en, website_de, imprint, dataprivacy);
-});
+};
+
+function reload(done) {
+    browserSync.reload();
+    done();
+  }
+  
+function serve(done) {
+    browserSync.init({
+        server: {
+            baseDir: './'
+        }
+    });
+    done();
+}
+
+const watch = () => gulp.watch(["src/*", "assets/*"], gulp.series(scripts, reload));
+
+const dev = gulp.series(scripts, serve, watch);
+export default dev;

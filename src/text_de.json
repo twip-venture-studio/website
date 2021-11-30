@@ -23,8 +23,8 @@
                "as": "ALS STARTUP",
                "title": "Große Idee, aber kein Tech-Knowhow?",
                "text": "Twip unterstützt dich, das richtige Produktteam zusammenzustellen und dein erstes MVP in kürzester Zeit zu entwickeln - eine solide Basis, um erste Kunden und Investoren zu überzeugen. Wir bieten dir die Möglichkeit, das Risiko zu teilen, indem auch wir in dich und dein Produkt investieren.",
-               "cta": "Melde dich bei uns",
-               "mailTemplate": "mailto:venture@twip.de"
+               "cta": "Let's have a coffee",
+               "mailTemplate": "mailto:venture@twip.de?subject=Let's%20have%20a%20coffee&body=Hallo%20Twip,%0D%0A%0D%0Aich%20möchte%20euch%20gerne%20bei%20einem%2030%20Minuten%20(Remote-)Kaffee%20näher%20kennenlernen.%0D%0A%0D%0AMein%20Name:%0D%0APräferierte%20Zeiten:"
             },
             "corporate": {
                "as": "ALS UNTERNEHMEN",
@@ -76,16 +76,16 @@
          "technologies": ["Cloud Native", "AI", "Cybersecurity", "Machine Learning", "IoT", "Microservices", "Mobile Apps", "Testing", "Web Applications", "AR / VR", "Digital Design", "DevOps", "Usability Engineering", "Enterprise Architecture", "Blockchain"]
       },
       "contact": {
-         "title": "Get in touch",
-         "text": ["Send us an","Email","or connect on","LinkedIn.","We're happy to get to know you!"],
-         "mailTemplate": "mailto:info@twip.de"
+         "title": "Du hast noch Fragen?",
+         "text": ["Schicke uns eine","Email","und folge uns auf","LinkedIn.","Wir freuen uns, dich kennenzulernen!"],
+         "mailTemplate": "mailto:info@twip.de?subject=Kontaktanfrage Twip"
       },
       "footer": {
          "imprint": "Impressum",
          "dataprivacy": "Datenschutzerklärung"
       },
       "stickyMail": {
-         "mailTemplate": "mailto:venture@twip.de?subject=Let&#39;s get connected!&body=Hey&nbsp;Twipees,%0D%0A%0D%0Awir&nbsp;sollten&nbsp;uns&nbsp;unbedingt&nbsp;kennenlernen!%0D%0AIch&nbsp;freue&nbsp;mich&nbsp;auf&nbsp;Lorem&nbsp;Ipsum..."
+         "mailTemplate": "mailto:info@twip.de?subject=Kontaktanfrage Twip"
       }
    }
 }

@@ -76,7 +76,7 @@
                         <h6>> {{sec.boost.offering.startup.as}}</h6>
                         <h3 class="h1">{{sec.boost.offering.startup.title}}</h3>
                         <p class="lead">{{sec.boost.offering.startup.text}}</p>
-                        <a href={{sec.boost.offering.startup.mailTemplate}} class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
+                        <a href="{{sec.boost.offering.startup.mailTemplate}}" class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
                             <span>{{sec.boost.offering.startup.cta}}</span>
                         </a>
                     </div>
@@ -91,7 +91,7 @@
                         <h6>> {{sec.boost.offering.corporate.as}}</h6>
                         <h2 class="h1">{{sec.boost.offering.corporate.title}}</h2>
                         <p class="lead">{{sec.boost.offering.corporate.text}}</p>
-                        <a href={{sec.boost.offering.corporate.mailTemplate}} class="btn-twip btn btn-primary flex-shrink-0">
+                        <a href="{{sec.boost.offering.corporate.mailTemplate}}" class="btn-twip btn btn-primary flex-shrink-0">
                             <span>{{sec.boost.offering.corporate.cta}}</span>
                         </a>
                     </div>
@@ -373,8 +373,9 @@
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
+                    <img src="/assets/img/icon_contact.svg" alt="Icon Product" class="mb-5" width="75px">
                     <h3 class="display-4">{{sec.contact.title}}</h3>
-                    <div class="lead">{{sec.contact.text.[0]}} <a href={{sec.contact.mailTemplate}}>{{sec.contact.text.[1]}}</a> {{sec.contact.text.[2]}} <a
+                    <div class="lead">{{sec.contact.text.[0]}} <a href="{{sec.contact.mailTemplate}}">{{sec.contact.text.[1]}}</a> {{sec.contact.text.[2]}} <a
                             href="https://www.linkedin.com/company/twip-venture-studio/"
                             target="_blank">{{sec.contact.text.[3]}}</a>.<br>{{sec.contact.text.[4]}}</div>
                 </div>
