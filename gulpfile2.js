@@ -65,4 +65,7 @@ function serve(done) {
 const watch = () => gulp.watch(["src/*", "assets/*"], gulp.series(scripts, reload));
 
 const dev = gulp.series(scripts, serve, watch);
-export default dev;
+
+
+
+gulp.task('default', ['dev']);
