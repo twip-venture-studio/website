@@ -36,9 +36,9 @@ function build() {
             footer: text_en.sec.footer
         }
     };
-    var imprint = gulp.src('./src/imprint.handlebars')
+    var legalnotice = gulp.src('./src/legalnotice.handlebars')
         .pipe(handlebars(legalPayload, options))
-        .pipe(rename('imprint.html'))
+        .pipe(rename('legalnotice.html'))
         .pipe(gulp.dest('./'));
 
     var dataprivacy = gulp.src('./src/dataprivacy.handlebars')
@@ -46,7 +46,7 @@ function build() {
         .pipe(rename('dataprivacy.html'))
         .pipe(gulp.dest('./'));
 
-    return merge(website_en, website_de, imprint, dataprivacy);
+    return merge(website_en, website_de, legalnotice, dataprivacy);
 };
 
 function reload(done) {

@@ -85,7 +85,7 @@
          "mailTemplate": "mailto:info@twip.de?subject=Hello%20Twip"
       },
       "footer": {
-         "imprint": "Imprint",
+         "imprint": "Legal Notice",
          "dataprivacy": "Data Privacy"
       },
       "stickyMail": {
