@@ -12,10 +12,13 @@
     }
 }
 
+
+
 @media (min-width: 992px) {
     .section-title {
         margin-bottom: 6rem;
     }
+
     .topSection {
         padding-top: 170px;
         padding-bottom: 80px;
@@ -170,6 +173,8 @@ html {
 @media (max-width: 992px) {
     #claim {
         transform: perspective(328px) rotate3d(0, 1, 0.4, 353deg) skewX(348deg) skewY(1deg) rotate(358deg) translateY(-23px) translateX(-20px);
+        margin-top: 50px;
+        margin-bottom: 75px;
     }
 }
 
