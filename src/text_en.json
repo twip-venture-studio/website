@@ -3,7 +3,8 @@
       "showNavItems": true,
       "lang": {
          "en": true
-      }
+      },
+      "indexFile": true
    },
    "sec": {
       "nav": {

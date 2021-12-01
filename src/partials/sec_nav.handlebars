@@ -1,10 +1,17 @@
   <div class="navbar-container">
     <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top" id="navbar">
       <div class="container">
-        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/"
-          style="height: 45px; transform: scale(1.4) translateX(15px);">
-          <img alt="Twip" data-inject-svg src="/assets/img/twipLogoFont.svg">
-        </a>
+        {{#if general.indexFile}}
+          <a class="navbar-brand navbar-brand-dynamic-color" href="#top"
+            style="height: 45px; transform: scale(1.4) translateX(15px);">
+            <img alt="Twip" data-inject-svg src="/assets/img/twipLogoFont.svg">
+          </a>
+        {{else}}
+          <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/"
+            style="height: 45px; transform: scale(1.4) translateX(15px);">
+            <img alt="Twip" data-inject-svg src="/assets/img/twipLogoFont.svg">
+          </a>
+        {{/if}}
         <div class="d-flex align-items-center order-lg-3">
           <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
             data-target=".navbar-collapse" data-toggle="collapse" type="button">
