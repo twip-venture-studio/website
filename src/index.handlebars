@@ -1,20 +1,35 @@
 <!doctype html>
-<html lang="de">
-<!--Todo-->
+{{#if general.lang.de}}
+    <html lang="de">
+{{/if}}
+{{#if general.lang.en}}
+    <html lang="en">
+{{/if}}
 
 <head>
     <meta charset="utf-8">
     <title>Twip! Venture Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Twip! Venture Studio">
+
+    {{#if general.lang.de}}
+        <meta name="description" content="Wir heben deine digitale Geschäftsidee auf das nächste Level: mit der Power unserer Produktteams, mit unserer ausgezeichneten Arbeitskultur und unserem Netzwerk.">
+    {{/if}}
+    {{#if general.lang.en}}
+        <meta name="description" content="With the power of our product teams, experience in workculture and network we take your digital business idea to the next level.">
+    {{/if}}
+
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
-    <!--Todo-->
-    <link rel="alternate" href="https://twip.de/en" hreflang="en" />
 
+    {{#if general.lang.de}}
+        <link rel="alternate" href="https://twip.de/en" hreflang="en" />
+    {{/if}}
+    {{#if general.lang.en}}
+        <link rel="alternate" href="https://twip.de" hreflang="de" />
+    {{/if}}
 
     <!-- Begin loading animation -->
     <link href="/assets/css/loaders/loader-pulse.css" rel="stylesheet" type="text/css" media="all" />
