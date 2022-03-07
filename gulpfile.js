@@ -4,6 +4,7 @@ var rename = require('gulp-rename');
 var merge = require('merge-stream');
 var fs = require('fs');
 var browserSync = require('browser-sync').create();
+const htmlmin = require('gulp-htmlmin');
 
 function build() {
     var text_en = JSON.parse(fs.readFileSync("./src/text_en.json"));
@@ -21,11 +22,13 @@ function build() {
     var website_en = gulp.src('./src/index.handlebars')
         .pipe(handlebars(text_en, options))
         .pipe(rename('index.html'))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./en'));
 
     var website_de = gulp.src('./src/index.handlebars')
         .pipe(handlebars(text_de, options))
         .pipe(rename('index.html'))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
 
     var legalPayload = {
@@ -39,11 +42,13 @@ function build() {
     var legalnotice = gulp.src('./src/legalnotice.handlebars')
         .pipe(handlebars(legalPayload, options))
         .pipe(rename('legalnotice.html'))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
 
     var dataprivacy = gulp.src('./src/dataprivacy.handlebars')
         .pipe(handlebars(legalPayload, options))
         .pipe(rename('dataprivacy.html'))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
 
     return merge(website_en, website_de, legalnotice, dataprivacy);
