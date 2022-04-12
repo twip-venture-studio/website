@@ -203,263 +203,86 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-sm-6 col-md-4 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <img src="/assets/img/bernd.jpg" alt="Bernd Schlüter profile image"
-                            class="avatar avatar-xl mb-3">
-                        <h5 class="mb-2">Bernd Schlüter</h5>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/bernd-schl%C3%BCter-10554668/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:bernd@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
+                {{#each sec.team.people}}
+                    <div class="col-sm-6 col-md-4 text-center mb-5">
+                        <div class="d-flex flex-column align-items-center twipee">
+                            <img src="/assets/img/{{this.img}}" alt="{{this.name}} profile image"
+                                class="avatar avatar-xl mb-3">
+                            <h5 class="mb-2">{{this.name}}</h5>
+                            <ul class="list-unstyled d-flex mb-0">
+                                <li class="mx-2">
+                                    <a href="{{this.linkedin}}" target="_blank"
+                                        class="hover-fade-out">
+                                        <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
+                                            data-inject-svg>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="mailto:{{this.email}}" class="hover-fade-out">
+                                        <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
+                                            data-inject-svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <img src="/assets/img/heiko.jpg" alt="Heiko Deppler profile image" class="avatar avatar-xl mb-3">
-                        <h5 class="mb-2">Heiko Deppler</h5>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/heiko-deppler-b9033b102/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:heiko@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <img src="/assets/img/katrin.jpg" alt="Katrin Kallweit profile image"
-                            class="avatar avatar-xl mb-3">
-                        <h5 class="mb-2">Katrin Kallweit</h5>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/dr-katrin-kallweit-97742611/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:katrin@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <img src="/assets/img/michi.jpg" alt="Mirembe Nkrumah profile image"
-                            class="avatar avatar-xl mb-3">
-                        <h5 class="mb-2">Michael Adersberger</h5>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/michael-adersberger-899b33180/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:michi@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <img src="/assets/img/nic.jpg" alt="Nicolas Olberg profile image" class="avatar avatar-xl mb-3">
-                        <h5 class="mb-2">Nicolas Olberg</h5>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/nicolas-olberg-15259387/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:nic@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <img src="/assets/img/volker.jpg" alt="Volker Maiborn profile image"
-                            class="avatar avatar-xl mb-3">
-                        <h5 class="mb-2">Volker Maiborn</h5>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/volker-maiborn-918192192/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:volker@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                {{/each}}
             </div>
         </div>
     </section>
 
 
-    <!-- STARTPARTNERS 
     <section id="partners" class="pb-3">
         <div class="container">
             <div class="row section-title justify-content-center text-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">Unsere Partner</h3>
-                    <div class="lead">Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet</div>
+                    <h3 class="display-4">{{sec.partners.title}}</h3>
+                    <div class="lead">{{sec.partners.subtitle}}</div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-6 col-sm-4 col-md-3 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <div style="background: rgba(0,0,0,0.3);" class="avatar avatar-lg mb-3">Head</div>
-                        <h5 class="mb-0">Peter Borchers</h5>
-                        <div class="mb-2">Lorem Ipsum</div>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/bernd-schl%C3%BCter-10554668/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:bernd@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/theme/general/attachment-1.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
+                {{#each sec.partners.people}}
+                    <div class="col-6 col-sm-4 col-md-3 text-center mb-5">
+                        <div class="d-flex flex-column align-items-center twipee">
+                            <img src="/assets/img/{{this.img}}" alt="Photo {{this.name}}" class="avatar mb-3" style="width: 8rem; height: 8rem; object-fit: cover; object-position: center top;"/>
+                            <h5 class="mb-0">{{this.name}}</h5>
+                            <div class="mb-2">{{this.title}}</div>
+                            <ul class="list-unstyled d-flex mb-0">
+                                {{#if this.linkedin}}
+                                    <li class="mx-2">
+                                        <a href="{{this.linkedin}}" target="_blank"
+                                            class="hover-fade-out">
+                                            <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
+                                                data-inject-svg>
+                                        </a>
+                                    </li>
+                                {{/if}}
+                                {{#if this.website}}
+                                    <li class="mx-2">
+                                        <a href="{{this.website}}" target="_blank" class="hover-fade-out">
+                                            <img src="/assets/img/icons/theme/general/attachment-1.svg" alt="Website" class="icon icon-sm"
+                                                data-inject-svg>
+                                        </a>
+                                    </li>
+                                {{/if}}
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <div style="background: rgba(0,0,0,0.3);" class="avatar avatar-lg mb-3">Head</div>
-                        <h5 class="mb-0">Detlev Hoch</h5>
-                        <div class="mb-2">Lorem Ipsum</div>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/heiko-deppler-b9033b102/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:heiko@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/theme/general/attachment-1.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 text-center mb-5">
-                    <div class="d-flex flex-column align-items-center twipee">
-                        <div style="background: rgba(0,0,0,0.3);" class="avatar avatar-lg mb-3">Head</div>
-                        <h5 class="mb-0">Aydo Schosswald</h5>
-                        <div class="mb-2">Lorem Ipsum</div>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="mx-2">
-                                <a href="https://www.linkedin.com/in/dr-katrin-kallweit-97742611/" target="_blank"
-                                    class="hover-fade-out">
-                                    <img src="/assets/img/icons/social/linkedin.svg" alt="Linkedin" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="mailto:katrin@twip.de" class="hover-fade-out">
-                                    <img src="/assets/img/icons/theme/general/attachment-1.svg" alt="Email" class="icon icon-sm"
-                                        data-inject-svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+                {{/each}}
             </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        Microsoft Logo
-                    </div>
-                </div>
 
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        Grubengold Logo
+            <div class="row d-flex justify-content-center align-items-center mt-4">
+                {{#each sec.partners.corporates}}
+                    <!-- Je nach Anzahl und Optik der Logos col-md-3 oder col-md-4 -->
+                    <div class="col-sm-4 col-md-3 mb-3 px-5 py-2 d-flex justify-content-center align-items-center">
+                        <a href="{{this.link}}" target="_blank" class="hover-fade-out">
+                            <img src="/assets/img/{{this.img}}" alt="{{this.name}} Logo" style="max-height: 60px; max-width: 220px; object-fit: contain; padding: 5px 10px; margin-top: 10px;"/>
+                        </a>
                     </div>
-                </div>
-
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        BatchOne Logo
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        BatchOne Logo
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        BatchOne Logo
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        BatchOne Logo
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center mb-3">
-                    <div style="background: rgba(0,0,0,0.2); min-height: 70px;">
-                        BatchOne Logo
-                    </div>
-                </div>
+                {{/each}}
             </div>
         </div>
     </section>
-     ENDPARTNERS -->
 
     <section id="experience" class="bg-primary-3 pt-0 text-black">
         <div class="divider divider-top transform-flip-x bg-white"></div>
@@ -477,7 +300,8 @@
                             <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
                                 <div class="flex-fill">
                                     <div class="mx-auto companyLogo">
-                                        <img src="/assets/img/maibornwolff_logo.png" alt="Logo MaibornWolff" />
+                                        <img src="/assets/img/maibornwolff_logo_new_bw.png" alt="Logo MaibornWolff"/>
+                                        <!--<img src="/assets/img/maibornwolff_logo_new.png" alt="Logo MaibornWolff" style="filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));"/>-->
                                     </div>
                                     <p class="lead text-center">{{sec.experience.maibornwolff.text}}</p>
                                 </div>

@@ -64,7 +64,86 @@
       },
       "team": {
          "title": "Das Team hinter Twip",
-         "subtitle": "Wir sind in Softwareentwicklung, Entrepreneurship und Digital Design zu Hause. Wir freuen uns, von dir zu hören!"
+         "subtitle": "Wir sind in Softwareentwicklung, Entrepreneurship und Digital Design zu Hause. Wir freuen uns, von dir zu hören!",
+         "people": [{
+            "name": "Bernd Schlüter",
+            "img": "bernd.jpg",
+            "linkedin": "https://www.linkedin.com/in/bernd-schl%C3%BCter-10554668/",
+            "email": "bernd@twip.de"
+         },{
+            "name": "Heiko Deppler",
+            "img": "heiko.jpg",
+            "linkedin": "https://www.linkedin.com/in/heiko-deppler-b9033b102/",
+            "email": "heiko@twip.de"
+         },{
+            "name": "Katrin Kallweit",
+            "img": "katrin.jpg",
+            "linkedin": "https://www.linkedin.com/in/dr-katrin-kallweit-97742611/",
+            "email": "katrin@twip.de"
+         },{
+            "name": "Michael Adersberger",
+            "img": "michi.jpg",
+            "linkedin": "https://www.linkedin.com/in/michael-adersberger-899b33180/",
+            "email": "michi@twip.de"
+         },{
+            "name": "Nicolas Olberg",
+            "img": "nic.jpg",
+            "linkedin": "https://www.linkedin.com/in/nicolas-olberg-15259387/",
+            "email": "nic@twip.de"
+         },{
+            "name": "Volker Maiborn",
+            "img": "volker.jpg",
+            "linkedin": "https://www.linkedin.com/in/volker-maiborn-918192192/",
+            "email": "volker@twip.de"
+         }]
+      },
+      "partners": {
+         "title": "Netzwerk & Partner",
+         "subtitle": "Uns ist es wichtig, zu jedem Zeitpunkt die nötige Unterstützung zu bieten. Unser Netzwerk ergänzt unser Team mit den passenden Skills.",
+         "people": [{
+            "name": "Peter Borchers",
+            "title": "Corporate Innovation Expert",
+            "img": "partner_peterborchers.jpeg",
+            "linkedin": "https://www.linkedin.com/in/borchers/",
+            "website": false
+         },{
+            "name": "Detlev Hoch",
+            "title": "Business Angel",
+            "img": "partner_detlevhoch.png",
+            "linkedin": false,
+            "website": "https://btov.vc/people/detlev-hoch/"
+         },{
+            "name": "Aydo Schosswald",
+            "title": "Innovation Strategy Expert",
+            "img": "partner_aydoschosswald.jpeg",
+            "linkedin": "https://www.linkedin.com/in/schosswald/",
+            "website": "https://schosswald.com"
+         }],
+         "corporates": [{
+            "name": "Microsoft",
+            "img": "partner_microsoft_logo.png",
+            "link": "https://microsoft.com"
+         },{
+            "name": "Impact Factory",
+            "img": "partner_impactFactory_logo.png",
+            "link": "http://impact-factory.de/"
+         },{
+            "name": "UnternehmerTUM Xpreneurs",
+            "img": "partner_xpreneurs_logo.png",
+            "link": "https://xpreneurs.io"
+         },{
+            "name": "Batch One",
+            "img": "partner_batchone_logo.png",
+            "link": "https://www.batchone.com"
+         },{
+            "name": "Stellwerk18",
+            "img": "partner_stellwerk18_logo.png",
+            "link": "https://www.stellwerk18.de"
+         },{
+            "name": "UnternehmerTUM Digital Product School",
+            "img": "partner_dps_logo.png",
+            "link": "https://digitalproductschool.io"
+         }]
       },
       "experience": {
          "title": "900 × Digitale Power",
