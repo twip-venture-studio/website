@@ -4,62 +4,61 @@
       "lang": {
          "en": true
       },
-      "indexFile": true
+      "indexFile": true,
+      "description": "With the power of our product teams, experience in workculture and network we take your digital business idea to the next level."
    },
    "sec": {
       "nav": {
-         "boost": "Boost",
+         "boost": "IT Invest",
          "impact": "Impact",
          "team": "Team",
          "experience": "Know-how",
          "contact": "Contact"
       },
       "top": {
-         "title": ["We", "Boost", "Digital", "Ideas"],
-         "subtitle": "With the power of our product teams, experience in workculture and network we take your digital business idea to the next level.",
-         "cta": "Find Out More"
+         "title": ["IT Power", "for", "Impact", "Startups"],
+         "subtitle": "We invest in your product for a better tomorrow.<br/>For people, planet and progress!",
+         "cta": "Find out more"
       },
       "boost": {
          "offering": {
             "title": "Get the Twip Boost",
-            "subtitle": "Move faster from idea to product.<br>Together we create the perfect setup for your growth.",
+            "subtitle": "We complement your software team<br/>to overcome your product's tech barriers.",
             "startup": {
-               "as": "AS A STARTUP",
-               "title": "Great Idea, but a Lack of Tech Experience?",
-               "text": "Twip assists you in forming the right product team and developing your first MVP in the shortest possible time - a solid basis to convince first customers and investors. We offer you the opportunity to share the risk by co-investing in you and your product.",
-               "cta": "Let's have a coffee",
+               "as": "WHY FOUNDERS WORK WITH US",
+               "title": "Overcoming<br/>Tech Barriers",
+               "textOLDtbd": "Let's be honest: You promised your investor a little bit more than your it team is capable of?<br/>No worries, we're there for you. We support you in transforming your early prototype into scalable software, taking the right architectural decisions and keeping your technical debts under control.",
+               "text": "Developing new ideas involves many risks. We want to eliminate at least one variable in this game. With our Twip investment we mitigate the tech risk and accelerate your product development. We increase software quality, have the know how of over 1000 experts in all fields of technology and ensure knowledge transfer and team building in your venture.",
+               "cta": "Let's have a coffee!",
                "mailTemplate": "mailto:venture@twip.de?subject=Let's%20have%20a%20coffee&body=Hello%20Twip,%0D%0A%0D%0AI%20would%20like%20to%20get%20to%20know%20you%20better%20over%20a%2030%20minute%20(remote)%20coffee.%0D%0A%0D%0AMy%20name:%0D%0ATime%20preference:"
-            },
-            "corporate": {
-               "as": "AS A CORPORATE",
-               "title": "Want to speed up your Digital Innovation?",
-               "text": "With hundreds of available digital experts in strategy, design and development we are your partner to accelerate your digital venture building. Our venture-as-a-service approach ensures working hand-in-hand with your idea owners on a shared vision.",
-               "cta": "Get to know us",
-               "mailTemplate": "mailto:info@twip.de?subject=Get%20to%20know%20Twip&body=Hello%20Twip,%0D%0A%0D%0AI%20would%20like%20to%20get%20to%20know%20you.%0D%0A%0D%0AMy%20name:%0D%0ATime%20preference:"
             }
          },
-         "valueProp": {
-            "title": "Kick Start Your Venture!",
-            "subtitle": "There are two things we are very good at: Building software and creating workplaces people enjoy working at - We love to share that!",
-            "product": {
-               "title": "Product & Tech",
-               "text": "We provide fully functional teams out of a pool of over 900 digital experts and tech lead candidates to complete your founders team temporarily. We are experienced in developing and designing business critical and scalable software. Our passion: identify, validate and implement the most promising features for your customers. Our goal: to make you and your venture self-sufficient and independent from Twip."
-            },
-            "team": {
-               "title": "Team & Culture",
-               "text": "Talents with digital DNA appreciate freedom and trust. The basis for this is a workplace culture that we are building together with you in the spirit of a Great Place to Work. Our strong recruiting teams support you in attracting new talent. You benefit from know-how from hundreds of agile projects as well as a self-developed learning and training approach - implemented by people who apply what they teach every day."
+         "useCases": [
+            {
+               "title": "Speed",
+               "text": "Transfering your prototype into scaleable software in no time"
+            },{
+               "title": "Quality",
+               "text": "Evaluating and reworking your current software architecture"
+            },{
+               "title": "Team",
+               "text": "Strengthen your software team with temporary technical experts"
             }
+         ],
+         "investment": {
+            "title": "Share the Risk",
+            "subtitle": "Not a VC nor a business angel. As an IT investor we provide you with dedicated capital assigned to support your software development."
          }
       },
       "impact": {
          "title": "Tech for Positive Impact",
-         "text": "With our engagement, we want to influence society and the environment in a positiv and purposeful way: An intact ecological, social and economic structure should be preserved. If you share this vision as a founder, join us on our journey!",
+         "text": "With our engagement, we want to influence people and planet in a positiv and purposeful way: An intact ecological, social and economic structure should be preserved. If you share this vision as a founder, join us on our journey!",
          "focusText": "Our Focus Areas",
          "focus": {
             "health": "Health Improvement",
             "climate": "Climate Protection",
-            "ressource": "Ressource Saving",
-            "society": "Society Empowerment"
+            "society": "Society Empowerment",
+            "ressource": "Ressource Saving"
          }
       },
       "team": {
@@ -104,7 +103,7 @@
       },
       "partners": {
          "title": "Network & Partners",
-         "subtitle": "It is important to us to provide the necessary support at any point in time. Our network complements our team with the appropriate skills.",
+         "subtitle": "It is important to us to provide the necessary support at any point in time. Our network complements our team with additional skills and expertise.",
          "people": [{
             "name": "Peter Borchers",
             "title": "Corporate Innovation Expert",
@@ -151,10 +150,10 @@
          }]
       },
       "experience": {
-         "title": "Powered by more than 900 Digital Experts",
-         "subtitle": "Twip Venture Studio is a joint effort of MaibornWolff and QAware. You benefit from their project experience with numerous corporate and startup customers.",
+         "title": "Powered by more than 1000 Software Experts",
+         "subtitle": "Twip is a joint effort of MaibornWolff and QAware. You benefit from our project experience with numerous corporate and startup customers.",
          "qaware": {
-            "text": "Shaping the digital future with high quality software engineering",
+            "text": "Shaping the digital future with high quality software engineering.",
             "cta": "Learn More"
          },
          "maibornwolff": {

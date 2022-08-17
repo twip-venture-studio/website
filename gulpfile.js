@@ -23,13 +23,15 @@ function build() {
         .pipe(handlebars(text_en, options))
         .pipe(rename('index.html'))
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
-        .pipe(gulp.dest('./en'));
+        .pipe(gulp.dest('./'));
 
+    /*
     var website_de = gulp.src('./src/index.handlebars')
         .pipe(handlebars(text_de, options))
         .pipe(rename('index.html'))
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
+    */
 
     var legalPayload = {
         general: {
@@ -51,7 +53,8 @@ function build() {
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
 
-    return merge(website_en, website_de, legalnotice, dataprivacy);
+    //return merge(website_en, website_de, legalnotice, dataprivacy);
+    return merge(website_en, legalnotice, dataprivacy);
 };
 
 function reload(done) {

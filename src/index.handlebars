@@ -11,12 +11,7 @@
     <title>Twip! Venture Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {{#if general.lang.de}}
-        <meta name="description" content="Wir heben deine digitale Geschäftsidee auf das nächste Level: mit der Power unserer Produktteams, mit unserer ausgezeichneten Arbeitskultur und unserem Netzwerk.">
-    {{/if}}
-    {{#if general.lang.en}}
-        <meta name="description" content="With the power of our product teams, experience in workculture and network we take your digital business idea to the next level.">
-    {{/if}}
+    <meta name="description" content="{{general.description}}">
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
@@ -24,19 +19,23 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
+    <!--
     {{#if general.lang.de}}
         <link rel="alternate" href="https://twip.de/en" hreflang="en" />
     {{/if}}
     {{#if general.lang.en}}
         <link rel="alternate" href="https://twip.de" hreflang="de" />
     {{/if}}
+    -->
 
     <!-- Begin loading animation -->
     <link href="/assets/css/loaders/loader-pulse.css" rel="stylesheet" type="text/css" media="all" />
     <!-- End loading animation -->
     <link href="/assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700&display=swap" rel="stylesheet">
+    <link href="/assets/fonts/poppinsLocal.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700&display=swap" rel="stylesheet">-->
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="275">
@@ -48,14 +47,17 @@
 
     <section class="o-hidden topSection">
         <div class="container">
-            <div
-                class="pb-5 row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left flex-lg-row-reverse">
-                <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0">
+            <div class="pb-5 row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left flex-lg-row-reverse">
+                <div class="col-md-9 col-lg-6 mb-4 mb-lg-0 pr-lg-5 pr-xl-0 pl-lg-5">
                     <div data-aos="fade-in" data-aos-delay="250">
-                        <h1 id="claim" class="display-3">{{sec.top.title.[0]}} <mark data-aos="highlight-text"
-                                data-aos-delay="500">{{sec.top.title.[1]}}</mark><br />{{sec.top.title.[2]}}
-                            <mark data-aos="highlight-text" data-aos-delay="750">{{sec.top.title.[3]}}.</mark></h1>
-                        <p class="lead">{{sec.top.subtitle}}</p>
+                        <h1 id="claim" class="display-4">
+                            <mark data-aos="highlight-text" data-aos-delay="500">{{sec.top.title.[0]}}</mark>
+                            {{sec.top.title.[1]}}<br />
+                            {{sec.top.title.[2]}}
+                            <mark data-aos="highlight-text" data-aos-delay="950">{{sec.top.title.[3]}}</mark>.
+                            
+                        </h1>
+                        <p class="lead">{{{sec.top.subtitle}}}</p>
                         <div class="mt-5">
                             <a href="#boost" class="scroll btn-twip btn btn-primary flex-shrink-0">
                                 <span>{{sec.top.cta}}</span>
@@ -63,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-lg-6" data-aos="fade-left">
+                <div class="col-md-9 col-lg-6" data-aos="fade-left" style="transform: translateX(-15px);">
                     <div id="twipLogoContainer" class="d-none d-lg-block">
                         <!-- <img id="whiteBg" width="100%" src="/assets/img/twipLogo_whiteBg.png" alt="whiteBg"/> -->
                         <img id="yellowBg" width="100%" src="/assets/img/twipLogo_yellowBg.png" alt="yellowBg" />
@@ -77,9 +79,9 @@
     <section id="boost" class="pb-0 pt-0">
         <div class="divider divider-bottom bg-primary-3 mt-5"></div>
     </section>
-    <section class="pt-5 bg-primary-3 text-black">
+    <section class="pt-5 pb-5 bg-primary-3 text-black">
         <div class="container">
-            <div class="row section-title justify-content-center text-center">
+            <div class="row section-title justify-content-center text-center mb-2">
                 <div class="col-md-10 col-lg-9 col-xl-8">
                     <h3 class="display-4">{{sec.boost.offering.title}}</h3>
                     <div class="lead">{{{sec.boost.offering.subtitle}}}</div>
@@ -89,17 +91,30 @@
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
                     <div>
                         <h6>> {{sec.boost.offering.startup.as}}</h6>
-                        <h3 class="h1">{{{sec.boost.offering.startup.title}}}</h3>
-                        <p class="lead">{{sec.boost.offering.startup.text}}</p>
-                        <a href="{{sec.boost.offering.startup.mailTemplate}}" class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
+                        <!--<h3 class="h1">{{{sec.boost.offering.startup.title}}}</h3>-->
+                        <p class="lead">{{{sec.boost.offering.startup.text}}}</p>
+                        <!--<a href="{{sec.boost.offering.startup.mailTemplate}}" class="btn-twip btn-twip-alt btn btn-primary flex-shrink-0">
                             <span>{{sec.boost.offering.startup.cta}}</span>
-                        </a>
+                        </a>-->
                     </div>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-5 p-4">
-                    <img src="/assets/img/illustration_startup.png" alt="Startup Illustration" class="img-fluid">
+                    <img src="/assets/img/illustration_corporate.png" alt="Startup Illustration" class="img-fluid">
                 </div>
             </div>
+            <div class="row justify-content-center mt-3">
+                {{#each sec.boost.useCases}}
+                    <div class="col-md-4 mb-3 mb-md-4">
+                        <div class="card card-body bg-white min-vh-md-15 shadow">
+                            <div class="flex-fill">
+                                <h4 class="h3">{{this.title}}</h4>
+                                <p class="mb-0">{{this.text}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+            <!--
             <div class="row align-items-center justify-content-around text-center text-lg-left pt-5">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
                     <div>
@@ -115,33 +130,24 @@
                     <img src="/assets/img/illustration_corporate.png" alt="Illustration Corporate" class="img-fluid">
                 </div>
             </div>
+            -->
         </div>
     </section>
 
-    <section class="pb-5">
+    <section class="pb-10">
         <div class="container">
-            <div class="row section-title justify-content-center text-center">
+            <div class="row section-title justify-content-center text-center mb-5">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="display-4">{{sec.boost.valueProp.title}}</h3>
-                    <div class="lead">{{{sec.boost.valueProp.subtitle}}}</div>
+                    <h3 class="display-4">{{sec.boost.investment.title}}</h3>
+                    <div class="lead">{{{sec.boost.investment.subtitle}}}</div>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-6 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="100">
-                    <div class="mx-xl-4 assetDetails">
-                        <img src="/assets/img/icon_product.svg" alt="Icon Product" class="mb-4" width="75px">
-                        <h5>{{sec.boost.valueProp.product.title}}</h5>
-                        <p class="lead">{{sec.boost.valueProp.product.text}}</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="200">
-                    <div class="mx-xl-4 assetDetails">
-                        <img src="/assets/img/icon_team.svg" alt="Icon Team" class="mb-4" width="75px">
-                        <h5>{{sec.boost.valueProp.team.title}}</h5>
-                        <p class="lead">{{sec.boost.valueProp.team.text}}</p>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img src="/assets/img/TwipProcess.png" alt="Twip Process" class="img-fluid">
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -179,14 +185,14 @@
                     </div>
                     <div class="p-2 text-dark col-md-6">
                         <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
-                            <img class="icon mr-3" alt="Ressource Icon" width="24px" height="24px" data-inject-svg src="/assets/img/icon_ressources.svg"/>
-                            <h5 class="mb-0">{{sec.impact.focus.ressource}}</h5>
+                            <img class="icon mr-3" alt="Society Icon" width="24px" height="24px" data-inject-svg src="/assets/img/icon_society.svg"/>
+                            <h5 class="mb-0">{{sec.impact.focus.society}}</h5>
                         </div>
                     </div>
                     <div class="p-2 text-dark col-md-6">
                         <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
-                            <img class="icon mr-3" alt="Society Icon" width="24px" height="24px" data-inject-svg src="/assets/img/icon_society.svg"/>
-                            <h5 class="mb-0">{{sec.impact.focus.society}}</h5>
+                            <img class="icon mr-3" alt="Ressource Icon" width="24px" height="24px" data-inject-svg src="/assets/img/icon_ressources.svg"/>
+                            <h5 class="mb-0">{{sec.impact.focus.ressource}}</h5>
                         </div>
                     </div>
                 </div>
@@ -210,6 +216,7 @@
                                 class="avatar avatar-xl mb-3">
                             <h5 class="mb-2">{{this.name}}</h5>
                             <ul class="list-unstyled d-flex mb-0">
+                                {{#if this.linkedin}}
                                 <li class="mx-2">
                                     <a href="{{this.linkedin}}" target="_blank"
                                         class="hover-fade-out">
@@ -217,16 +224,20 @@
                                             data-inject-svg>
                                     </a>
                                 </li>
+                                {{/if}}
+                                {{#if this.email}}
                                 <li class="mx-2">
                                     <a href="mailto:{{this.email}}" class="hover-fade-out">
                                         <img src="/assets/img/icons/interface/icon-mail.svg" alt="Email" class="icon icon-sm"
                                             data-inject-svg>
                                     </a>
                                 </li>
+                                {{/if}}
                             </ul>
                         </div>
                     </div>
                 {{/each}}
+                <div class="col-12 text-center">...and more than 1000 Software Experts!</div>
             </div>
         </div>
     </section>
@@ -354,7 +365,9 @@
     {{> sec_stickyScrollTop}}
     {{> sec_stickyMail}}
 
+    <!--
     {{> script_redirectToLang}}
+    -->
 
     {{> script_externalLibs}}
 
