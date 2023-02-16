@@ -53,8 +53,14 @@ function build() {
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
 
+    var droppitchdeck = gulp.src('./src/droppitchdeck.handlebars')
+        .pipe(handlebars(legalPayload, options))
+        .pipe(rename('droppitchdeck.html'))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
+        .pipe(gulp.dest('./'));
+
     //return merge(website_en, website_de, legalnotice, dataprivacy);
-    return merge(website_en, legalnotice, dataprivacy);
+    return merge(website_en, legalnotice, dataprivacy, droppitchdeck);
 };
 
 function reload(done) {
