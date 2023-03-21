@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-<html class="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01'] js-focus-visible" lang="en" data-js-focus-visible="">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <!-- TODO --> <title>Twip Impact Ventures</title>
-        <!-- TODO --> <meta name="description" content="With the power of our product teams, experience in workculture and network we take your digital business idea to the next level.">
-        <!-- TODO Favicons -->
-        <link href="/assets/fonts/figtreeFont.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/main.css" rel="stylesheet" type="text/css" media="all" />
-    </head>
-    <body>
-        <h1 class="bg-red-400">Hello World2!</h1>
-    </body>
-</html>
+<html class="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01'] js-focus-visible" lang="en"
+    data-js-focus-visible="">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- TODO -->
+    <title>Twip Impact Ventures</title>
+    <!-- TODO -->
+    <meta name="description"
+        content="With the power of our product teams, experience in workculture and network we take your digital business idea to the next level.">
+    <!-- TODO Favicons -->
+    <link href="/assets/fonts/figtreeFont.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/main.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body class="flex h-full flex-col">
+    <div>
+        <a class="h-16 w-16 p-4 bg-tertiary rounded-full fixed right-8 bottom-8 z-50 shadow shadow-tertiary/40 transition transition-200 ease-linear hover:scale-105 hover:brightness-90 hover:shadow-hover hover:shadow-tertiary/60" href="#">
+            <svg class="stroke-secondary" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29 9V23C29 24.6569 27.6569 26 26 26H6C4.34315 26 3 24.6569 3 23V9M29 9C29 7.34315 27.6569 6 26 6H6C4.34315 6 3 7.34315 3 9M29 9V9.32361C29 10.3654 28.4595 11.3326 27.5723 11.8786L17.5723 18.0324C16.6081 18.6258 15.3919 18.6258 14.4277 18.0324L4.42771 11.8786C3.54047 11.3326 3 10.3654 3 9.32361V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </div>
+    <div>
+        {{> sec_nav}}
+        <main>
+            {{> sec_hero}}
+            {{> sec_mission}}
+            {{> sec_investment}}
+            {{> sec_process}}
+            {{> sec_cases}}
+            {{> sec_team}}
+        </main>
+        {{> sec_footer}}
+    </div>
+</body>
+
+</html>

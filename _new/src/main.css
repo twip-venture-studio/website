@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Shadow on Navbar when scrolled*/
+html header {
+    transition: box-shadow 2s ease-in-out;
+}
+html:not([data-scroll="0"]) header {
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 250px;
+}
+
+/* Navbar opened */
+
+@layer base {
+    header.opened {
+        @apply bg-secondary fixed top-0 left-0 right-0 bottom-0;
+    }
+    header.opened a[aria-label="Home"] {
+        @apply hidden;
+    }
+}
+
