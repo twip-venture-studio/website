@@ -75,4 +75,24 @@
     }
     document.addEventListener('scroll', debounce(storeScroll), { passive: true });
     storeScroll();
+
+    //highlight current nav element
+    window.addEventListener("scroll", navHighlighter);
+    function navHighlighter() {
+        let sections = document.querySelectorAll("section:has(span.sectionMarker)");
+        let scrollY = window.pageYOffset;
+        sections.forEach(current => {
+            const sectionHeight = current.offsetHeight;
+            const sectionTop = current.offsetTop - 120;
+            sectionId = current.querySelector("span.sectionMarker").getAttribute("id");
+            if (
+                scrollY > sectionTop &&
+                scrollY <= sectionTop + sectionHeight
+            ){
+                document.querySelector("#menuItems a[href*=" + sectionId + "]").classList.add("active");
+            } else {
+                document.querySelector("#menuItems a[href*=" + sectionId + "]").classList.remove("active");
+            }
+        });
+    }
 </script>

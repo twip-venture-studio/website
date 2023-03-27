@@ -9,7 +9,7 @@ module.exports = {
       xl: '1440px',
     },
     fontFamily: {
-      'sans': ['Figtree','Helvetica', 'Arial', 'sans-serif']
+      'sans': ['Manrope','Helvetica', 'Arial', 'sans-serif']
     },
     colors: {
       "primary": "#51cfa2",
