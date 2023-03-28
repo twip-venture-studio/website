@@ -992,8 +992,14 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.pb-0 {
+  padding-bottom: 0px;
+}
 .pb-16 {
   padding-bottom: 4rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .pb-28 {
   padding-bottom: 7rem;
@@ -1019,6 +1025,9 @@ video {
 .pr-4 {
   padding-right: 1rem;
 }
+.pt-0 {
+  padding-top: 0px;
+}
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1027,6 +1036,9 @@ video {
 }
 .pt-3 {
   padding-top: 0.75rem;
+}
+.pt-4 {
+  padding-top: 1rem;
 }
 .text-left {
   text-align: left;
@@ -1427,6 +1439,10 @@ input:checked ~ label > .faqArrow > div {
 
   .md\:text-base {
     font-size: 1rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.25rem;
   }
 
   .md\:text-xl {
