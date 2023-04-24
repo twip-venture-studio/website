@@ -1,81 +1,54 @@
-<!doctype html>
-<html lang="de"><!--Todo-->
-  <head>
-    <meta charset="utf-8">
-    <title>Twip! Impact Ventures</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Twip! Impact Ventures">
+<!DOCTYPE html>
+<html class="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01'] js-focus-visible" lang="en"
+    data-js-focus-visible="">
+<head>
+    {{> par_header}}
+</head>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
-    <!--Todo-->
-    <link rel="alternate" href="https://twip.de/en" hreflang="en"/>
+<body class="flex h-full flex-col overflow-x-hidden">
+    <div>
+        {{> sec_nav minimalVer=true}}
+        <main>
+            <section class="relative overflow-hidden md:overflow-visible z-10 bg-gray-ultra-light pt-10 md:pt-20 pb-16 md:pb-32">
+                <div class="mx-auto max-w-1080 px-4 relative">
+                    <h1 class="font-extrabold text-2xl md:text-3.5xl">Impressum</h1>
 
-    
-    <!-- Begin loading animation -->
-    <link href="/assets/css/loaders/loader-pulse.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- End loading animation -->
-    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700&display=swap" rel="stylesheet">
-  </head>
-
-  <body data-spy="scroll" data-target="#navbar" data-offset="275" style="min-height:100vh;display:flex;flex-direction:column;">
-    <div class="loader">
-      <div class="loading-animation"></div>
+                    <h2 class="font-extrabold text-lg md:text-xl pt-4 pb-2">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+                    <p class="pb-2">TWIP Venture Studio GmbH &amp; Co. KG<br />
+                    Aschauer Str. 32<br />
+                    81549 M&uuml;nchen</p>
+                    
+                    <p class="pb-2">Handelsregister: HRA 115112<br />
+                    Registergericht: Amtsgericht M&uuml;nchen</p>
+                    
+                    <p class="pb-2">Vertreten durch:<br />
+                    Twip Management GmbH<br/>
+                    Aschauer Str. 32<br />
+                    81549 M&uuml;nchen</p>
+                    
+                    <p class="pb-2">Diese vertreten durch:<br />
+                    Nicolas Olberg<br />
+                    Bernd Schl&uuml;ter</p>
+                    
+                    <p class="pb-2">Handelsregister: HRB 270774<br />
+                    Registergericht: Amtsgericht M&uuml;nchen</p>
+                    
+                    <h2 class="font-extrabold text-lg md:text-xl pt-4 pb-2">Kontakt</h2>
+                    <p class="pb-2">Telefon: +49 89 232315-0<br />
+                    E-Mail: hello@twip.de</p>
+                    
+                    <h2 class="font-extrabold text-lg md:text-xl pt-4 pb-2">Umsatzsteuer-ID</h2>
+                    <p class="pb-2">Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
+                    DE349736546</p>
+                    
+                    <h2 class="font-extrabold text-lg md:text-xl pt-4 pb-2">Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+                    <p class="pb-2">Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+                </div>
+            </section>
+        </main>
+        {{> sec_footer}}
     </div>
-    {{> sec_nav}}
-
-    <section class="pb-0" style="flex:1">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1>Impressum</h1>
-
-            <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-            <p>TWIP Venture Studio GmbH &amp; Co. KG<br />
-            Aschauer Str. 32<br />
-            81549 M&uuml;nchen</p>
-            
-            <p>Handelsregister: HRA 115112<br />
-            Registergericht: Amtsgericht M&uuml;nchen</p>
-            
-            <p><strong>Vertreten durch:</strong><br />
-            TWIP Management GmbH<br/>
-            Aschauer Str. 32<br />
-            81549 M&uuml;nchen</p>
-            
-            <p>Diese vertreten durch:<br />
-            Nicolas Olberg<br />
-            Bernd Schl&uuml;ter</p>
-            
-            <p>Handelsregister: HRB 270774<br />
-            Registergericht: Amtsgericht M&uuml;nchen</p>
-            
-            <h2>Kontakt</h2>
-            <p>Telefon: +49 89 232315-0<br />
-            E-Mail: venture@twip.de</p>
-            
-            <h2>Umsatzsteuer-ID</h2>
-            <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
-            DE349736546</p>
-            
-            <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
-            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {{> sec_footer}}
-
-    {{> sec_stickyScrollTop}}
-
-    {{> script_externalLibs}}
-
     {{> script_analytics}}
-  </body>
+</body>
 
 </html>
