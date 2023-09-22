@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var indexInput = require('./indexInput.json');
 var postcss = require('gulp-postcss');
 var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
@@ -8,7 +9,6 @@ var browserSync = require('browser-sync').create();
 const htmlmin = require('gulp-htmlmin');
 
 function build() {
-    var indexInput = {};
 
     var options = {
         batch : ['./src/partials'],

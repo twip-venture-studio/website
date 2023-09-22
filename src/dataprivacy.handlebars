@@ -7,6 +7,7 @@
 </head>
 
 <body class="flex h-full flex-col overflow-x-hidden">
+    {{> script_analytics}}
     <div>
         {{> sec_nav minimalVer=true}}
         <main>
@@ -220,137 +221,16 @@
                             rel="noopener noreferrer">https://developers.google.com/fonts/faq</a> und in der
                         Datenschutzerkl&auml;rung von Google: <a href="https://policies.google.com/privacy?hl=de"
                             target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>.</p>
-                    <h3 class="font-extrabold text-base md:text-lg pt-4 pb-2">Google Analytics</h3>
-                    <p class="pb-2">Wir verwenden Google Analytics, um die Website-Nutzung zu analysieren. Die daraus
-                        gewonnenen Daten werden genutzt, um unsere Website sowie Werbemaßnahmen zu optimieren.</p>
-                    <p class="pb-2">Google Analytics ist ein Webanalysedienst, der von Google Inc. (1600 Amphitheatre
-                        Parkway, Mountain View, CA 94043, United States) betrieben und bereitgestellt wird. Google
-                        verarbeitet die Daten zur Website-Nutzung in unserem Auftrag und verpflichtet sich vertraglich
-                        zu Maßnahmen, um die Vertraulichkeit der verarbeiteten Daten zu gewährleisten.</p>
-                    <p class="pb-2">Während Ihres Website-Besuchs werden u.a. folgende Daten aufgezeichnet:</p>
-                    <ul>
-                        <li>Aufgerufene Seiten</li>
-                        <li>Die Erreichung von "Website-Zielen" (z.B. Kontaktanfragen und Newsletter-Anmeldungen)</li>
-                        <li>Ihr Verhalten auf den Seiten (beispielsweise Klicks, Scroll-Verhalten und Verweildauer)</li>
-                        <li>Ihr ungefährer Standort (Land und Stadt)</li>
-                        <li>Ihre IP-Adresse (in gekürzter Form, sodass keine eindeutige Zuordnung möglich ist)</li>
-                        <li>Technische Informationen wie Browser, Internetanbieter, Endgerät und Bildschirmauflösung
-                        </li>
-                        <li>Herkunftsquelle Ihres Besuchs (d.h. über welche Website bzw. über welches Werbemittel Sie zu
-                            uns gekommen sind)</li>
-                    </ul>
-                    <p class="pb-2">Diese Daten werden an einen Server von Google in den USA übertragen.</p>
-                    <p class="pb-2">Google Analytics speichert Cookies in Ihrem Webbrowser für die Dauer von zwei Jahren
-                        seit Ihrem letzten Besuch. Diese Cookies enthaltene eine zufallsgenerierte User-ID, mit der Sie
-                        bei zukünftigen Website-Besuchen wiedererkannt werden können.</p>
-                    <p class="pb-2">Die aufgezeichneten Daten werden zusammen mit der zufallsgenerierten User-ID
-                        gespeichert, was die Auswertung pseudonymer Nutzerprofile ermöglicht. Diese nutzerbezogenen
-                        Daten werden automatisch nach 14 Monaten gelöscht. Sonstige Daten bleiben in aggregierter Form
-                        unbefristet gespeichert.</p>
-                    <p class="pb-2">Wir haben auf dieser Webseite die IP-Adressen-Anonymisierung von Google Analytics
-                        implementiert.&nbsp;Diese Funktion wurde von Google entwickelt, damit diese Webseite die
-                        geltenden Datenschutzbestimmungen und Empfehlungen der lokalen Datenschutzbehörden einhalten
-                        kann, wenn diese eine Speicherung der vollständigen IP-Adresse untersagen. Die Anonymisierung
-                        bzw. Maskierung der IP findet statt, sobald die IP-Adressen im Google
-                        Analytics-Datenerfassungsnetzwerk eintreffen und bevor eine Speicherung oder Verarbeitung der
-                        Daten stattfindet.</p>
-                    <p class="pb-2">Wir haben in Google Analytics die Funktionen für Werbeberichte eingeschaltet. Die Berichte zu
-                        demografischen Merkmalen und Interessen enthalten Angaben zu Alter, Geschlecht und Interessen.
-                        Damit können wir uns – ohne diese Daten einzelnen Personen zuordnen zu können – ein besseres
-                        Bild von unseren Nutzern machen. Mehr über die Werbefunktionen erfahren Sie <a
-                            href="https://support.google.com/analytics/answer/3450482?hl=de_AT&amp;utm_id=ad"
-                            target="_blank"
-                            rel="noopener">auf&nbsp;https://support.google.com/analytics/answer/3450482?hl=de_AT&amp;utm_id=ad</a>.
-                    </p>
-                    <p class="pb-2">Sie können die Nutzung der Aktivitäten und Informationen Ihres Google Kontos unter “Einstellungen
-                        für Werbung” auf <a
-                            href="https://adssettings.google.com/authenticated">https://adssettings.google.com/authenticated</a>
-                        per Checkbox beenden.</p>
-                    <p class="pb-2">Wir haben mit Google einen Direktkundenvertrag zur Verwendung von Google Analytics abgeschlossen,
-                        indem wir den “Zusatz zur Datenverarbeitung” in Google Analytics akzeptiert haben.</p>
-                    <p class="pb-2">Sollten Sie mit der Erfassung nicht einverstanden sein, können Sie diese mit der
-                        einmaligen Installation des <a href="https://tools.google.com/dlpage/gaoptout?hl=de"
-                            target="_blank" rel="noopener noreferrer">Browser-Add-ons zur Deaktivierung von Google
-                            Analytics</a> unterbinden oder durch das Ablehnen der Cookies über unseren Cookie
-                        Einstellungs Dialog.</p>
-                    <h3 class="font-extrabold text-base md:text-lg pt-4 pb-2">Google Tag Manager Datenschutzerklärung</h3>
-                    <p class="pb-2">Für unsere Webseite verwenden wir den Google Tag Manager des Unternehmens Google Inc. (1600
-                        Amphitheatre Parkway Mountain View, CA 94043, USA). Dieser Tag Manager ist eines von vielen
-                        hilfreichen Marketing-Produkten von Google. Über den Google Tag Manager können wir
-                        Code-Abschnitte von diversen Trackingtools, die wir auf unserer Webseite verwenden, zentral
-                        einbauen und verwalten.</p>
-                    <p class="pb-2">In dieser Datenschutzerklärung wollen wir Ihnen genauer erklären was der Google Tag Manager
-                        macht, warum wir ihn verwenden und in welcher Form Daten verarbeitet werden.</p>
-                    <h3 class="pb-2 font-extrabold">Was ist der Google Tag Manager?</h3>
-                    <p class="pb-2">Der Google Tag Manager ist ein Organisationstool, mit dem wir Webseiten-Tags zentral und über
-                        eine Benutzeroberfläche einbinden und verwalten können. Als Tags bezeichnet man kleine
-                        Code-Abschnitte, die beispielsweise Ihre Aktivitäten auf unserer Webseite aufzeichnen (tracken).
-                        Dafür werden JavaScript-Code-Abschnitte in den Quelltext unserer Seite eingesetzt. Die Tags
-                        stammen oft von google-internen Produkten wie Google Ads oder Google Analytics, aber auch Tags
-                        von anderen Unternehmen können über den Manager eingebunden und verwaltet werden. Solche Tags
-                        übernehmen unterschiedliche Aufgaben. Sie können Browserdaten sammeln, Marketingtools mit Daten
-                        füttern, Buttons einbinden, Cookies setzen und auch Nutzer über mehrere Webseiten hinweg
-                        verfolgen.</p>
-                    <h3 class="pb-2 font-extrabold">Warum verwenden wir den Google Tag Manager für unserer Webseite?</h3>
-                    <p class="pb-2">Wie sagt man so schön: Organisation ist die halbe Miete! Und das betrifft natürlich auch die
-                        Pflege unserer Webseite. Um unsere Webseite für Sie und alle Menschen, die sich für unsere
-                        Produkte und Dienstleistungen interessieren, so gut wie möglich zu gestalten, brauchen wir
-                        diverse Trackingtools wie beispielsweise Google Analytics. Die erhobenen Daten dieser Tools
-                        zeigen uns, was Sie am meisten interessiert, wo wir unsere Leistungen verbessern können und
-                        welchen Menschen wir unsere Angebote noch zeigen sollten. Und damit dieses Tracking
-                        funktioniert, müssen wir entsprechende JavaScript-Codes in unsere Webseite einbinden.
-                        Grundsätzlich könnten wir jeden Code-Abschnitt der einzelnen Tracking-Tools separat in unseren
-                        Quelltext einbauen. Das erfordert allerdings relativ viel Zeit und man verliert leicht den
-                        Überblick. Darum nützen wir den Google Tag Manager. Wir können die nötigen Skripte einfach
-                        einbauen und von einem Ort aus verwalten. Zudem bietet der Google Tag Manager eine leicht zu
-                        bedienende Benutzeroberfläche und man benötigt keine Programmierkenntnisse. So schaffen wir es,
-                        Ordnung in unserem Tag-Dschungel zu halten.</p>
-                    <h3 class="pb-2 font-extrabold">Welche Daten werden vom Google Tag Manager gespeichert?</h3>
-                    <p class="pb-2">Der Tag Manager selbst ist eine Domain, die keine Cookies setzt und keine Daten speichert. Er
-                        fungiert als bloßer „Verwalter“ der implementierten Tags. Die Daten erfassen die einzelnen Tags
-                        der unterschiedlichen Web-Analysetools. Die Daten werden im Google Tag Manager quasi zu den
-                        einzelnen Tracking-Tools durchgeschleust und nicht gespeichert.</p>
-                    <p class="pb-2">Ganz anders sieht das allerdings mit den eingebundenen Tags der verschiedenen Web-Analysetools,
-                        wie zum Beispiel Google Analytics, aus. Je nach Analysetool werden meist mit Hilfe von Cookies
-                        verschiedenen Daten über Ihr Webverhalten gesammelt, gespeichert und verarbeitet. Dafür lesen
-                        Sie bitte unsere Datenschutztexte zu den einzelnen Analyse- und Trackingtools, die wir auf
-                        unserer Webseite verwenden.</p>
-                    <p class="pb-2">In den Kontoeinstellungen des Tag Managers haben wir Google erlaubt, dass Google anonymisierte
-                        Daten von uns erhält. Dabei handelt es sich aber nur um die Verwendung und Nutzung unseres Tag
-                        Managers und nicht um Ihre Daten, die über die Code-Abschnitte gespeichert werden. Wir
-                        ermöglichen Google und anderen, ausgewählte Daten in anonymisierter Form zu erhalten. Wir
-                        stimmen somit der anonymen Weitergabe unseren Website-Daten zu. Welche zusammengefassten und
-                        anonymen Daten genau weitergeleitet werden, konnten wir – trotz langer Recherche – nicht in
-                        Erfahrung bringen. Auf jeden Fall löscht Google dabei alle Infos, die unsere Webseite
-                        identifizieren könnten. Google fasst die Daten mit Hunderten anderen anonymen Webseiten-Daten
-                        zusammen und erstellt, im Rahmen von Benchmarking-Maßnahmen, Usertrends. Bei Benchmarking werden
-                        eigene Ergebnisse mit jenen der Mitbewerber verglichen. Auf Basis der erhobenen Informationen
-                        können Prozesse optimiert werden.</p>
-                    <h3 class="pb-2 font-extrabold">Wie lange und wo werden die Daten gespeichert?</h3>
-                    <p class="pb-2">Wenn Google Daten speichert, dann werden diese Daten auf den eigenen Google-Servern gespeichert.
-                        Die Server sind auf der ganzen Welt verteilt. Die meisten befinden sich in Amerika. Unter <a
-                            href="https://www.google.com/about/datacenters/inside/locations/?hl=de" target="_blank"
-                            rel="noopener">https://www.google.com/about/datacenters/inside/locations/?hl=de</a> können
-                        Sie genau nachlesen, wo sich die Google-Server befinden.</p>
-                    <p class="pb-2">Wie lange die einzelnen Tracking-Tools Daten von Ihnen speichern, entnehmen Sie unseren
-                        individuellen Datenschutztexten zu den einzelnen Tools.</p>
-                    <h3 class="pb-2 font-extrabold">Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?</h3>
-                    <p class="pb-2">Der Google Tag Manager selbst setzt keine Cookies, sondern verwaltet Tags verschiedener
-                        Tracking-Webseiten. In unseren Datenschutztexten zu den einzelnen Tracking-Tools, finden Sie
-                        detaillierte Informationen wie Sie Ihre Daten löschen bzw. verwalten können.</p>
-                    <p class="pb-2">Google ist aktiver Teilnehmer beim EU-U.S. Privacy Shield Framework, wodurch der korrekte und
-                        sichere Datentransfer persönlicher Daten geregelt wird. Mehr Informationen dazu finden Sie auf
-                        <a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI" target="_blank"
-                            rel="noopener">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;tid=311141511</a>.
-                        Wenn Sie mehr über den Google Tag Manager erfahren wollen, empfehlen wir Ihnen die FAQs unter <a
-                            href="https://www.google.com/intl/de/tagmanager/faq.html" target="_blank"
-                            rel="noopener">https://www.google.com/intl/de/tagmanager/faq.html</a>.</p>
+                    <h3 class="font-extrabold text-base md:text-lg pt-4 pb-2">Piwik Pro</h3>
+                    <p>Wir verwenden auf unserer Website Piwik PRO, eine Software, um Webanalyse durchzuführen. Dienstanbieter ist das deutsche Unternehmen Piwik PRO GmbH, Kurfürstendamm 21, 10719 Berlin, Deutschland. Mehr über die Daten, die durch die Verwendung von Piwik PRO verarbeitet werden, erfahren Sie in der Privacy Policy auf <a href="https://piwikpro.de/datenschutz/" target="_blank" rel="noopener">https://piwikpro.de/datenschutz/</a>. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert.</p>
+                    <p>Umfang der Verarbeitung personenbezogener Daten:</p>
+                    <ul> 	<li>IP-Adresse (anonymisiert)</li> 	<li>Datum und Zeit der Anfrage</li> 	<li>Titel oder URL der besuchten Seite</li> 	<li>URL der zuvor besuchten Seite</li> 	<li>Bildschirmauflösung</li> 	<li>Zeitzone</li> 	<li>angeklickte und heruntergeladene Dateien</li> 	<li>zu externen Websites führende Links, die angeklickt wurden</li> 	<li>Erstellungsgeschwindigkeit der Seiten</li> 	<li>Geo-Daten des Nutzers (Land, Region, Stadt, ungefährer Längen- und Breitengrad)</li> 	<li>Browsersprache</li> 	<li>User-Agent des genutzten Browsers</li> 	<li>zufällig vergebene einmalige Besucher-ID</li> 	<li>Zeitpunkt des ersten Besuchs eines Nutzers</li> 	<li>Zeitpunkt des vorangegangen Besuchs eines Nutzers</li> 	<li>Anzahl der Besuche eines Nutzers</li> </ul>
+                    <p class="pb-2">Quelle: https://www.e-recht24.de</p>
                 </div>
             </section>
         </main>
         {{> sec_footer}}
     </div>
-    {{> script_analytics}}
 </body>
 
 </html>

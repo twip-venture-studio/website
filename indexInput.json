@@ -1,0 +1,64 @@
+{
+    "cases": [
+        {
+            "id": "caeli",
+            "name": "Caeli Wind",
+            "short": "A cloud-based wind power analysis & planning platform",
+            "logofile": "caeliwind.png",
+            "artworkfile": "artwork_caeli.png",
+            "type": "CleanTech",
+            "description": "Caeli Wind is a cloud-based wind power analysis & planning platform where landowners and project developers meet to analyze wind energy potentials and negotiate optimum conditions for both parties by way of auction.",
+            "wedid": [
+                "Development of two essential software systems within three months to ensure on-time market launch",
+                "Platform & analytics development knowhow transfer via the direct support of proven IT industry experts",
+                "Internal team ramp-up via interview & recruiting process support and dedicated education and training programs"
+            ],
+            "quote": {
+                "text": "Together with Twip we are about to achieve our mission to speed up the expansion of wind power and to drive the energy transition. Consequently, we need an effective digitization strategy covering all aspects in our business.",
+                "name": "Andreas Rieckhoff",
+                "title": "COO, Caeli Wind",
+                "img": "caeli_andreasRieckhoff.jpg"
+            },
+            "link": "https://www.caeli-wind.de/",
+            "sdg": [{
+                "logo": "7-Affordable-and-clean-energy.png",
+                "name": "Affordable & Clean Energy"
+            }]
+        },{
+            "id": "seedtrace",
+            "name": "Seedtrace",
+            "short": "Platform to improve supply chain transparency and sustainability",
+            "logofile": "seedtrace.png",
+            "artworkfile": "artwork_seedtrace.png",
+            "type": "Tracability",
+            "description": "Seedtrace is a digital platform to manage, prove and communicate value chain information, enabling businesses and conscious consumers to understand their impact. With a focus on social and ecological impact, we thereby turn product-transparency into a unique selling point while gathering valuable consumer data for our customers. Seedtrace brings urgently needed transparency into complex food & beverage supply chains.",
+            "link": "https://seedtrace.org/",
+            "sdg": [{
+                "logo": "8-Decent-work-and-economic-growth.png",
+                "name": "Decent Work & Economic Growth"
+            },{
+                "logo": "12-Responsible-consumption-and-production.png",
+                "name": "Responsible Consumption & Production"
+            }]
+        },{
+            "id": "neurocare",
+            "name": "neurocare",
+            "short": "Personalized mental healthcare",
+            "logofile": "neurocare.png",
+            "artworkfile": "artwork_neurocare.jpg",
+            "type": "HealthTech",
+            "description": "neurocare is innovating mental health. Its digital therapy platform (DTP) empowers clinicians to deliver best practice. Following a detailed assessment we help clinicians to develop personalized therapy plans that lead to best and most sustainable outcomes for patients. Therapy plans are integrating CBT (Cognitive Behavioral Therapy) with all available innovations such as neuromodulation (e. g. rTMS for depression) or psychedelics.",
+            "quote": {
+                "text": "By partnering with Twip instead of doing it all inhouse, we have a partner with a wealth of knowledge and expertise that will accelerate the growth and impact of our Digital Therapy Platform. Together, we empower mental health clinicians to work psychosomatically and deliver better, faster and more sustainable outcomes.",
+                "name": "Tom Mechtersheimer",
+                "title": "Founder & CEO, neurocare",
+                "img": "neurocare_tomMechtersheimer.png"
+            },
+            "link": "https://www.neurocaregroup.com/",
+            "sdg": [{
+                "logo": "3-Good-health-and-well-being.png",
+                "name": "Good Health & Well-being"
+            }]
+        }
+    ]
+}

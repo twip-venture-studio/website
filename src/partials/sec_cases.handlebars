@@ -6,6 +6,13 @@
             <div class="col-span-8 text-primary mt-4 mb-4 md:mb-8 text-3.5xl md:text-5xl leading-[3rem] font-extrabold">Proud of our startups.<br/>Proud of our impact.</div>
             <div class="col-span-8 text-secondary text-lg md:text-xl">Find out what drives the startups we invest in and what we do to empower them in their mission.</div>
         </div>
+        <div class="grid md:grid-flow-dense grid-cols-2 md:grid-cols-4 transition-all gap-x-4 mt-8 md:mt-16">
+            {{#each cases}}
+                {{> par_singleCase}}
+            {{/each}}
+
+        </div>
+        <!--
         <div class="grid grid-cols-1 md:grid-cols-12 justify-items-center mt-8 md:mt-16">
             <div class="w-16 h-16 col-start-2 col-span-1 hidden md:block relative bottom-[6px]">
                 <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,5 +71,31 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
 </section>
+
+<script>
+    document.querySelectorAll(".flip-card-clickarea").forEach( (el) => {
+            el.addEventListener("click", (ev) => {
+                console.log("selected", el.id);
+                let currentCaseVal;
+
+                if (document.querySelector('.flip-card-clickarea.details')) {
+                    currentCaseVal = document.querySelector('.flip-card-clickarea.details').id;
+                    document.querySelector('.flip-card-clickarea.details').classList.remove("details");
+                }
+
+                if (currentCaseVal != el.id) {
+                    el.classList.add("details");
+                }
+                
+            });
+    });
+
+    document.querySelectorAll(".case-details .close-btn").forEach( (el) => {
+            el.addEventListener("click", (ev) => {
+                document.querySelector('.flip-card-clickarea.details').classList.remove("details");
+            });
+    });
+</script>

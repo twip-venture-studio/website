@@ -10,6 +10,45 @@ html:not([data-scroll="0"]) header {
     box-shadow: rgb(0 0 0 / 8%) 0px 0px 250px;
 }
 
+/*Flip Card*/
+    .flip-card-clickarea {
+        perspective: 1000px;
+    }
+    .flip-card-inner {
+        position: relative;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+    .flip-card-clickarea:hover .flip-card-inner, .flip-card-clickarea.details .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+    .flip-card-clickarea.details .flip-card-back {
+        background-color: #A9F27D;
+        color: #1E063A;
+    }
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+    }
+    .flip-card-back {
+        transform: rotateY(180deg);
+        transition: all 0.2s;
+    }
+    .flip-card-clickarea + .case-details {
+        display: none;
+        opacity: 0;
+        transition: all 0.7s;
+    }
+    .flip-card-clickarea.details + .case-details {
+        display: block;
+        margin: 0.5rem 0;
+        opacity: 1;
+    } 
+
 /*Ticker Animations*/
 .tickers > .scroll:nth-child(even)>div {
     animation: tickerLeft 160s linear infinite;
