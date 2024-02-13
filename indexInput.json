@@ -59,6 +59,19 @@
                 "logo": "3-Good-health-and-well-being.png",
                 "name": "Good Health & Well-being"
             }]
+        },{
+            "id": "myo",
+            "name": "myo",
+            "short": "Digital communication plattform in elderly care",
+            "logofile": "myo.png",
+            "artworkfile": "artwork_myo.png",
+            "type": "ElderlyCare",
+            "description": "myo is an easy-to-use app that connects elderly care facilities with relatives and service providers. Myo helps employees, residents and families by bringing digital solutions to care homes, improving workflows and increasing transparency through secure communication. Thanks to its ease of use, care and nursing staff immediately become enthusiastic users.",
+            "link": "https://myo.de",
+            "sdg": [{
+                "logo": "3-Good-health-and-well-being.png",
+                "name": "Good Health & Well-being"
+            }]
         }
     ]
 }
