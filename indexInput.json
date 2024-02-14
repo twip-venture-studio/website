@@ -66,7 +66,13 @@
             "logofile": "myo.png",
             "artworkfile": "artwork_myo.png",
             "type": "ElderlyCare",
-            "description": "myo is an easy-to-use app that connects elderly care facilities with relatives and service providers. Myo helps employees, residents and families by bringing digital solutions to care homes, improving workflows and increasing transparency through secure communication. Thanks to its ease of use, care and nursing staff immediately become enthusiastic users.",
+            "description": "Myo's innovative Software-as-a-Service transforms elderly care by facilitating seamless communication between care facilities, families, and service providers. The app allows families to actively engage through photos, videos, and documents, streamlining analog workflows for tasks like meal ordering and pharmacy interactions, leading to cost savings and improved documentation.",
+            "quote": {
+                "text": "TWIP gives us a turbocharge in terms of tech: Whether it's questions about our architecture, support in tech recruiting, or realizing our product vision, we have a network of experts who not only provide advice but also actively contribute to the implementation. Our team and users will immediately feel the positive impact of this collaboration.",
+                "name": "Jasper Böckel",
+                "title": "Founder & CEO, myo",
+                "img": "myo_jasperboeckel.jpg"
+            },
             "link": "https://myo.de",
             "sdg": [{
                 "logo": "3-Good-health-and-well-being.png",
