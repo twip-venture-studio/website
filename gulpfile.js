@@ -48,11 +48,17 @@ function build() {
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest('./'));
 
+    var portfoliotraining = gulp.src('./src/portfoliotraining.handlebars')
+        .pipe(handlebars(legalPayload, options))
+        .pipe(rename('portfoliotraining.html'))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
+        .pipe(gulp.dest('./'));
+
     var postCss = gulp.src('./src/*.css')
         .pipe(postcss())
         .pipe(gulp.dest('./'));
 
-    return merge(website_en, legalnotice, dataprivacy, droppitchdeck, postCss);
+    return merge(website_en, legalnotice, dataprivacy, droppitchdeck, portfoliotraining, postCss);
 };
 
 function reload(done) {
