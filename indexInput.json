@@ -78,6 +78,26 @@
                 "logo": "3-Good-health-and-well-being.png",
                 "name": "Good Health & Well-being"
             }]
+        },{
+            "id": "enna",
+            "name": "enna",
+            "short": "Digital inclusion for seniors and digitally inexperienced individuals",
+            "logofile": "enna_logo.png",
+            "artworkfile": "artwork_enna.png",
+            "type": "DigitalInclusion",
+            "description": "Enna bridges the digital divide by offering a simple and intuitive solution for people with little or no digital literacy. Through its innovative enna Dock, NFC command cards, and app integration, enna enables users to access digital services such as video calls, entertainment, and more. Designed with accessibility in mind, enna empowers elderly users and individuals with impairments to participate in the digital world independently, combating isolation and fostering connectivity.",
+            "quote": {
+                "text": "By collaborating with Twip, we've found a partner whose expertise and resources amplify our mission of digital inclusion. Together, we are making technology accessible for seniors, enabling deeper connections and transforming how families and caregivers support their loved ones.",
+                "name": "Tim Haug",
+                "title": "Co-Founder, enna",
+                "img": "enna_timhaug.jpg"
+            },
+            "link": "https://enna.care",
+            "sdg": [{
+                "logo": "10-Reduced-inequalities.png",
+                "name": "Reduced Inequalities"
+            }]
         }
+        
     ]
 }
