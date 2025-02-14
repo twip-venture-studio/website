@@ -6,3 +6,21 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "gulp"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Build"
+author = 4619224
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gulp build"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[[ports]]
+localPort = 3001
+externalPort = 3001

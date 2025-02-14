@@ -20,11 +20,14 @@
                 "img": "caeli_andreasRieckhoff.jpg"
             },
             "link": "https://www.caeli-wind.de/",
-            "sdg": [{
-                "logo": "7-Affordable-and-clean-energy.png",
-                "name": "Affordable & Clean Energy"
-            }]
-        },{
+            "sdg": [
+                {
+                    "logo": "7-Affordable-and-clean-energy.png",
+                    "name": "Affordable & Clean Energy"
+                }
+            ]
+        },
+        {
             "id": "seedtrace",
             "name": "Seedtrace",
             "short": "Platform to improve supply chain transparency and sustainability",
@@ -33,14 +36,18 @@
             "type": "Tracability",
             "description": "Seedtrace is a digital platform to manage, prove and communicate value chain information, enabling businesses and conscious consumers to understand their impact. With a focus on social and ecological impact, Seedtrace thereby turns product-transparency into a unique selling point while gathering valuable consumer data for their customers. Seedtrace brings urgently needed transparency into complex food & beverage supply chains.",
             "link": "https://seedtrace.org/",
-            "sdg": [{
-                "logo": "8-Decent-work-and-economic-growth.png",
-                "name": "Decent Work & Economic Growth"
-            },{
-                "logo": "12-Responsible-consumption-and-production.png",
-                "name": "Responsible Consumption & Production"
-            }]
-        },{
+            "sdg": [
+                {
+                    "logo": "8-Decent-work-and-economic-growth.png",
+                    "name": "Decent Work & Economic Growth"
+                },
+                {
+                    "logo": "12-Responsible-consumption-and-production.png",
+                    "name": "Responsible Consumption & Production"
+                }
+            ]
+        },
+        {
             "id": "neurocare",
             "name": "neurocare",
             "short": "Personalized mental healthcare",
@@ -55,11 +62,14 @@
                 "img": "neurocare_tomMechtersheimer.png"
             },
             "link": "https://www.neurocaregroup.com/",
-            "sdg": [{
-                "logo": "3-Good-health-and-well-being.png",
-                "name": "Good Health & Well-being"
-            }]
-        },{
+            "sdg": [
+                {
+                    "logo": "3-Good-health-and-well-being.png",
+                    "name": "Good Health & Well-being"
+                }
+            ]
+        },
+        {
             "id": "myo",
             "name": "myo",
             "short": "Digital communication plattform in elderly care",
@@ -74,11 +84,14 @@
                 "img": "myo_jasperboeckel.jpg"
             },
             "link": "https://myo.de",
-            "sdg": [{
-                "logo": "3-Good-health-and-well-being.png",
-                "name": "Good Health & Well-being"
-            }]
-        },{
+            "sdg": [
+                {
+                    "logo": "3-Good-health-and-well-being.png",
+                    "name": "Good Health & Well-being"
+                }
+            ]
+        },
+        {
             "id": "enna",
             "name": "enna",
             "short": "Digital inclusion for seniors and digitally inexperienced individuals",
@@ -93,11 +106,34 @@
                 "img": "enna_timhaug.jpg"
             },
             "link": "https://enna.care",
-            "sdg": [{
-                "logo": "10-Reduced-inequalities.png",
-                "name": "Reduced Inequalities"
-            }]
+            "sdg": [
+                {
+                    "logo": "10-Reduced-inequalities.png",
+                    "name": "Reduced Inequalities"
+                }
+            ]
+        },
+        {
+            "id": "2nafish",
+            "name": "2NA FISH",
+            "short": "Revolutionizing cancer diagnostics with RNA-based technology",
+            "logofile": "2nafish_logo.png",
+            "artworkfile": "artwork_2nafish.jpg",
+            "type": "CancerDiagnostics",
+            "description": "2NA FISH develops a cutting-edge diagnostic tool for heterogeneous tumors. Their RNA-based technology offers single-cell precision, improving treatment decisions by analyzing up to 52 targets in a single biopsy. Maximizing insights from limited samples with unmatched sensitivity and specificity, transforming cancer diagnostics.",
+            "quote": {
+                "text": "Partnering with Twip Impact Ventures brings together our expertise in biomedicine with their tech skills, making our goal of improving cancer diagnostics a reality. It's a great feeling to work with a team that shares our passion for advancing patient care.",
+                "name": "Dr. Christina Port",
+                "title": "CEO, 2NA FISH",
+                "img": "2nafish_christinaport.jpg"
+            },
+            "link": "https://2nafish.bio/",
+            "sdg": [
+                {
+                    "logo": "3-Good-health-and-well-being.png",
+                    "name": "Good Health and Well-being"
+                }
+            ]
         }
-        
     ]
 }
