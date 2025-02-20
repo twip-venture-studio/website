@@ -134,6 +134,28 @@
                     "name": "Good Health and Well-being"
                 }
             ]
+        },
+        {
+            "id": "vantis",
+            "name": "Vantis",
+            "short": "Transforming chronic care through innovative health solutions",
+            "logofile": "vantis_logo.png",
+            "artworkfile": "artwork_vantis.jpg",
+            "type": "ChronicCare",
+            "description": "Vantis enhances chronic care in Germany by integrating digital health solutions with primary care practices. Their approach improves physician productivity and patient outcomes through remote monitoring and virtual care, addressing key healthcare challenges for chronic conditions like heart disease.",
+            "quote": {
+                "text": "Working with Twip Impact Ventures combines our strengths in healthcare with their tech expertise, helping us improve how we manage chronic care. We're excited to partner with a team that genuinely cares about making a difference in patients' lives.",
+                "name": "Till Jansen",
+                "title": "CEO, Vantis",
+                "img": "vantis_tilljansen.jpeg"
+            },
+            "link": "https://www.vantis-health.com",
+            "sdg": [
+                {
+                    "logo": "3-Good-health-and-well-being.png",
+                    "name": "Good Health and Well-being"
+                }
+            ]
         }
     ]
 }
