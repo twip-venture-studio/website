@@ -13,6 +13,8 @@
     <div class="mx-auto max-w-1080 px-4 relative">
         <div class="grid grid-cols-1 lg:grid-cols-4 text-white py-16">
             <div>
+                {{#if minimalVer}}
+                {{else}}
                 <div class="w-[188px] h-[64px]">
                     <img src="/assets/img/twipLogo_darkBg.svg" alt="Twip Impact Ventures Logo"/>
                 </div>
@@ -35,7 +37,8 @@
                             Twip on LinkedIn
                         </a>
                     </div>
-                    </div>
+                </div>
+                {{/if}}
                 <div class="my-8 text-lg md:text-xl text-primary">
                     <div class="transition transition-200 ease-linear hover:text-tertiary hover:underline decoration-1 stroke-primary hover:stroke-tertiary">
                         <a href="/legalnotice.html" title="Legal Notice" target="_blank">
