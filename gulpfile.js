@@ -51,10 +51,10 @@ function build() {
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest("./"));
 
-    var aidroppitchdeck = gulp
-        .src("./src/aidroppitchdeck.handlebars")
+    var droppitchdeckai = gulp
+        .src("./src/droppitchdeckai.handlebars")
         .pipe(handlebars(legalPayload, options))
-        .pipe(rename("aidroppitchdeck.html"))
+        .pipe(rename("droppitchdeckai.html"))
         .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest("./"));
 
@@ -72,6 +72,7 @@ function build() {
         legalnotice,
         dataprivacy,
         droppitchdeck,
+        droppitchdeckai,
         portfoliotraining,
         postCss,
     );
