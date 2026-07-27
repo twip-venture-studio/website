@@ -35,7 +35,6 @@
             "artworkfile": "artwork_seedtrace.png",
             "type": "Tracability",
             "description": "Seedtrace is a digital platform to manage, prove and communicate value chain information, enabling businesses and conscious consumers to understand their impact. With a focus on social and ecological impact, Seedtrace thereby turns product-transparency into a unique selling point while gathering valuable consumer data for their customers. Seedtrace brings urgently needed transparency into complex food & beverage supply chains.",
-            "link": "https://seedtrace.org/",
             "sdg": [
                 {
                     "logo": "8-Decent-work-and-economic-growth.png",
@@ -156,6 +155,79 @@
                     "name": "Good Health and Well-being"
                 }
             ]
+        },
+        {
+            "id": "pluvion",
+            "name": "Pluvion",
+            "short": "Transforming wastewater infrastructure through AI technology",
+            "logofile": "pluvion_logo.png",
+            "artworkfile": "artwork_pluvion.jpg",
+            "type": "CleanWater",
+            "description": "Pluvion is an AI-driven B2B SaaS company transforming wastewater infrastructure with its flagship technology, WATER+. By converting existing sewer sensor data into automated, network-wide recommendations, the platform helps utilities dramatically reduce inflow and infiltration (I&I), energy consumption, and operational costs.",
+            "quote": {
+                "text": "Twip is a great fit for us, deeply understanding our digital, pioneering and scalable water technology business, while also sharing our impact ambitions. Together, we are empowering utilities with the tools needed to build a climate-resilient water infrastructure for a better tomorrow.",
+                "name": "Phillip Grimm",
+                "title": "CEO, Pluvion",
+                "img": "pluvion_phillipgrimm.jpg"
+            },
+            "link": "https://pluvion.de/",
+            "sdg": [
+                {
+                    "logo": "6-Clean-water-and-sanitation.png",
+                    "name": "Clean Water and Sanitation"
+                }
+            ]
+        }
+    ],
+    "teammembers": [
+        {
+            "firstName": "Bernd",
+            "lastName": "Schlüter",
+            "image": "bernd.jpg",
+            "linkedin": "https://www.linkedin.com/in/bernd-schlüter-10554668/",
+            "email": "bernd@twip.de"
+        },
+        {
+            "firstName": "Heiko",
+            "lastName": "Deppler",
+            "image": "heiko.jpg",
+            "linkedin": "https://www.linkedin.com/in/heikode/",
+            "email": "heiko@twip.de"
+        },
+        {
+            "firstName": "Martin",
+            "lastName": "Siehler",
+            "image": "martin.jpg",
+            "linkedin": "https://www.linkedin.com/in/martin-siehler/",
+            "email": "martin@twip.de"
+        },
+        {
+            "firstName": "Michael",
+            "lastName": "Adersberger",
+            "image": "michi.jpg",
+            "linkedin": "https://www.linkedin.com/in/michael-adersberger-899b33180/",
+            "email": "michi@twip.de"
+        },
+        {
+            "firstName": "Niki",
+            "lastName": "Thierfelder",
+            "image": "niki.jpg",
+            "linkedin": "https://www.linkedin.com/in/niki-nikola-thierfelder-363116164/",
+            "email": "niki@twip.de"
+        },
+        {
+            "firstName": "Philip",
+            "lastName": "Dederichs",
+            "image": "philip.jpg",
+            "linkedin": "https://www.linkedin.com/in/philip-dederichs-a7aa37155/",
+            "email": "philip@twip.de"
+        },
+        {
+            "firstName": "Therese",
+            "lastName": "Frey",
+            "image": "therese.jpg",
+            "linkedin": "https://www.linkedin.com/in/therese-frey/",
+            "email": "therese@twip.de"
         }
     ]
 }
